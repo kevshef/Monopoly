@@ -7,7 +7,7 @@
 
 
 class ScoreBoard {
-
+    int a;
 };
 
 
