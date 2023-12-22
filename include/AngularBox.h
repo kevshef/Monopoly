@@ -5,8 +5,9 @@
 #ifndef MONOPOLY_ANGULARBOX_H
 #define MONOPOLY_ANGULARBOX_H
 
+#include "Box.h"
 
-class AngularBox {
+class AngularBox: public Box{
 
 };
 
