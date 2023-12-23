@@ -5,20 +5,31 @@
 #ifndef MONOPOLY_CASELA_LATERALE_H
 #define MONOPOLY_CASELA_LATERALE_H
 
-enum class Tipologia {
+enum class Typology {
     economic = 0, standard, luxury;
 }
 
 class Casella_Laterale : public Casella {
 
-private:
-    int type;
-
-
 public:
-    void setType(Tipologia n);
 
-    int getType() { return type; }
+    Typology type;
+
+    int price;
+
+    std::string owner;
+
+    bool house;
+
+    bool hotel;
+
+    int house_price;
+
+    int hotel_price;
+
+    int daily_house_price;
+
+    int daily_hotel_price;
 
 };
 
