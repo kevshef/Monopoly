@@ -5,6 +5,8 @@
 #ifndef MONOPOLY_CASELLA_ANGOLARE_H
 #define MONOPOLY_CASELLA_ANGOLARE_H
 
+#include "../include/Casella.h"
+
 class Casella_Angolare : public Casella {
 
 public:

@@ -5,13 +5,19 @@
 #ifndef MONOPOLY_CASELA_LATERALE_H
 #define MONOPOLY_CASELA_LATERALE_H
 
+#include "../include/Casella.h"
+
+#include <string>
+
 enum class Typology {
-    economic = 0, standard, luxury;
-}
+    economic = 0, standard, luxury
+};
 
 class Casella_Laterale : public Casella {
 
 public:
+
+    Casella_Laterale(int n)
 
     Typology type;
 
