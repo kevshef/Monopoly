@@ -1,6 +1,0 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/alvisegarberino/Documents/GitHub/Prova/Monopoly -B /Users/alvisegarberino/Documents/GitHub/Prova/Monopoly/cmake-build-debug
-CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
-  CMake 3.27 or higher is required.  You are running version 3.26.4
-
-
--- Configuring incomplete, errors occurred!
