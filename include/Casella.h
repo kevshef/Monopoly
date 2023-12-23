@@ -8,7 +8,21 @@
 
 class Casella {
 
+private:
+
+    bool casa;
+
+    bool hotel;
+
 public:
+
+    void setCasa() { casa = true; }
+
+    void setHotel() { if (casa) { casa = false; hotel = true; } }
+
+    bool getCasa() { return casa; }
+
+    bool getHotel() { return hotel; }
 
 protected:
 

@@ -10,13 +10,15 @@ class BackAccount {
 
 private:
 
-    int balance;
+    int balance = 100;
 
 public:
 
     int getBalance() { return balance; }
 
     bool isBankrupting() { return balance > 0 ? false : true;  }
+
+    bool setBalance(int n) { balance += n; return isBankrupting(); }
 
 };
 
