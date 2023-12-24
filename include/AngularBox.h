@@ -5,11 +5,20 @@
 #ifndef MONOPOLY_ANGULARBOX_H
 #define MONOPOLY_ANGULARBOX_H
 
-#include "Box.h"
+#include "../include/Box.h"
 
-class AngularBox: public Box{
+class AngularBox : public Casella {
+
+public:
+
+    bool start;
+
+private:
+
+    AngularBox(bool start);
+
+    bool isStart() { return start; }
 
 };
-
 
 #endif //MONOPOLY_ANGULARBOX_H

@@ -6,6 +6,7 @@ set(CMAKE_CXX_STANDARD 11)
 add_executable(Monopoly main.cpp
         src/ScoreBoard.cpp
         include/ScoreBoard.h
+<<<<<<< HEAD
         src/Box.cpp
         include/Box.h
         src/AngularBox.cpp
@@ -15,3 +16,7 @@ add_executable(Monopoly main.cpp
         include/RealPlayer.h
         src/VirtualPlayer.cpp
         include/VirtualPlayer.h)
+=======
+        include/BackAccount.cpp
+        include/BackAccount.h)
+>>>>>>> master

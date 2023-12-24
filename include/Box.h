@@ -10,11 +10,15 @@ class Box {
 
 private:
 
+<<<<<<< HEAD
     int _homeCounter;
+=======
+>>>>>>> master
 
 public:
 
 
+protected:
 
 
 };
