@@ -8,6 +8,10 @@
 
 class Player {
 
+private:
+    double _budget;
+public:
+    virtual int diceRoll() = 0;
 };
 
 

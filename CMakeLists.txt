@@ -9,4 +9,9 @@ add_executable(Monopoly main.cpp
         src/Box.cpp
         include/Box.h
         src/AngularBox.cpp
-        include/AngularBox.h)
+        include/AngularBox.h
+        include/Player.h
+        src/RealPlayer.cpp
+        include/RealPlayer.h
+        src/VirtualPlayer.cpp
+        include/VirtualPlayer.h)
