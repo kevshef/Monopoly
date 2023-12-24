@@ -1,5 +1,5 @@
 //
-// Created by Alvise Garberino on 23/12/23.
+// Created by Kevin Shefkiu on 22/12/23.
 //
 
 #ifndef MONOPOLY_BOX_H
