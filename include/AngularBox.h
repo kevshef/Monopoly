@@ -15,6 +15,8 @@ public:
 
 private:
 
+    AngularBox(bool start);
+
     bool isStart() { return start; }
 
 };

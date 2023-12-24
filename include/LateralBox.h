@@ -13,11 +13,11 @@ enum class Typology {
     economic = 0, standard, luxury
 };
 
-class LateralBox : public Casella {
+class LateralBox : public Box {
 
 public:
 
-    Casella_Laterale(int n)
+    LateralBox(int n)
 
     Typology type;
 

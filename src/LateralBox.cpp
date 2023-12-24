@@ -5,7 +5,7 @@
 #include "../include/Box.h"
 #include "../include/LateralBox.h"
 
-AngularBox::AngularBox(int n) {
+LateralBox::LateralBox(int n) {
     if(n > 2 || n < 0)
         throw std::invalid_argument("Invalid Typology.");
 
