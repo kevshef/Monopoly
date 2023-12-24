@@ -5,8 +5,17 @@
 #ifndef MONOPOLY_SCOREBOARD_H
 #define MONOPOLY_SCOREBOARD_H
 
+using namespace std;
+
+#include <vector>
+
+#include "../include/Box.h"
 
 class ScoreBoard {
+
+    ScoreBoard();
+
+    vector<Box> scoreboard;
 
 };
 
