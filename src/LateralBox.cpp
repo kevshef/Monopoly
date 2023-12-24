@@ -2,10 +2,10 @@
 // Created by Alvise Garberino on 23/12/23.
 //
 
-#include "../include/Casella.h"
-#include "../include/Casela_Laterale.h"
+#include "../include/Box.h"
+#include "../include/LateralBox.h"
 
-Casella_Laterale::Casella_Laterale(int n) {
+AngularBox::AngularBox(int n) {
     if(n > 2 || n < 0)
         throw std::invalid_argument("Invalid Typology.");
 

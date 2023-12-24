@@ -2,10 +2,10 @@
 // Created by Alvise Garberino on 23/12/23.
 //
 
-#ifndef MONOPOLY_CASELA_LATERALE_H
-#define MONOPOLY_CASELA_LATERALE_H
+#ifndef MONOPOLY_LATERALBOX_H
+#define MONOPOLY_LATERALBOX_H
 
-#include "../include/Casella.h"
+#include "../include/Box.h"
 
 #include <string>
 
@@ -13,7 +13,7 @@ enum class Typology {
     economic = 0, standard, luxury
 };
 
-class Casella_Laterale : public Casella {
+class LateralBox : public Casella {
 
 public:
 
@@ -39,4 +39,4 @@ public:
 
 };
 
-#endif //MONOPOLY_CASELA_LATERALE_H
+#endif //MONOPOLY_LATERALBOX_H
