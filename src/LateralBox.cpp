@@ -11,7 +11,7 @@ LateralBox::LateralBox(int n) {
             house_price = 3;
             hotel_price = 3;
             daily_house_price = 2;
-            daily_hotel_price = 4; 
+            daily_hotel_price = 4;
             break;
         case 1:
             price = 10;
