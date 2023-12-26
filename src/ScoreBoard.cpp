@@ -4,6 +4,7 @@
 
 #include "../include/ScoreBoard.h"
 #include "../include/AngularBox.h"
+#include "../include/LateralBox.h"
 
 ScoreBoard::ScoreBoard() {
 
@@ -29,9 +30,35 @@ ScoreBoard::ScoreBoard() {
 }
 
 bool ScoreBoard::isStartBox(Box& obj) {
-    if (obj.getIdentifyingCharacter() == ' ') {
+    if (obj.getIdentifying() == " ") {
         AngularBox angularBox = static_cast<AngularBox>(obj);
         return angularBox.start;
     }
+    return false;
+}
+
+bool ScoreBoard::AddHouse(Box &obj) {
+    if (obj.getIdentifying() == " ")
+        return false;
+
+    LateralBox lateralBox = static_cast<LateralBox>(obj);
+    if (!lateralBox.free){
+        lateralBox.setIdentifying(lateralBox.getIdentifying() + "*");
+        return true;
+    }
+
+    return false;
+}
+
+bool ScoreBoard::AddHotel(Box &obj) {
+    if (obj.getIdentifying() == " ")
+        return false;
+
+    LateralBox lateralBox = static_cast<LateralBox>(obj);
+    if (!lateralBox.free && lateralBox.getIdentifying().find("*") != std::string::npos ){
+        lateralBox.setIdentifying(lateralBox.getIdentifying() + "^");
+        return true;
+    }
+
     return false;
 }

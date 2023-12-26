@@ -24,6 +24,10 @@ public:
 
     bool isStartBox(Box& obj);
 
+    bool AddHouse(Box& obj);
+
+    bool AddHotel(Box& obj);
+
 };
 
 

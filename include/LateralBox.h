@@ -13,6 +13,8 @@ public:
 
     LateralBox(int n);
 
+    bool free;
+
     int price;
 
     int house_price;

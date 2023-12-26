@@ -5,6 +5,8 @@
 #ifndef MONOPOLY_BOX_H
 #define MONOPOLY_BOX_H
 
+#include <string>
+
 enum class BoxType {
     economic = 0, standard, luxury
 };
@@ -13,11 +15,14 @@ class Box {
 
 protected:
 
-    char identifying_character;
+    std::string identifying;
 
 public:
 
-    char getIdentifyingCharacter() { return identifying_character; }
+    std::string getIdentifying() { return identifying; }
+
+    void setIdentifying(std::string s) { identifying = s; }
+
 };
 
 

@@ -5,8 +5,10 @@
 #include "../include/LateralBox.h"
 
 LateralBox::LateralBox(int n) {
+    free = true;
     switch (n) {
         case 0:
+            identifying = "E";
             price = 6;
             house_price = 3;
             hotel_price = 3;
@@ -14,6 +16,7 @@ LateralBox::LateralBox(int n) {
             daily_hotel_price = 4;
             break;
         case 1:
+            identifying = "S";
             price = 10;
             house_price = 5;
             hotel_price = 5;
@@ -21,6 +24,7 @@ LateralBox::LateralBox(int n) {
             daily_hotel_price = 8;
             break;
         case 2:
+            identifying = "L";
             price = 20;
             house_price = 10;
             hotel_price = 10;
