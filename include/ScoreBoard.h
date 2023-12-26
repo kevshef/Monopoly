@@ -8,11 +8,15 @@
 #include "../include/Box.h"
 #include <vector>
 
+enum class Row{
+    A = 1, B, C, D, E, F, G, H
+};
+
 class ScoreBoard {
 
 public:
 
-    std::vector<Box> scoreboard;
+    std::vector<vector<Box>> scoreboard;
 
     ScoreBoard();
 
