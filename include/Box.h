@@ -11,6 +11,10 @@ enum class BoxType {
 
 class Box {
 
+protected:
+
+    char identifying_character;
+
 
 };
 
