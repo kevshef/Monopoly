@@ -15,6 +15,10 @@ public:
 
     AngularBox(bool b);
 
+    virtual std::string getIdentifying() { return identifying; }
+
+    virtual void setIdentifying(std::string s) { identifying = s; }
+
 };
 
 

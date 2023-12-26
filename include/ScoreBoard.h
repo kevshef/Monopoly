@@ -13,18 +13,20 @@ enum class Row{
 };
 
 class ScoreBoard {
+private:
+
+    std::vector<std::vector<Box>> scoreboard;
 
 public:
 
-    std::vector<vector<Box>> scoreboard;
 
     ScoreBoard();
 
-    void setScoreBoard(std::vector<Box> newScoreBoard) { scoreboard = newScoreBoard; }
+    void setScoreBoard(std::vector<std::vector<Box>> newScoreBoard) { scoreboard = newScoreBoard; }
 
-    std::vector<Box> getScoreBoard() { return scoreboard; }
+    std::vector<std::vector<Box>> getScoreBoard() { return scoreboard; }
 
-    void operator=(ScoreBoard& obj) { scoreboard = obj.getScoreBoardVector(); }
+    void operator=(ScoreBoard& obj) { scoreboard = getScoreBoard(); }
 
     bool isStartBox(Box& obj);
 

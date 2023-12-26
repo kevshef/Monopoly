@@ -32,8 +32,9 @@ ScoreBoard::ScoreBoard() {
     for (int i = 0; i < 8; ++i) {
         for (int j = 0; j < 8; ++j) {
             if ((i == 0 || i == 7) && (j == 0 || j == 7)) {
+
                 AngularBox angularBox = new AngularBox(i == 0);
-                scoreboard.push_back(angularBox);
+                scoreboard.push_back(box);
             }
             else if (i == 0 || i == 7 || j == 0 || j == 7) {
                 int randomCategory = std::rand() % 3;
