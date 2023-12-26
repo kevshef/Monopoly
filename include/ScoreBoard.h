@@ -15,6 +15,15 @@ public:
     std::vector<Box> scoreboard;
 
     ScoreBoard();
+
+    void setScoreBoard(std::vector<Box> newScoreBoard) { scoreboard = newScoreBoard; }
+
+    std::vector<Box> getScoreBoard() { return scoreboard; }
+
+    void operator=(ScoreBoard& obj) { scoreboard = obj.getScoreBoardVector(); }
+
+    bool isStartBox(Box& obj);
+
 };
 
 

@@ -15,7 +15,9 @@ protected:
 
     char identifying_character;
 
+public:
 
+    char getIdentifyingCharacter() { return identifying_character; }
 };
 
 

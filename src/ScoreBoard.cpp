@@ -3,7 +3,7 @@
 //
 
 #include "../include/ScoreBoard.h"
-#include "..include/AngularBox.h"
+#include "../include/AngularBox.h"
 
 ScoreBoard::ScoreBoard() {
 
@@ -26,4 +26,12 @@ ScoreBoard::ScoreBoard() {
         }
     }
 
+}
+
+bool ScoreBoard::isStartBox(Box& obj) {
+    if (obj.getIdentifyingCharacter() == ' ') {
+        AngularBox angularBox = static_cast<AngularBox>(obj);
+        return angularBox.start;
+    }
+    return false;
 }
