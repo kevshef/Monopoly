@@ -7,6 +7,10 @@
 
 
 class Box {
+    enum class BoxType {
+        economic = 0, standard, luxury;
+    };
+
 
 };
 

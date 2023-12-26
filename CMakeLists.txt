@@ -8,6 +8,5 @@ add_executable(Monopoly main.cpp
         include/ScoreBoard.h
         src/Box.cpp
         include/Box.h
-
 )
 
