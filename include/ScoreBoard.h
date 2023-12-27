@@ -9,14 +9,14 @@
 #include <vector>
 
 enum class Row{
-    A = 1, B, C, D, E, F, G, H
+    A = 0, B, C, D, E, F, G, H
 };
 
 class ScoreBoard {
 
 public:
 
-    std::vector<vector<Box>> scoreboard;
+    std::vector<Box> scoreboard;
 
     ScoreBoard();
 
