@@ -26,5 +26,4 @@ public:
 
 };
 
-
 #endif //MONOPOLY_REALPLAYER_H

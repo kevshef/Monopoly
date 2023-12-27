@@ -7,7 +7,6 @@
 
 #include "../include/BankAccount.h"
 
-
 class Player {
 
 protected:

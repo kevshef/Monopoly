@@ -28,5 +28,4 @@ public:
 
 };
 
-
 #endif //MONOPOLY_COMPUTERPLAYER_H
