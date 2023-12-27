@@ -28,34 +28,24 @@ ScoreBoard::ScoreBoard() {
     }
 }
 
-bool ScoreBoard::isStartBox(Box& obj) {
-    if (obj.getIdentifying() == " ") {
-        AngularBox angularBox = static_cast<AngularBox>(obj);
-        return angularBox.start;
-    }
-    return false;
+bool ScoreBoard::isStartBox(AngularBox& obj) {
+    return obj.start;
 }
 
-bool ScoreBoard::AddHouse(Box &obj) {
-    if (obj.getIdentifying() == " ")
-        return false;
+bool ScoreBoard::AddHouse(LateralBox &obj) {
 
-    LateralBox lateralBox = static_cast<LateralBox>(obj);
-    if (!lateralBox.free){
-        lateralBox.setIdentifying(lateralBox.getIdentifying() + "*");
+    if (!obj.free){
+        lateralBox.setIdentifying('*');
         return true;
     }
 
     return false;
 }
 
-bool ScoreBoard::AddHotel(Box &obj) {
-    if (obj.getIdentifying() == " ")
-        return false;
+bool ScoreBoard::AddHotel(LateralBox &obj) {
 
-    LateralBox lateralBox = static_cast<LateralBox>(obj);
-    if (!lateralBox.free && lateralBox.getIdentifying().find("*") != std::string::npos ){
-        lateralBox.setIdentifying(lateralBox.getIdentifying() + "^");
+    if (!obj.free && lateralBox.getIdentifying() == '*'){
+        lateralBox.setIdentifying('^');
         return true;
     }
 

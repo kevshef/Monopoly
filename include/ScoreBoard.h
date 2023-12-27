@@ -6,6 +6,8 @@
 #define MONOPOLY_SCOREBOARD_H
 
 #include "../include/Box.h"
+#include "../include/AngularBox.h"
+#include "../include/LateralBox.h"
 #include <vector>
 
 enum class Row{
@@ -15,7 +17,7 @@ enum class Row{
 class ScoreBoard {
 private:
 
-    std::vector<std::vector<Box>> scoreboard;
+    std::vector<Box> scoreboard;
 
 public:
 
@@ -27,13 +29,13 @@ public:
 
     std::vector<Box> getScoreBoard() { return scoreboard; }
 
-    void operator=(ScoreBoard& obj) { scoreboard = obj.getScoreBoard(); }
+    void operator=(ScoreBoard& obj) { scoreboard.setScoreBoard(obj.getScoreBoard()); }
 
-    bool isStartBox(Box& obj);
+    bool isStartBox(AngularBox& obj);
 
-    bool AddHouse(Box& obj);
+    bool AddHouse(LateralBox& obj);
 
-    bool AddHotel(Box& obj);
+    bool AddHotel(LateralBox& obj);
 
 };
 

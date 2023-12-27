@@ -7,11 +7,17 @@
 
 #include "../include/Box.h"
 
+enum class BoxType {
+    economic = 0, standard, luxury
+};
+
 class LateralBox : public Box {
 
 public:
 
     LateralBox(int n);
+
+    BoxType type;
 
     bool free;
 
@@ -24,6 +30,14 @@ public:
     int daily_house_price;
 
     int daily_hotel_price;
+
+    char getIdentifying() override;
+
+    char setIdentifying() override;
+
+    BoxType getBoxType() { return type; }
+
+    bool BuyProperty();
 
 };
 
