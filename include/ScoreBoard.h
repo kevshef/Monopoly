@@ -21,7 +21,7 @@ private:
     std::vector<Box> scoreboard;
 
 public:
-    
+
     ScoreBoard();
 
     void setScoreBoard(std::vector<Box> newScoreBoard) { scoreboard = newScoreBoard; }
