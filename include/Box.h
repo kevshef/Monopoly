@@ -19,9 +19,9 @@ protected:
 
 public:
 
-    std::string getIdentifying() { return identifying; }
+    virtual std::string getIdentifying() = 0;
 
-    void setIdentifying(std::string s) { identifying = s; }
+    virtual void setIdentifying(std::string s) = 0;
 
 };
 

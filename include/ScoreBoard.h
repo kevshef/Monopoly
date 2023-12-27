@@ -13,6 +13,9 @@ enum class Row{
 };
 
 class ScoreBoard {
+private:
+
+    std::vector<std::vector<Box>> scoreboard;
 
 public:
 
@@ -24,7 +27,7 @@ public:
 
     std::vector<Box> getScoreBoard() { return scoreboard; }
 
-    void operator=(ScoreBoard& obj) { scoreboard = obj.getScoreBoardVector(); }
+    void operator=(ScoreBoard& obj) { scoreboard = obj.getScoreBoard(); }
 
     bool isStartBox(Box& obj);
 
