@@ -28,7 +28,7 @@ public:
 
     std::vector<Box> getScoreBoard() { return scoreboard; }
 
-    void operator=(ScoreBoard& obj) { scoreboard.setScoreBoard(obj.getScoreBoard()); }
+    void operator=(ScoreBoard& obj) { scoreboard = obj.getScoreBoard(); }
 
     bool isStartBox(AngularBox& obj);
 
