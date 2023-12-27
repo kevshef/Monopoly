@@ -18,9 +18,13 @@ protected:
 
 public:
 
-    virtual char getNumber() { return identifying_number; }
+    virtual char getNumber() = 0;
 
-    bool isInGame() { return bankaccount.isBankrupt(); }
+    virtual void setNumber(int n) = 0;
+
+    virtual bool isInGame() = 0;
+
+    virtual int ThrowDice() = 0;
 
 };
 

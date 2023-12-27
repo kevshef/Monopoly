@@ -14,6 +14,8 @@ private:
 
 public:
 
+    BankAccount();
+
     int getBalance() { return balance; }
 
     void setBalance(int n) { balance += n; }

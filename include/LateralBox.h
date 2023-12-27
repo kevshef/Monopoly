@@ -31,9 +31,9 @@ public:
 
     int daily_hotel_price;
 
-    char getIdentifying() override;
+    virtual char getIdentifying() { return identifying_building; }
 
-    char setIdentifying() override;
+    virtual void setIdentifying(char c) { identifying_building = c; }
 
     BoxType getBoxType() { return type; }
 

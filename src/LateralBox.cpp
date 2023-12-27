@@ -41,6 +41,6 @@ char LateralBox::getIdentifying() {
     return identifying_building;
 }
 
-char LateralBox::setIdentifying(char c) {
+void LateralBox::setIdentifying(char c) {
     identifying_building = c;
 }

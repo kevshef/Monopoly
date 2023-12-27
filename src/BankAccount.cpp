@@ -3,3 +3,7 @@
 //
 
 #include "../include/BankAccount.h"
+
+BankAccount::BankAccount() {
+    balance = 100;
+}
