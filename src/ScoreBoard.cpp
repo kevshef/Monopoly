@@ -3,51 +3,28 @@
 //
 
 #include "../include/ScoreBoard.h"
-#include "../include/AngularBox.h"
-#include "../include/LateralBox.h"
+
 
 ScoreBoard::ScoreBoard() {
 
-    std::srand(std::time(0));
-
-    for (int i = 0; i < 4; ++i) {
-
-        AngularBox angularBox = new AngularBox(i == 0);
-        scoreboard.push_back(angularBox);
-
-        for (int k = 1; k < 8; ++k) {
-
-            for (int j = 0; j < 8; ++j) {
-
-                int randomCategory = std::rand() % 3;
-
-                scoreboard.push_back(LateralBox (randomCategory));
-
-            }
-        }
-    }
-}
-
-bool ScoreBoard::isStartBox(AngularBox& obj) {
-    return obj.start;
-}
-
-bool ScoreBoard::AddHouse(LateralBox &obj) {
-
-    if (!obj.free){
-        obj.setIdentifying('*');
-        return true;
+    for(int i = 0; i < 32; i++) {
+        board.push_back(i);
     }
 
-    return false;
 }
 
-bool ScoreBoard::AddHotel(LateralBox &obj) {
-
-    if (!obj.free && obj.getIdentifying() == '*'){
-        obj.setIdentifying('^');
-        return true;
+std::ostream& operator<<(std::ostream& os, ScoreBoard& obj) {
+    std::vector<Box> temp = obj.getBoard();
+    for(int i = 0; i < 32 ; i++) {
+       if(i%8 == 0) {
+           os << "\n";
+           os << "A";
+       }
+       if(i < 8)
+           os << i;
+       os << temp[i] << " ";
     }
 
-    return false;
+    return os;
+
 }

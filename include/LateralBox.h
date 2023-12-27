@@ -1,15 +1,11 @@
-//
-// Created by
-//
+/**
 
 #ifndef MONOPOLY_LATERALBOX_H
 #define MONOPOLY_LATERALBOX_H
 
 #include "../include/Box.h"
 
-enum class BoxType {
-    economic = 0, standard, luxury
-};
+
 
 class LateralBox : public Box {
 
@@ -42,3 +38,4 @@ public:
 };
 
 #endif //MONOPOLY_LATERALBOX_H
+**/

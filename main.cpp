@@ -2,7 +2,7 @@
 // Created by
 //
 
-#include "../include/ScoreBoard.h"
+#include "include/ScoreBoard.h"
 
 #include <iostream>
 
