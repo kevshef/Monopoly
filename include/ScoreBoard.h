@@ -15,14 +15,13 @@ enum class Row{
 };
 
 class ScoreBoard {
+
 private:
 
     std::vector<Box> scoreboard;
 
 public:
-
-    std::vector<Box> scoreboard;
-
+    
     ScoreBoard();
 
     void setScoreBoard(std::vector<Box> newScoreBoard) { scoreboard = newScoreBoard; }

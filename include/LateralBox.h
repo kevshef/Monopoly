@@ -37,8 +37,6 @@ public:
 
     BoxType getBoxType() { return type; }
 
-    bool BuyProperty();
-
 };
 
 
