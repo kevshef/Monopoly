@@ -6,11 +6,11 @@
 
 Box::Box(int position) {
 
-    if(position == 0) {
+    if(position == 27) {
         type = BoxType::angular;
         isStart = true;
     }
-    else if(position == 7 || position == 14 || position == 21)
+    else if(position == 0 || position == 7 || position == 20)
         type = BoxType::angular;
     else
         type = BoxType::lateral;
@@ -21,11 +21,11 @@ Box::Box(int position) {
 std::ostream& operator<<(std::ostream& os, Box& obj) {
 
     if( static_cast<int>(obj.getType()) == 0 && obj.getStart())
-        os << "|P|'";
+        os << "|P|";
     else if(static_cast<int>(obj.getType()) == 0)
-        os << "| |";
+        os << "|L|";
     else
-        os << "E";
+        os << "|E|";
 
     return os;
 }
