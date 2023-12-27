@@ -6,23 +6,27 @@
 #include "../include/AngularBox.h"
 #include "../include/LateralBox.h"
 
-ScoreBoard::ScoreBoard() {
+#include <ostream>
+#include <cstdlib>
+#include <ctime>
 
-    std::srand(std::time(0));
+ScoreBoard::ScoreBoard() {
+    srand(static_cast<unsigned int>(std::time(nullptr)));
 
     for (int i = 0; i < 4; ++i) {
 
-        AngularBox angularBox = new AngularBox(i == 0);
+        std::shared_ptr<Box> angularBox = std::make_shared<AngularBox>(i == 0);
+
         scoreboard.push_back(angularBox);
 
-        for (int k = 1; k < 8; ++k) {
-
-            for (int j = 0; j < 8; ++j) {
+        for (int k = 1; k < 8; k++) {
+            for (int j = 0; j < 8; j++) {
 
                 int randomCategory = std::rand() % 3;
 
-                scoreboard.push_back(LateralBox (randomCategory));
+                std::shared_ptr<Box> lateralBox = std::make_shared<LateralBox>(randomCategory);
 
+                scoreboard.push_back(lateralBox);
             }
         }
     }
@@ -50,4 +54,19 @@ bool ScoreBoard::AddHotel(LateralBox &obj) {
     }
 
     return false;
+}
+
+std::ostream& operator<<(std::ostream& os, ScoreBoard& obj) {
+    for (const auto& box : obj.getScoreBoard()) {
+        os << "Identifying: " << box->getIdentifying() << " ";
+
+        // Se l'oggetto è di tipo LateralBox, visualizza anche il BoxType
+        if (auto lateralBox = dynamic_cast<LateralBox*>(box.get())) {
+            os << "BoxType: " << static_cast<int>(lateralBox->getBoxType()) << " ";
+        }
+
+        os << std::endl;
+    }
+
+    return os;
 }
