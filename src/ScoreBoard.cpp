@@ -3,51 +3,39 @@
 //
 
 #include "../include/ScoreBoard.h"
-#include "../include/AngularBox.h"
-#include "../include/LateralBox.h"
+
 
 ScoreBoard::ScoreBoard() {
 
-    std::srand(std::time(0));
+    for(int i = 0; i < 28; i++) {
+        board.push_back(i);
+    }
 
-    for (int i = 0; i < 4; ++i) {
+}
 
-        AngularBox angularBox = new AngularBox(i == 0);
-        scoreboard.push_back(angularBox);
+std::ostream& operator<<(std::ostream& os, ScoreBoard& obj) {
 
-        for (int k = 1; k < 8; ++k) {
+    std::vector<Box> temp = obj.getBoard();
+    char c = 'A';
+    os << " 1\t2\t3\t4\t5\t6\t7\t8\n";
+    for( int i = 0; i < 28; i++ ) {
+        if( i == 0 || (i > 7 && i % 2 == 0) && i < 21)
+            os << c++ << "\t";
 
-            for (int j = 0; j < 8; ++j) {
+        if (i < 8 || i > 19) {
 
-                int randomCategory = std::rand() % 3;
 
-                scoreboard.push_back(LateralBox (randomCategory));
-
+            os << temp[i] << " ";
+            if (i == 7) {
+                os << "\n";
             }
+        } else {
+            os <<temp[i] << "\t\t\t\t\t\t\t" << temp[i + 1] << "\n";
+            i++;
         }
-    }
-}
 
-bool ScoreBoard::isStartBox(AngularBox& obj) {
-    return obj.start;
-}
-
-bool ScoreBoard::AddHouse(LateralBox &obj) {
-
-    if (!obj.free){
-        obj.setIdentifying('*');
-        return true;
     }
 
-    return false;
-}
+    return os;
 
-bool ScoreBoard::AddHotel(LateralBox &obj) {
-
-    if (!obj.free && obj.getIdentifying() == '*'){
-        obj.setIdentifying('^');
-        return true;
-    }
-
-    return false;
 }

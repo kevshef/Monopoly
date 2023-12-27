@@ -1,7 +1,7 @@
 //
 // Created by
 //
-
+/**
 #include "../include/LateralBox.h"
 
 LateralBox::LateralBox(int n) {
@@ -37,6 +37,7 @@ LateralBox::LateralBox(int n) {
     }
 }
 
+
 char LateralBox::getIdentifying() {
     return identifying_building;
 }
@@ -44,3 +45,4 @@ char LateralBox::getIdentifying() {
 void LateralBox::setIdentifying(char c) {
     identifying_building = c;
 }
+ **/

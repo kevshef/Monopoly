@@ -11,4 +11,8 @@ add_executable(Monopoly main.cpp
         include/AngularBox.h
         src/LateralBox.cpp
         include/LateralBox.h
-        include/ScoreBoard.h)
+        include/ScoreBoard.h
+        include/RealPlayer.h
+        include/Player.h
+        include/ComputerPlayer.h
+        include/BankAccount.h)

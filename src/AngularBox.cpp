@@ -4,4 +4,4 @@
 
 #include "../include/AngularBox.h"
 
-AngularBox::AngularBox(bool b) : start{b} {}
+//AngularBox::AngularBox(bool b) : start{b} {}

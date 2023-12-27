@@ -1,6 +1,4 @@
-//
-// Created by
-//
+/*
 
 #ifndef MONOPOLY_ANGULARBOX_H
 #define MONOPOLY_ANGULARBOX_H
@@ -22,3 +20,4 @@ public:
 };
 
 #endif //MONOPOLY_ANGULARBOX_H
+**/
