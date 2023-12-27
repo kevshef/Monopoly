@@ -6,9 +6,12 @@
 #include "../include/AngularBox.h"
 #include "../include/LateralBox.h"
 
-ScoreBoard::ScoreBoard() {
+#include <ostream>
+#include <cstdlib>
+#include <ctime>
 
-    std::srand(std::time(0));
+ScoreBoard::ScoreBoard() {
+    srand(static_cast<unsigned int>(std::time(nullptr)));
 
     for (int i = 0; i < 4; ++i) {
 
@@ -51,4 +54,19 @@ bool ScoreBoard::AddHotel(LateralBox &obj) {
     }
 
     return false;
+}
+
+std::ostream& operator<<(std::ostream& os, ScoreBoard& obj) {
+    for (const auto& box : obj.getScoreBoard()) {
+        os << "Identifying: " << box->getIdentifying() << " ";
+
+        // Se l'oggetto è di tipo LateralBox, visualizza anche il BoxType
+        if (auto lateralBox = dynamic_cast<LateralBox*>(box.get())) {
+            os << "BoxType: " << static_cast<int>(lateralBox->getBoxType()) << " ";
+        }
+
+        os << std::endl;
+    }
+
+    return os;
 }
