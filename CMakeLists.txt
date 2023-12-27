@@ -5,7 +5,6 @@ set(CMAKE_CXX_STANDARD 11)
 
 add_executable(Monopoly main.cpp
         src/ScoreBoard.cpp
-        include/ScoreBoard.h
         src/Box.cpp
         include/Box.h
         src/AngularBox.cpp
