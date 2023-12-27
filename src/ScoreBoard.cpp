@@ -12,17 +12,18 @@ ScoreBoard::ScoreBoard() {
 
     for (int i = 0; i < 4; ++i) {
 
-        AngularBox angularBox = new AngularBox(i == 0);
+        std::shared_ptr<Box> angularBox = std::make_shared<AngularBox>(i == 0);
+
         scoreboard.push_back(angularBox);
 
-        for (int k = 1; k < 8; ++k) {
-
-            for (int j = 0; j < 8; ++j) {
+        for (int k = 1; k < 8; k++) {
+            for (int j = 0; j < 8; j++) {
 
                 int randomCategory = std::rand() % 3;
 
-                scoreboard.push_back(LateralBox (randomCategory));
+                std::shared_ptr<Box> lateralBox = std::make_shared<LateralBox>(randomCategory);
 
+                scoreboard.push_back(lateralBox);
             }
         }
     }

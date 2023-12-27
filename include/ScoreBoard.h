@@ -9,8 +9,9 @@
 #include "../include/AngularBox.h"
 #include "../include/LateralBox.h"
 #include <vector>
+#include <memory>  // Add this header for smart pointers std::shared_ptr & std::make_shared
 
-enum class Row{
+enum class Row {
     A = 0, B, C, D, E, F, G, H
 };
 
@@ -18,15 +19,15 @@ class ScoreBoard {
 
 private:
 
-    std::vector<Box> scoreboard;
+    std::vector<std::shared_ptr<Box>> scoreboard;  // Use smart pointers
 
 public:
 
     ScoreBoard();
 
-    void setScoreBoard(std::vector<Box> newScoreBoard) { scoreboard = newScoreBoard; }
+    void setScoreBoard(std::vector<std::shared_ptr<Box>> newScoreBoard) { scoreboard = newScoreBoard; }
 
-    std::vector<Box> getScoreBoard() { return scoreboard; }
+    std::vector<std::shared_ptr<Box>> getScoreBoard() { return scoreboard; }
 
     void operator=(ScoreBoard& obj) { scoreboard = obj.getScoreBoard(); }
 
