@@ -6,76 +6,67 @@
 #include "../include/AngularBox.h"
 #include "../include/LateralBox.h"
 
+#include <ostream>
+#include <cstdlib>
+#include <ctime>
+
 ScoreBoard::ScoreBoard() {
+    srand(static_cast<unsigned int>(std::time(nullptr)));
 
-    std::srand(std::time(0));
-
-    /*
     for (int i = 0; i < 4; ++i) {
 
-        AngularBox angularBox = new AngularBox(i == 0);
+        std::shared_ptr<Box> angularBox = std::make_shared<AngularBox>(i == 0);
+
         scoreboard.push_back(angularBox);
 
-        for (int k = 1; k < 8; ++k) {
-
-            for (int j = 0; j < 8; ++j) {
+        for (int k = 1; k < 8; k++) {
+            for (int j = 0; j < 8; j++) {
 
                 int randomCategory = std::rand() % 3;
-                LateralBox lateralBox = new LateralBox(randomCategory);
-                scoreboard.push_back(lateralBox);
 
-            }
-        }
-    }
-    */
+                std::shared_ptr<Box> lateralBox = std::make_shared<LateralBox>(randomCategory);
 
-    for (int i = 0; i < 8; ++i) {
-        for (int j = 0; j < 8; ++j) {
-            if ((i == 0 || i == 7) && (j == 0 || j == 7)) {
-
-                AngularBox angularBox = new AngularBox(i == 0);
-                scoreboard.push_back(box);
-            }
-            else if (i == 0 || i == 7 || j == 0 || j == 7) {
-                int randomCategory = std::rand() % 3;
-                LateralBox lateralBox = new LateralBox(randomCategory);
                 scoreboard.push_back(lateralBox);
             }
         }
     }
-
 }
 
-bool ScoreBoard::isStartBox(Box& obj) {
-    if (obj.getIdentifying() == " ") {
-        AngularBox angularBox = static_cast<AngularBox>(obj);
-        return angularBox.start;
-    }
-    return false;
+bool ScoreBoard::isStartBox(AngularBox& obj) {
+    return obj.start;
 }
 
-bool ScoreBoard::AddHouse(Box &obj) {
-    if (obj.getIdentifying() == " ")
-        return false;
+bool ScoreBoard::AddHouse(LateralBox &obj) {
 
-    LateralBox lateralBox = static_cast<LateralBox>(obj);
-    if (!lateralBox.free){
-        lateralBox.setIdentifying(lateralBox.getIdentifying() + "*");
+    if (!obj.free){
+        obj.setIdentifying('*');
         return true;
     }
 
     return false;
 }
 
-bool ScoreBoard::AddHotel(Box &obj) {
-    if (obj.getIdentifying() == " ")
-        return false;
+bool ScoreBoard::AddHotel(LateralBox &obj) {
 
-    LateralBox lateralBox = static_cast<LateralBox>(obj);
-    if (!lateralBox.free && lateralBox.getIdentifying().find("*") != std::string::npos ){
-        lateralBox.setIdentifying(lateralBox.getIdentifying() + "^");
+    if (!obj.free && obj.getIdentifying() == '*'){
+        obj.setIdentifying('^');
         return true;
     }
 
     return false;
+}
+
+std::ostream& operator<<(std::ostream& os, ScoreBoard& obj) {
+    for (const auto& box : obj.getScoreBoard()) {
+        os << "Identifying: " << box->getIdentifying() << " ";
+
+        // Se l'oggetto è di tipo LateralBox, visualizza anche il BoxType
+        if (auto lateralBox = dynamic_cast<LateralBox*>(box.get())) {
+            os << "BoxType: " << static_cast<int>(lateralBox->getBoxType()) << " ";
+        }
+
+        os << std::endl;
+    }
+
+    return os;
 }

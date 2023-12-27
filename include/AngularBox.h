@@ -15,11 +15,10 @@ public:
 
     AngularBox(bool b);
 
-    virtual std::string getIdentifying() { return identifying; }
+    virtual char getIdentifying() { return identifying_building; }
 
-    virtual void setIdentifying(std::string s) { identifying = s; }
+    virtual void setIdentifying(char c) { identifying_building = c; }
 
 };
-
 
 #endif //MONOPOLY_ANGULARBOX_H

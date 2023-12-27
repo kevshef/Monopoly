@@ -1,7 +1,15 @@
+//
+// Created by
+//
+
+#include "../include/ScoreBoard.h"
+
 #include <iostream>
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    ScoreBoard scoreboard;
+
+    std::cout << scoreboard;
 
     return 0;
 }

@@ -5,25 +5,18 @@
 #ifndef MONOPOLY_BOX_H
 #define MONOPOLY_BOX_H
 
-#include <string>
-
-enum class BoxType {
-    economic = 0, standard, luxury
-};
-
 class Box {
 
 protected:
 
-    std::string identifying;
+    char identifying_building;
 
 public:
 
-    virtual std::string getIdentifying() = 0;
+    virtual char getIdentifying() = 0;
 
-    virtual void setIdentifying(std::string s) = 0;
+    virtual void setIdentifying(char c) = 0;
 
 };
-
 
 #endif //MONOPOLY_BOX_H

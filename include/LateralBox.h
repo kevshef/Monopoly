@@ -7,11 +7,17 @@
 
 #include "../include/Box.h"
 
+enum class BoxType {
+    economic = 0, standard, luxury
+};
+
 class LateralBox : public Box {
 
 public:
 
     LateralBox(int n);
+
+    BoxType type;
 
     bool free;
 
@@ -25,7 +31,14 @@ public:
 
     int daily_hotel_price;
 
-};
+    char getIdentifyingType();
 
+    virtual char getIdentifying() { return identifying_building; }
+
+    virtual void setIdentifying(char c) { identifying_building = c; }
+
+    BoxType getBoxType() { return type; }
+
+};
 
 #endif //MONOPOLY_LATERALBOX_H
