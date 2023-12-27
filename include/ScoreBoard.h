@@ -38,5 +38,6 @@ public:
 
 };
 
+std::ostream& operator<<(std::ostream& os, ScoreBoard& obj);
 
 #endif //MONOPOLY_SCOREBOARD_H

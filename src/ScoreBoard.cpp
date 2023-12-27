@@ -20,8 +20,8 @@ ScoreBoard::ScoreBoard() {
             for (int j = 0; j < 8; ++j) {
 
                 int randomCategory = std::rand() % 3;
-                LateralBox lateralBox = new LateralBox(randomCategory);
-                scoreboard.push_back(lateralBox);
+
+                scoreboard.push_back(LateralBox (randomCategory));
 
             }
         }

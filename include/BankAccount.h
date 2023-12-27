@@ -24,5 +24,4 @@ public:
 
 };
 
-
 #endif //MONOPOLY_BANKACCOUNT_H

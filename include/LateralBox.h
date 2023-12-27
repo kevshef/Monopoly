@@ -31,6 +31,8 @@ public:
 
     int daily_hotel_price;
 
+    char getIdentifyingType();
+
     virtual char getIdentifying() { return identifying_building; }
 
     virtual void setIdentifying(char c) { identifying_building = c; }
@@ -38,6 +40,5 @@ public:
     BoxType getBoxType() { return type; }
 
 };
-
 
 #endif //MONOPOLY_LATERALBOX_H

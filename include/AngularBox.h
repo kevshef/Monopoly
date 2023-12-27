@@ -21,5 +21,4 @@ public:
 
 };
 
-
 #endif //MONOPOLY_ANGULARBOX_H
