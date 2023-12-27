@@ -19,7 +19,7 @@ std::ostream& operator<<(std::ostream& os, ScoreBoard& obj) {
     char c = 'A';
     os << " 1\t2\t3\t4\t5\t6\t7\t8\n";
     for( int i = 0; i < 28; i++ ) {
-        if( i == 0 || (i > 7 && i % 2 == 0))
+        if( i == 0 || (i > 7 && i % 2 == 0) && i < 21)
             os << c++ << "\t";
 
         if (i < 8 || i > 19) {
