@@ -37,11 +37,10 @@ LateralBox::LateralBox(int n) {
     }
 }
 
-char LateralBox::getIdentifyingType() {
-    if (static_cast<int>(type) == 0)
-        return 'E';
-    else if (static_cast<int>(type) == 1)
-        return 'S';
-    else
-        return 'L';
+char LateralBox::getIdentifying() {
+    return identifying_building;
+}
+
+void LateralBox::setIdentifying(char c) {
+    identifying_building = c;
 }

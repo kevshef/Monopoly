@@ -7,9 +7,6 @@
 
 #include "../include/Player.h"
 
-#include <cstdlib>
-#include <ctime>
-
 class ComputerPlayer : public Player {
 
 public:
