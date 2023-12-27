@@ -35,7 +35,7 @@ bool ScoreBoard::isStartBox(AngularBox& obj) {
 bool ScoreBoard::AddHouse(LateralBox &obj) {
 
     if (!obj.free){
-        lateralBox.setIdentifying('*');
+        obj.setIdentifying('*');
         return true;
     }
 
@@ -44,8 +44,8 @@ bool ScoreBoard::AddHouse(LateralBox &obj) {
 
 bool ScoreBoard::AddHotel(LateralBox &obj) {
 
-    if (!obj.free && lateralBox.getIdentifying() == '*'){
-        lateralBox.setIdentifying('^');
+    if (!obj.free && obj.getIdentifying() == '*'){
+        obj.setIdentifying('^');
         return true;
     }
 
