@@ -11,7 +11,7 @@ class BankAccount {
 private:
 
     int balance;
-
+    int ciao ;
 public:
 
     BankAccount();
