@@ -7,6 +7,7 @@
 
 #include "../include/Box.h"
 #include <iostream>
+#include <vector>
 
 enum class Row{
     A = 0, B, C, D, E, F, G, H
