@@ -9,16 +9,12 @@
 #include <iostream>
 #include <vector>
 
-enum class Row{
-    A = 0, B, C, D, E, F, G, H
-};
-
 class ScoreBoard {
 
 private:
 
     std::vector<Box> board;
-
+    
 public:
 
     ScoreBoard();
