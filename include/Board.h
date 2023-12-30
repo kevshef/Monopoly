@@ -7,6 +7,7 @@
 
 #include "../include/Box.h"
 #include <iostream>
+#include <vector>
 #include <ctime>
 #include <cstdlib>
 
