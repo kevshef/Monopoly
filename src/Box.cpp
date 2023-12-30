@@ -9,8 +9,7 @@ Box::Box(int position, int property_type) {
     if(position == 0) {
         type = BoxType::angular;
         isStart = true;
-    }
-    else if(position == 7 || position == 20 || position == 27)
+    } else if(position == 7 || position == 20 || position == 27)
         type = BoxType::angular;
     else
         setProperty(property_type);
