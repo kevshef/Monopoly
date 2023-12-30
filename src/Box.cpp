@@ -52,7 +52,7 @@ void Box::setProperty(int n) {
 
 std::ostream& operator<<(std::ostream& os, Box& obj) {
 
-    if( static_cast<int>(obj.getType()) == 0 && obj.getStart())
+    if(obj.getStart())
         os << "|P|";
     else if(static_cast<int>(obj.getType()) == 0)
         os << "| |";
