@@ -56,7 +56,7 @@ std::ostream& operator<<(std::ostream& os, Box& obj) {
     if( static_cast<int>(obj.getType()) == 0 && obj.getStart())
         os << "|P|";
     else if(static_cast<int>(obj.getType()) == 0)
-        os << "|L|";
+        os << "| |";
     else {
         os << "|";
         switch (static_cast<int>(obj.getPropertyType())) {

@@ -2,14 +2,14 @@
 // Created by
 //
 
-#include "include/ScoreBoard.h"
+#include "include/Board.h"
 
 #include <iostream>
 
 int main() {
-    ScoreBoard scoreboard;
+    Board board;
 
-    std::cout << scoreboard;
+    std::cout << board;
 
     return 0;
 }
