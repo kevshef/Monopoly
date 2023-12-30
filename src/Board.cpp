@@ -9,38 +9,28 @@ Board::Board() {
 
     srand(static_cast<unsigned int>(std::time(nullptr)));
 
-    int economic_count = 0;
-    int standard_count = 0;
-    int luxury_count = 0;
+    bool isEnd = true;
 
-    for(int i = 0; i < 28; i++) {
+    int counts[] = {8, 10, 6};
 
+    for (int i = 0; i < 28; i++) {
         bool isEnd = true;
 
         do {
-            int temp = rand()%3;
+            int temp = rand() % 3;
 
-            if (i == 0 || i == 7 || i == 20 || i == 27) {
+            if (i == 0 || i == 7 || i == 20 || i ==  27) {
                 board.push_back(Box(i, 0));
                 isEnd = false;
-            } else if(temp == 0 && economic_count < 8) {
-                economic_count++;
+            } else if(counts[temp] > 0) {
+                counts[temp]--;
                 board.push_back(Box(i, temp));
                 isEnd = false;
-            } else if (temp == 1 && standard_count < 10) {
-                standard_count++;
-                board.push_back(Box(i, temp));
-                isEnd = false;
-            } else if(temp == 2 && luxury_count < 6) {
-                luxury_count++;
-                board.push_back(Box(i, temp));
-                isEnd = false;
-            } 
-        } while(isEnd);
-
-
+            }
+        } while (isEnd);
     }
 }
+
 
 
 /**
