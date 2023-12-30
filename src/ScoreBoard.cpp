@@ -3,14 +3,12 @@
 //
 
 #include "../include/ScoreBoard.h"
-#include <cstdlib>
-#include <ctime>
+
 
 ScoreBoard::ScoreBoard() {
-    srand(static_cast<unsigned int>(std::time(nullptr)));
 
     for(int i = 0; i < 28; i++) {
-        int temp = rand()%3;
+        int temp = std::rand()%4;
         board.push_back(Box(i, temp));
     }
 }

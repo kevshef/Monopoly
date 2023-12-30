@@ -30,7 +30,7 @@ void Box::setProperty(int n) {
             daily_hotel_price = 4;
             break;
         case 1:
-            property_type = PropertyType::economic;
+            property_type = PropertyType::standard;
             identifying_building = ' ';
             price = 10;
             house_price = 5;
@@ -39,7 +39,7 @@ void Box::setProperty(int n) {
             daily_hotel_price = 8;
             break;
         case 2:
-            property_type = PropertyType::economic;
+            property_type = PropertyType::luxury;
             identifying_building = ' ';
             price = 20;
             house_price = 10;
