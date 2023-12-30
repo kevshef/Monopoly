@@ -35,9 +35,8 @@ Board::Board() {
                 luxury_count++;
                 board.push_back(Box(i, temp));
                 isEnd = false;
-            } else if(economic_count == 0 && standard_count == 0 && luxury_count == 0)
-                break;
-
+            }
+            
         } while(isEnd);
 
 
