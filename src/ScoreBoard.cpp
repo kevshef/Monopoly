@@ -17,7 +17,7 @@ std::ostream& operator<<(std::ostream& os, ScoreBoard& obj) {
 
     std::vector<Box> temp = obj.getBoard();
     char c = 'A';
-    os << "\t1\t2\t3\t4\t5\t6\t7\t8\n";
+    os << "\t 1\t 2\t 3\t 4\t 5\t 6\t 7\t 8\n";
 
     for( int i = 0; i < 28; i++ ) {
 
