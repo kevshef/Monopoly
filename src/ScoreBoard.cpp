@@ -8,7 +8,7 @@
 ScoreBoard::ScoreBoard() {
 
     for(int i = 0; i < 28; i++) {
-        int temp = std::rand()%4;
+        int temp = std::rand()%3;
         board.push_back(Box(i, temp));
     }
 }
@@ -25,7 +25,7 @@ std::ostream& operator<<(std::ostream& os, ScoreBoard& obj) {
             os << c++ << "\t";
 
         if (i < 8 || i > 19) {
-            os << temp[i] << " ";
+            os << temp[i] << "\t";
 
             if (i == 7)
                 os << "\n";
@@ -36,6 +36,8 @@ std::ostream& operator<<(std::ostream& os, ScoreBoard& obj) {
             i++;
 
         }
+        if(i == 27)
+            os<<"\n";
 
     }
 
