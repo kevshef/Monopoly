@@ -20,7 +20,7 @@ Board::Board() {
             int temp = rand() % 3;
 
             if (i == 0 || i == 7 || i == 20 || i ==  27) {
-                board.push_back(Box(i, 0));
+                board.push_back(Box(i, 4));
                 isEnd = false;
             } else if(counts[temp] > 0) {
                 counts[temp]--;

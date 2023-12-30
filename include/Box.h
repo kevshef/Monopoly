@@ -21,8 +21,6 @@ private:
 
     void setProperty(int n);
 
-protected:
-
     char identifying_building;
 
     BoxType type;
