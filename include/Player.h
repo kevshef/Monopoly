@@ -6,24 +6,32 @@
 #define MONOPOLY_PLAYER_H
 
 #include "../include/BankAccount.h"
+#include <ctime>
+#include <cstdlib>
+
+enum class PlayerType {
+    real = 0, computer
+};
 
 class Player {
 
-protected:
+private:
 
     int identifying_number; // Numero del giocatore
+
+    PlayerType type;
 
     BankAccount bankaccount;
 
 public:
 
-    virtual char getNumber() = 0;
+    Player(int t, int n);
 
-    virtual void setNumber(int n) = 0;
+    int getNumber();
 
-    virtual bool isInGame() = 0;
+    bool isInGame();
 
-    virtual int ThrowDice() = 0;
+    int ThrowDice();
 
 };
 
