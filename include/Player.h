@@ -11,7 +11,7 @@
 #include <cstdlib>
 
 enum class PlayerType {
-    real = 0, computer
+    real = 0, computer = 1
 };
 
 class Player {

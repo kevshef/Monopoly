@@ -72,6 +72,7 @@ public:
     void setNotFree(int n);
 
     int getOwnerNumber() const { return owner_number; }
+
 };
 
 std::ostream& operator<<(std::ostream& os, Box& obj);

@@ -13,6 +13,7 @@
 #include <ctime>
 #include <cstdlib>
 #include <string>
+#include <fstream>
 
 class Players {
 
@@ -24,11 +25,13 @@ public:
 
     Players(int k);
 
-    std::vector<Player> getPlayers() { return players; }
+    std::vector<Player>& getPlayers() { return players; }
 
     int Move(Board& board, int i);
 
     void AggiornaFileTesto(std::string s);
+
+    bool End();
 
 };
 

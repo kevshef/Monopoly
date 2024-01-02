@@ -21,7 +21,9 @@ public:
 
     Board();
 
-    std::vector<Box> getBoard() { return board; }
+    std::vector<Box>& getBoard() { return board; }
+
+    void setBoard(std::vector<Box> b) { board = b; }
 
 };
 
