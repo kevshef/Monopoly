@@ -13,8 +13,6 @@ int main() {
     Board scoreboard;
 
 
-    std::cout << board;
-
     Players players(0);
 
     std::cout << players;
