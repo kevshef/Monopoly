@@ -12,4 +12,6 @@ add_executable(Monopoly
         src/Player.cpp
         include/Player.h
         src/BankAccount.cpp
-        include/BankAccount.h )
+        include/BankAccount.h
+        src/Players.cpp
+        include/Players.h)

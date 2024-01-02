@@ -27,7 +27,9 @@ private:
 
     PropertyType property_type;
 
-    bool free;
+    int owner_number = -1;
+
+    bool free = false;
 
     int price;
 
@@ -54,6 +56,22 @@ public:
     PropertyType getPropertyType() const { return property_type; }
 
     bool getStart() const { return isStart; }
+
+    bool isFree() const { return free; }
+
+    int getPrice() const { return price; }
+
+    int getHousePrice() const { return house_price; }
+
+    int getHotelPrice() const { return hotel_price; }
+
+    int getDailyHousePrice() const { return daily_house_price; }
+
+    int getDailyHotelPrice() const { return daily_hotel_price; }
+
+    void setNotFree(int n);
+
+    int getOwnerNumber() const { return owner_number; }
 
 };
 

@@ -12,6 +12,8 @@ Player::Player(int t, int n) {
 
     identifying_number = n;
 
+    position = 0;
+
 }
 
 /**
@@ -22,6 +24,28 @@ Player::Player(int t, int n) {
  */
 int Player::getNumber() {
     return identifying_number;
+}
+
+/**
+ *
+ * @return int
+ *
+ * Metodo che restituisce il tipo del giocatore (0 == real, 1 == computer)
+ */
+int Player::getPlayerType() {
+    return static_cast<int>(type);
+}
+
+int Player::getBalance() {
+    return bankaccount.getBalance();
+}
+
+int Player::getPosition() {
+    return position;
+}
+
+void Player::setBalance() {
+    bankaccount.setBalance(20);
 }
 
 /**
@@ -42,4 +66,34 @@ bool Player::isInGame() {
  */
 int Player::ThrowDice() {
     return (((rand() % 6) + 1) + ((rand() % 6) + 1));
+}
+
+void Player::Pay(Player &obj, int n) {
+
+    bankaccount.setBalance(-n);
+
+    obj.bankaccount.setBalance(n);
+
+}
+
+bool Player::Buy(int n) {
+
+    if (bankaccount.getBalance() >= n)
+        bankaccount.setBalance(-n);
+    else
+        return false;
+
+    return true;
+}
+
+std::ostream& operator<<(std::ostream& os, Player& obj) {
+
+    os << "Giocatore " << obj.getNumber() << " (";
+    if (obj.getPlayerType() == 0)
+        os << "real)";
+    else
+        os << "computer)";
+    os << " saldo: " << obj.getBalance() << "\n";
+
+    return os;
 }

@@ -37,6 +37,7 @@ Board::Board() {
  *
  * @param os
  * @param obj
+ *
  * @return os
  *
  * Metodo che deve ancora essere sistemato, ha problemi su print tipo quando si costriusicono case.
