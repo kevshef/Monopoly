@@ -5,7 +5,6 @@
 #ifndef MONOPOLY_BANKACCOUNT_H
 #define MONOPOLY_BANKACCOUNT_H
 
-
 class BankAccount {
 
 private:
@@ -16,11 +15,11 @@ public:
 
     BankAccount();
 
-    int getBalance() { return balance; }
+    int getBalance();
 
-    void setBalance(int n) { balance += n; }
+    void setBalance(int n);
 
-    bool isBankrupt() { return balance > 0; }
+    bool isBankrupt();
 
 };
 

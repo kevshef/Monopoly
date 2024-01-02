@@ -66,6 +66,8 @@ std::ostream& operator<<(std::ostream& os, Board& obj) {
         }
     }
 
+   }
+
     os << "\n";
 
     return os;

@@ -15,6 +15,14 @@ Box::Box(int position, int property_type) {
         setProperty(property_type);
 }
 
+/**
+ *
+ * @param n
+ *
+ * @return void
+ *
+ * Metodo che inizializza tutte le caratteristiche della proprietà nel caso in cui sia BoxType::lateral
+ */
 void Box::setProperty(int n) {
     free = true;
     type = BoxType::lateral;
@@ -49,7 +57,6 @@ void Box::setProperty(int n) {
     }
 }
 
-
 std::ostream& operator<<(std::ostream& os, Box& obj) {
 
     if(obj.getStart())
@@ -57,7 +64,8 @@ std::ostream& operator<<(std::ostream& os, Box& obj) {
     else if(static_cast<int>(obj.getType()) == 0)
         os << "| |";
     else {
-            os << obj.getIdentifying();
+        os << obj.getIdentifying();
+
     }
 
     return os;

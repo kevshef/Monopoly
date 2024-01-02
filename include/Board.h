@@ -16,7 +16,7 @@ class Board {
 private:
 
     std::vector<Box> board;
-    
+
 public:
 
     Board();

@@ -3,12 +3,13 @@ project(Monopoly)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(Monopoly main.cpp
+add_executable(Monopoly
+        main.cpp
         src/Board.cpp
+        include/Board.h
         src/Box.cpp
         include/Box.h
-        include/Board.h
+        src/Player.cpp
         include/Player.h
-        include/ComputerPlayer.h
-        include/BankAccount.h
-        src/BankAccount.cpp)
+        src/BankAccount.cpp
+        include/BankAccount.h )
