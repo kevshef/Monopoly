@@ -64,10 +64,9 @@ std::ostream& operator<<(std::ostream& os, Board& obj) {
             i++;
 
         }
-        if(i == 27)
-            os<<"\n";
-
     }
+
+    os << "\n";
 
     return os;
 

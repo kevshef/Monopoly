@@ -8,7 +8,6 @@ add_executable(Monopoly main.cpp
         src/Box.cpp
         include/Box.h
         include/Board.h
-        include/RealPlayer.h
         include/Player.h
         include/ComputerPlayer.h
         include/BankAccount.h
