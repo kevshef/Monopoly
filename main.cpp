@@ -5,12 +5,15 @@
 #include "include/Board.h"
 #include "include/Players.h"
 
+
 #include <iostream>
 
 int main() {
+
     Board scoreboard;
 
-    std::cout << scoreboard;
+
+    std::cout << board;
 
     Players players(0);
 

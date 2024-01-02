@@ -70,6 +70,7 @@ std::ostream& operator<<(std::ostream& os, Box& obj) {
         os << "| |";
     else {
         os << obj.getIdentifying();
+
     }
 
     return os;
