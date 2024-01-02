@@ -6,6 +6,7 @@
 #define MONOPOLY_PLAYER_H
 
 #include "../include/BankAccount.h"
+#include <ostream>
 #include <ctime>
 #include <cstdlib>
 
@@ -19,6 +20,8 @@ private:
 
     int identifying_number; // Numero del giocatore
 
+    int position;
+
     PlayerType type;
 
     BankAccount bankaccount;
@@ -29,10 +32,28 @@ public:
 
     int getNumber();
 
+    int getPlayerType();
+
+    int getPosition();
+
+    int getBalance();
+
     bool isInGame();
 
     int ThrowDice();
 
+    void Pay(Player &obj, int n);
+
+    bool Buy(int n);
+
+    void setBalance();
+
+    bool isBankrupt() { return bankaccount.isBankrupt(); }
+
+    void setPosition(int n) { position = n; }
+
 };
+
+std::ostream& operator<<(std::ostream& os, Player& obj);
 
 #endif //MONOPOLY_PLAYER_H

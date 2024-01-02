@@ -57,6 +57,11 @@ void Box::setProperty(int n) {
     }
 }
 
+void Box::setNotFree(int n) {
+    free = false;
+    owner_number = n;
+}
+
 std::ostream& operator<<(std::ostream& os, Box& obj) {
 
     if(obj.getStart())
