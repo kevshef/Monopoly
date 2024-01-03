@@ -29,7 +29,7 @@ void Box::setProperty(int n) {
     switch (n) {
         case 0:
             property_type = PropertyType::economic;
-            identifying_building = "|E|";
+            identifying_building = "E";
             price = 6;
             house_price = 3;
             hotel_price = 3;
@@ -38,7 +38,7 @@ void Box::setProperty(int n) {
             break;
         case 1:
             property_type = PropertyType::standard;
-            identifying_building = "|S|";
+            identifying_building = "S";
             price = 10;
             house_price = 5;
             hotel_price = 5;
@@ -47,7 +47,7 @@ void Box::setProperty(int n) {
             break;
         case 2:
             property_type = PropertyType::luxury;
-            identifying_building = "|L|";
+            identifying_building = "L";
             price = 20;
             house_price = 10;
             hotel_price = 10;
@@ -62,6 +62,16 @@ void Box::setNotFree(int n) {
     owner_number = n;
 }
 
+void Box::setIdentifying() {
+    bool find = identifying_building.find('*');
+
+    if (find)
+        identifying_building = '^';
+    else
+        identifying_building += "*";
+}
+
+
 std::ostream& operator<<(std::ostream& os, Box& obj) {
 
     if(obj.getStart())
@@ -69,7 +79,7 @@ std::ostream& operator<<(std::ostream& os, Box& obj) {
     else if(static_cast<int>(obj.getType()) == 0)
         os << "| |";
     else {
-        os << obj.getIdentifying();
+        os << "|"<< obj.getIdentifying() << "|";
     }
 
     return os;

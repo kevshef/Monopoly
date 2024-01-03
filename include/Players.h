@@ -27,9 +27,13 @@ public:
 
     std::vector<Player>& getPlayers() { return players; }
 
+    void setPlayers(std::vector<Player> p) { players = p; }
+
     int Move(Board& board, int i);
 
     void AggiornaFileTesto(std::string s);
+
+    void Start();
 
     bool End();
 

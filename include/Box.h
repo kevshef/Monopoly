@@ -49,7 +49,7 @@ public:
 
     std::string getIdentifying() const { return identifying_building; }
 
-    void setIdentifying(char c) { identifying_building = c; }
+    void setIdentifying();
 
     BoxType getType() const { return type; }
 
