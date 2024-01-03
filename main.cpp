@@ -16,9 +16,9 @@ int main() {
 
     std::cout << players;
 
-    int turno = 0;
-
     players.Start();
+
+    int turno = 0;
 
     do{
         std::cout<< "\n\nTurno " << (turno + 1) << ":";
@@ -56,32 +56,41 @@ int main() {
                         }
 
                     } else {
+
                         std::cout << "\n\tGiocatore " << (i + 1)
                                   << " digitare Y o N se si vuole procedere o meno con il miglioramento in di "
                                   << scoreboard.getBoard().at(players.getPlayers().at(i).getPosition());
 
-                        if (scoreboard.getBoard()[players.getPlayers()[i].getPosition()].getIdentifying() == "*" )
+                        if (scoreboard.getBoard()[players.getPlayers()[i].getPosition()].getIdentifying() == '*' )
                             std::cout << " con un hotel.";
                         else
                             std::cout << " con una casa.";
 
                         std::string risposta = "";
+
                         do {
+
                             std::cout << "\n\tRisposta: ";
+
                             std::cin >> risposta;
+
                         } while (risposta != "Y" && risposta != "N");
 
                         if (risposta == "Y") {
+
                             players.getPlayers()[i].Buy(move_result);
-                            if (scoreboard.getBoard()[players.getPlayers()[i].getPosition()].getIdentifying() == "*" ) {
+
+                            if (scoreboard.getBoard()[players.getPlayers()[i].getPosition()].getIdentifying() == '*' ) {
+
                                 scoreboard.getBoard()[players.getPlayers()[i].getPosition()].setIdentifying();
                                 players.AggiornaFileTesto(
                                         "Giocatore " + std::to_string(players.getPlayers()[i].getNumber()) +
                                         " ha migliorato una casa in albergo sul terreno" +
                                         std::to_string(players.getPlayers()[i].getPosition()));
-                            }
-                            else {
+                            } else {
+
                                 scoreboard.getBoard()[players.getPlayers()[i].getPosition()].setIdentifying();
+
                                 players.AggiornaFileTesto(
                                         "Giocatore " + std::to_string(players.getPlayers()[i].getNumber()) +
                                         " ha costruito una casa sul terreno " +
@@ -97,13 +106,11 @@ int main() {
 
         turno ++;
 
-
     }while(!players.End());
 
     std::cout << "\n" << players;
 
     std::cout << "\n" << scoreboard;
-
 
     return 0;
 }

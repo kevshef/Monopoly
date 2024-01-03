@@ -111,44 +111,39 @@ int Players::Move(Board &board, int i) {
 
             int temp_price;
 
-            if (temp_board[new_position].getIdentifying() == "^") {
+            if (temp_board[new_position].getIdentifying() == '^') {
                 players[i].Pay(players[temp_board[new_position].getOwnerNumber()],
                                temp_board[new_position].getDailyHotelPrice());
                 temp_price = temp_board[new_position].getDailyHotelPrice();
-                AggiornaFileTesto("Giocatore " + std::to_string(players[i].getNumber()) + "ha migliorato una casa in albergo sul terreno" +
-                                  std::to_string(temp_price) + " a giocatore " +
-                                  std::to_string(temp_board[new_position].getOwnerNumber() + 1) +
-                                  " per pernottamento nella casella " +
-                                  std::to_string(new_position));
             } else {
                 players[i].Pay(players[temp_board[new_position].getOwnerNumber()],
                                temp_board[new_position].getDailyHousePrice());
                 temp_price = temp_board[new_position].getDailyHousePrice();
-                AggiornaFileTesto("Giocatore " + std::to_string(players[i].getNumber()) + " ha pagato " +
-                                  std::to_string(temp_price) + " a giocatore " +
-                                  std::to_string(temp_board[new_position].getOwnerNumber() + 1) +
-                                  " per pernottamento nella casella " +
-                                  std::to_string(new_position));
             }
 
+            AggiornaFileTesto("Giocatore " + std::to_string(players[i].getNumber()) + " ha pagato " +
+                              std::to_string(temp_price) + " a giocatore " +
+                              std::to_string(temp_board[new_position].getOwnerNumber() + 1) +
+                              " per pernottamento nella casella " +
+                              std::to_string(new_position));
 
 
             if (players[i].isBankrupt())
                 AggiornaFileTesto("Giocatore " + std::to_string(players[i].getNumber()) + " è stato eliminato");
 
-        } else if (temp_board[new_position].getIdentifying() != "^") {
+        } else if (temp_board[new_position].getIdentifying() != '^') {
             if (players[i].getPlayerType() == 0) {
-                if (temp_board[new_position].getIdentifying() == "*")
+                if (temp_board[new_position].getIdentifying() == '*')
                     return (-1) * temp_board[new_position].getHotelPrice();
                 else
                     return (-1) * temp_board[new_position].getHousePrice();
             } else if (rand() % 4 == 0) {
 
-                if (temp_board[new_position].getIdentifying() == "*") {
+                if (temp_board[new_position].getIdentifying() == '*') {
                     players[i].Buy(temp_board[new_position].getHotelPrice());
                     temp_board[new_position].setIdentifying();
                     AggiornaFileTesto("Giocatore " + std::to_string(players[i].getNumber()) +
-                                      " ha migliorato una casa in albergo sul terreno" +
+                                      " ha migliorato una casa in albergo sul terreno " +
                                       std::to_string(new_position));
                 } else {
                     players[i].Buy(temp_board[new_position].getHousePrice());

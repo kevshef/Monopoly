@@ -21,7 +21,7 @@ private:
 
     void setProperty(int n);
 
-    std::string identifying_building;
+    char identifying_building = ' ';
 
     BoxType type;
 
@@ -47,7 +47,7 @@ public:
 
     Box(int position, int property_type);
 
-    std::string getIdentifying() const { return identifying_building; }
+    char getIdentifying() const { return identifying_building; }
 
     void setIdentifying();
 
