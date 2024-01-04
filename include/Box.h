@@ -7,7 +7,7 @@
 
 #include <iostream>
 
-enum class ProprietyType {
+enum class PropertyType {
     economic = 0, standard, luxury
 };
 
@@ -17,25 +17,61 @@ enum class BoxType {
 
 class Box {
 
-protected:
+private:
 
-    char identifying_building;
+    void setProperty(int n);
+
+    std::string identifying_building;
 
     BoxType type;
+
+    PropertyType property_type;
+
+    int owner_number = -1;
+
+    bool free = false;
+
+    int price;
+
+    int house_price;
+
+    int hotel_price;
+
+    int daily_house_price;
+
+    int daily_hotel_price;
 
     bool isStart = false;
 
 public:
 
-    Box(int position);
+    Box(int position, int property_type);
 
-    char getIdentifying() const { return identifying_building; }
+    std::string getIdentifying() const { return identifying_building; }
 
     void setIdentifying(char c) { identifying_building = c; }
 
     BoxType getType() const { return type; }
 
+    PropertyType getPropertyType() const { return property_type; }
+
     bool getStart() const { return isStart; }
+
+    bool isFree() const { return free; }
+
+    int getPrice() const { return price; }
+
+    int getHousePrice() const { return house_price; }
+
+    int getHotelPrice() const { return hotel_price; }
+
+    int getDailyHousePrice() const { return daily_house_price; }
+
+    int getDailyHotelPrice() const { return daily_hotel_price; }
+
+    void setNotFree(int n);
+
+    int getOwnerNumber() const { return owner_number; }
 
 };
 
