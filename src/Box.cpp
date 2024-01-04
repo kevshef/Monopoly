@@ -196,6 +196,7 @@ std::ostream& operator<<(std::ostream& os, Box& obj) {
             os << obj.getIdentifying();
 
         os << "|";
+
     }
 
     return os;

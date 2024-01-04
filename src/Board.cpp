@@ -79,9 +79,13 @@ std::ostream& operator<<(std::ostream& os, Board& obj) {
             os << temp[i] << "\t\t\t\t\t\t\t" << temp[i + 1] << "\n";
             i++;
         }
+      
         if(i == 27)
             os << "\n";
+
     }
+    os << "\n";
 
     return os;
+
 }

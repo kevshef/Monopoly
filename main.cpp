@@ -1,11 +1,15 @@
 #include "include/Board.h"
 #include "include/Players.h"
 
+
 #include <iostream>
 
 int main() {
+
     Board scoreboard;
+
     std::cout << scoreboard;
+
 
     Players players(0);
     std::cout << players;
