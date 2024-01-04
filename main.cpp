@@ -1,7 +1,3 @@
-//
-// Created by
-//
-
 #include "include/Board.h"
 #include "include/Players.h"
 
@@ -12,67 +8,105 @@ int main() {
 
     Board scoreboard;
 
+    std::cout << scoreboard;
+
 
     Players players(0);
-
     std::cout << players;
 
-    int turno = 0;
+    players.start();
 
-    do{
-        std::cout<< "\n\nTurno " << (turno + 1) << ":";
+    int turn = 0;
+
+    do {
+        std::cout << "\n\nTurno " << (turn + 1) << ":";
 
         for (int i = 0; i < 4; ++i) {
 
             if (!players.getPlayers()[i].isBankrupt()) {
+                int moveResult = players.move(scoreboard, i);
+                std::cout << "\nRisultato movimento: " << moveResult;
 
-                int move_result = players.Move(scoreboard, i);
+                if (moveResult > 0) {
+                    if (scoreboard.getBoard()[players.getPlayers()[i].getPosition()].getOwnerNumber() != i ) {
 
-                std::cout << "\nRisultatto movimento: " << move_result;
+                        std::cout << "\n\tGiocatore " << (i + 1)
+                                  << " digitare Y o N se si vuole procedere o meno con l'acquisto di "
+                                  << scoreboard.getBoard().at(players.getPlayers().at(i).getPosition()) << " per "
+                                  << moveResult << " fiorini.";
 
-                if (move_result > 0) {
-                    std::cout << "\n\tGiocatore " << (i + 1)
-                              << " digitare Y o N se si vuole procedere o meno con l'acquisto di "
-                              << scoreboard.getBoard().at(players.getPlayers().at(i).getPosition()) << " per "
-                              << move_result << " fiorini.";
+                        std::string risposta = "";
+                        do {
+                            std::cout << "\n\tRisposta: ";
+                            std::cin >> risposta;
+                        } while (risposta != "Y" && risposta != "N");
 
-                    std::string risposta = "";
-                    do {
-                        std::cout << "\n\tRisposta: ";
-                        std::cin >> risposta;
-                    } while (risposta != "Y" && risposta != "N");
+                        if (risposta == "Y") {
+                            players.getPlayers()[i].buy(moveResult);
+                            scoreboard.getBoard()[players.getPlayers()[i].getPosition()].setNotFree(i);
+                            players.updateTextFile(
+                                    "Giocatore " + std::to_string(players.getPlayers().at(i).getNumber()) +
+                                    " ha acquistato il terreno " +
+                                    std::to_string(players.getPlayers().at(i).getPosition()));
+                        }
 
-                    if (risposta == "Y") {
-                        players.getPlayers()[i].Buy(move_result);
-                        scoreboard.getBoard()[players.getPlayers()[i].getPosition()].setNotFree(i);
-                        players.AggiornaFileTesto(
-                                "Giocatore " + std::to_string(players.getPlayers().at(i).getNumber()) +
-                                " ha acquistato il terreno " +
-                                std::to_string(players.getPlayers().at(i).getPosition()));
+                    } else {
+
+                        std::cout << "\n\tGiocatore " << (i + 1)
+                                  << " digitare Y o N se si vuole procedere o meno con il miglioramento in di "
+                                  << scoreboard.getBoard().at(players.getPlayers().at(i).getPosition());
+
+                        if (scoreboard.getBoard()[players.getPlayers()[i].getPosition()].getIdentifying() == '*' )
+                            std::cout << " con un hotel.";
+                        else
+                            std::cout << " con una casa.";
+
+                        std::string risposta = "";
+
+                        do {
+
+                            std::cout << "\n\tRisposta: ";
+
+                            std::cin >> risposta;
+
+                        } while (risposta != "Y" && risposta != "N");
+
+                        if (risposta == "Y") {
+
+                            players.getPlayers()[i].buy(moveResult);
+
+                            if (scoreboard.getBoard()[players.getPlayers()[i].getPosition()].getIdentifying() == '*' ) {
+
+                                scoreboard.getBoard()[players.getPlayers()[i].getPosition()].setIdentifying();
+                                players.updateTextFile(
+                                        "Giocatore " + std::to_string(players.getPlayers()[i].getNumber()) +
+                                        " ha migliorato una casa in albergo sul terreno" +
+                                        std::to_string(players.getPlayers()[i].getPosition()));
+                            } else {
+
+                                scoreboard.getBoard()[players.getPlayers()[i].getPosition()].setIdentifying();
+
+                                players.updateTextFile(
+                                        "Giocatore " + std::to_string(players.getPlayers()[i].getNumber()) +
+                                        " ha costruito una casa sul terreno " +
+                                        std::to_string(players.getPlayers()[i].getPosition()));
+                            }
+                        }
                     }
-
                 }
-
-                if (move_result == -10) {
-                    std::cout << "\n\t\t CASSAAAAAA\n\n\n";
+                if (moveResult == -20) {
+                    std::cout << "\n\nCASSSSAAAAA\n\n";
                 }
             }
-
-            //std::cout<< "\n\tPosizione: " << players.getPlayers().at(i).getPosition();
-
-            //std::cout<< "\n\t" << scoreboard.getBoard().at(players.getPlayers().at(i).getPosition());
         }
 
-        std::cout<< "\nTurno " << (turno + 1) << " terminato.\n";
+        std::cout << "\nTurno " << (turn + 1) << " terminato.\n";
+        turn++;
 
-        turno ++;
+    } while (!players.end());
 
-
-    }while(!players.End() && turno < 10000);
-
-
+    std::cout << "\n" << scoreboard;
     std::cout << "\n" << players;
-
 
     return 0;
 }
