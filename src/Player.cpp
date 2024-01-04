@@ -1,93 +1,135 @@
-//
-// Created by Alvise Garberino on 27/12/23.
-//
-
 #include "../include/Player.h"
 
-Player::Player(int t, int n) {
-
+/**
+ * @brief Constructor for the Player class.
+ *
+ * @param playerType The type of player (real or computer).
+ * @param playerNumber The identifying number assigned to the player.
+ *
+ * @details Initializes a Player object with the specified type, identifying number,
+ * and sets the initial position to 0. Seeds the random number generator with the current time.
+ */
+Player::Player(PlayerType playerType, int playerNumber) : type(playerType), identifyingNumber(playerNumber), position(0) {
     srand(static_cast<unsigned int>(std::time(nullptr)));
-
-    type = static_cast<PlayerType>(t);
-
-    identifying_number = n;
-
-    position = 0;
-
 }
 
 /**
+ * @brief Getter function to retrieve the identifying number of the player.
  *
- * @return int
- *
- * Metodo che restituisce il numero del giocatore
+ * @return The identifying number of the player.
  */
-int Player::getNumber() {
-    return identifying_number;
+int Player::getNumber() const {
+    return identifyingNumber;
 }
 
 /**
+ * @brief Getter function to retrieve the type of the player (0 for real, 1 for computer).
  *
- * @return int
- *
- * Metodo che restituisce il tipo del giocatore (0 == real, 1 == computer)
+ * @return The type of the player.
  */
-int Player::getPlayerType() {
+int Player::getPlayerType() const {
     return static_cast<int>(type);
 }
 
-int Player::getBalance() {
-    return bankaccount.getBalance();
-}
-
-int Player::getPosition() {
+/**
+ * @brief Getter function to retrieve the current position of the player on the board.
+ *
+ * @return The current position of the player.
+ */
+int Player::getPosition() const {
     return position;
 }
 
-void Player::setBalance() {
-    bankaccount.setBalance(20);
+/**
+ * @brief Getter function to retrieve the balance of the player's bank account.
+ *
+ * @return The balance of the player's bank account.
+ */
+int Player::getBalance() const {
+    return bankAccount.getBalance();
 }
 
 /**
+ * @brief Checks if the player is still in the game (not bankrupt).
  *
- * @return bool
- *
- * Metodo che restituisce 'vero' se il saldo del giocatore è maggiore di zero
+ * @return True if the player is still in the game, false otherwise.
  */
-bool Player::isInGame() {
-    return !bankaccount.isBankrupt();
+bool Player::isInGame() const {
+    return !bankAccount.isBankrupt();
 }
 
 /**
+ * @brief Simulates throwing two six-sided dice and returns the sum.
  *
- * @return int
- *
- * Metodo restituisce la somme di due numeri generati randomicamente tra 1 e 6, per simulare il lancio di due dadi.
+ * @return The sum of the two dice rolls.
  */
-int Player::ThrowDice() {
+int Player::throwDice() {
     return (((rand() % 6) + 1) + ((rand() % 6) + 1));
 }
 
-void Player::Pay(Player &obj, int n) {
-
-    bankaccount.setBalance(-n);
-
-    obj.bankaccount.setBalance(n);
-
+/**
+ * @brief Performs a payment transaction from the player to a recipient player.
+ *
+ * @param recipient The player to receive the payment.
+ * @param amount The amount to be paid.
+ */
+void Player::pay(Player& recipient, int amount) {
+    bankAccount.updateBalance(-amount);
+    recipient.bankAccount.updateBalance(amount);
 }
 
-bool Player::Buy(int n) {
-
-    if (bankaccount.getBalance() >= n)
-        bankaccount.setBalance(-n);
-    else
-        return false;
-
-    return true;
+/**
+ * @brief Attempts to make a purchase with the specified amount from the player.
+ *
+ * @param amount The amount to be spent on the purchase.
+ * @return True if the purchase is successful, false if the player doesn't have enough balance.
+ */
+bool Player::buy(int amount) {
+    if (bankAccount.getBalance() >= amount) {
+        bankAccount.updateBalance(-amount);
+        return true;
+    }
+    return false;
 }
 
+/**
+ * @brief Sets the player's bank account balance to a specific amount.
+ *
+ * @details Used for initializing the player's balance at the start of the game.
+ */
+void Player::updateBalance() {
+    bankAccount.updateBalance(20);
+}
+
+/**
+ * @brief Checks if the player is bankrupt (bank account balance < 0).
+ *
+ * @return True if the player is bankrupt, false otherwise.
+ */
+bool Player::isBankrupt() const {
+    return bankAccount.isBankrupt();
+}
+
+/**
+ * @brief Setter function to update the player's position on the board.
+ *
+ * @param newPosition The new position to set for the player.
+ */
+void Player::setPosition(int newPosition) {
+    position = newPosition;
+}
+
+/**
+ * @brief Overloaded stream insertion operator to allow printing Player objects to an ostream.
+ *
+ * @param os The output stream to which the Player information will be printed.
+ * @param obj The Player object to be printed.
+ *
+ * @return The modified output stream.
+ *
+ * @details Prints the player's identifying number, type, and balance to the output stream.
+ */
 std::ostream& operator<<(std::ostream& os, Player& obj) {
-
     os << "Giocatore " << obj.getNumber() << " (";
     if (obj.getPlayerType() == 0)
         os << "real)";
