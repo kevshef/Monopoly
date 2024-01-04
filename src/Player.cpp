@@ -98,7 +98,7 @@ bool Player::buy(int amount) {
  * @details Used for initializing the player's balance at the start of the game.
  */
 void Player::updateBalance() {
-    bankAccount.updateBalance(20);
+    bankAccount.updateBalance(2);
 }
 
 /**
