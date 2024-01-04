@@ -6,25 +6,54 @@
 #define MONOPOLY_PLAYER_H
 
 #include "../include/BankAccount.h"
+#include <ostream>
+#include <ctime>
+#include <cstdlib>
+
+enum class PlayerType {
+    real = 0, computer = 1
+};
 
 class Player {
 
-protected:
+private:
 
     int identifying_number; // Numero del giocatore
+
+    int position;
+
+    PlayerType type;
 
     BankAccount bankaccount;
 
 public:
 
-    virtual char getNumber() = 0;
+    Player(int t, int n);
 
-    virtual void setNumber(int n) = 0;
+    int getNumber();
 
-    virtual bool isInGame() = 0;
+    int getPlayerType();
 
-    virtual int ThrowDice() = 0;
+    int getPosition();
+
+    int getBalance();
+
+    bool isInGame();
+
+    int ThrowDice();
+
+    void Pay(Player &obj, int n);
+
+    bool Buy(int n);
+
+    void setBalance();
+
+    bool isBankrupt() { return bankaccount.isBankrupt(); }
+
+    void setPosition(int n) { position = n; }
 
 };
+
+std::ostream& operator<<(std::ostream& os, Player& obj);
 
 #endif //MONOPOLY_PLAYER_H

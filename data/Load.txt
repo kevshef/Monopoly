@@ -1,0 +1,3054 @@
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 8
+Giocatore 1 ha acquistato il terreno 8
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 2 è arrivato alla casella 6
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 3 è arrivato alla casella 4
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 4 è arrivato alla casella 7
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 16
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 2 è arrivato alla casella 12
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 12
+Giocatore 3 è arrivato alla casella 16
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 4 è arrivato alla casella 14
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 1 è arrivato alla casella 26
+Giocatore 1 ha acquistato il terreno 26
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 2 è arrivato alla casella 17
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 3 è arrivato alla casella 20
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 2
+Giocatore 4 è arrivato alla casella 16
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 7
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 24
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 3 è arrivato alla casella 1
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 4 è arrivato alla casella 20
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 1 è arrivato alla casella 16
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 2 è arrivato alla casella 6
+Giocatore 2 ha acquistato il terreno 6
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 8
+Giocatore 3 ha pagato 2 a giocatore 0 per pernottamento nella casella 8
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 4 è arrivato alla casella 25
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 1 è arrivato alla casella 26
+Giocatore 1 ha pagato 2 a giocatore 0 per pernottamento nella casella 26
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 2 è arrivato alla casella 16
+Giocatore 2 ha acquistato il terreno 16
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 15
+Giocatore 3 ha acquistato il terreno 15
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 4 è arrivato alla casella 3
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 1 è arrivato alla casella 5
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 2 è arrivato alla casella 26
+Giocatore 2 ha pagato 2 a giocatore 0 per pernottamento nella casella 26
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 3 è arrivato alla casella 25
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 4 è arrivato alla casella 13
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 1 è arrivato alla casella 15
+Giocatore 1 ha pagato 4 a giocatore 2 per pernottamento nella casella 15
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 2 è arrivato alla casella 7
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 3 è arrivato alla casella 2
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 4 è arrivato alla casella 24
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 1 è arrivato alla casella 25
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 2 è arrivato alla casella 11
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 3 è arrivato alla casella 7
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 4 è arrivato alla casella 7
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 1 è arrivato alla casella 2
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 2 è arrivato alla casella 21
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 3 è arrivato alla casella 15
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 15
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 4 è arrivato alla casella 16
+Giocatore 4 ha pagato 7 a giocatore 1 per pernottamento nella casella 16
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 10
+Giocatore 1 ha acquistato il terreno 10
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 1
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 3 è arrivato alla casella 18
+Giocatore 3 ha acquistato il terreno 18
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 4 è arrivato alla casella 24
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 17
+Giocatore 1 ha acquistato il terreno 17
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 2 è arrivato alla casella 12
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 3 è arrivato alla casella 2
+Giocatore 3 ha acquistato il terreno 2
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 4 è arrivato alla casella 5
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 1 è arrivato alla casella 26
+Giocatore 1 ha pagato 2 a giocatore 0 per pernottamento nella casella 26
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 2
+Giocatore 2 è arrivato alla casella 14
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 8
+Giocatore 3 ha pagato 2 a giocatore 0 per pernottamento nella casella 8
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 4 è arrivato alla casella 13
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 6
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 2 è arrivato alla casella 18
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 12
+Giocatore 3 è arrivato alla casella 20
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 4 è arrivato alla casella 20
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 13
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 2 è arrivato alla casella 24
+Giocatore 2 ha acquistato il terreno 24
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 12
+Giocatore 3 è arrivato alla casella 5
+Giocatore 3 ha acquistato il terreno 5
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 4 è arrivato alla casella 1
+Giocatore 4 ha acquistato il terreno 1
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 20
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 2 è arrivato alla casella 6
+Giocatore 2 ha pagato 2 a giocatore 1 per pernottamento nella casella 6
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 12
+Giocatore 3 ha acquistato il terreno 12
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 4 è arrivato alla casella 8
+Giocatore 4 ha pagato 2 a giocatore 0 per pernottamento nella casella 8
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 2
+Giocatore 1 è arrivato alla casella 22
+Giocatore 1 ha acquistato il terreno 22
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 13
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 3 è arrivato alla casella 21
+Giocatore 3 ha acquistato il terreno 21
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 4 è arrivato alla casella 14
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 1 è arrivato alla casella 25
+Giocatore 1 ha acquistato il terreno 25
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 2 è arrivato alla casella 16
+Giocatore 2 ha pagato 7 a giocatore 1 per pernottamento nella casella 16
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 3 è arrivato alla casella 4
+Giocatore 3 ha acquistato il terreno 4
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 4 è arrivato alla casella 18
+Giocatore 4 ha pagato 4 a giocatore 2 per pernottamento nella casella 18
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 1 è arrivato alla casella 2
+Giocatore 1 ha pagato 7 a giocatore 2 per pernottamento nella casella 2
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 2 è arrivato alla casella 22
+Giocatore 2 ha pagato 4 a giocatore 0 per pernottamento nella casella 22
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 11
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 12
+Giocatore 4 è arrivato alla casella 3
+Giocatore 4 ha acquistato il terreno 3
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 12
+Giocatore 1 è arrivato alla casella 14
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 2 è arrivato alla casella 6
+Giocatore 2 ha pagato 2 a giocatore 1 per pernottamento nella casella 6
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 3 è arrivato alla casella 20
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 4 è arrivato alla casella 7
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 1 è arrivato alla casella 18
+Giocatore 1 ha pagato 4 a giocatore 2 per pernottamento nella casella 18
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 2 è arrivato alla casella 14
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 26
+Giocatore 3 ha pagato 2 a giocatore 0 per pernottamento nella casella 26
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 4 è arrivato alla casella 13
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 25
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 25
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 2 è arrivato alla casella 24
+Giocatore 2 ha pagato 4 a giocatore 1 per pernottamento nella casella 24
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 3 è arrivato alla casella 4
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 4
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 4 è arrivato alla casella 22
+Giocatore 4 ha pagato 4 a giocatore 0 per pernottamento nella casella 22
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 1 è arrivato alla casella 8
+Giocatore 1 ha pagato 2 a giocatore 0 per pernottamento nella casella 8
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 2 è arrivato alla casella 3
+Giocatore 2 ha pagato 2 a giocatore 3 per pernottamento nella casella 3
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 3 è arrivato alla casella 13
+Giocatore 3 ha acquistato il terreno 13
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 4 è arrivato alla casella 2
+Giocatore 4 ha pagato 7 a giocatore 2 per pernottamento nella casella 2
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 1 è arrivato alla casella 11
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 2 è arrivato alla casella 9
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 3 è arrivato alla casella 17
+Giocatore 3 ha pagato 7 a giocatore 0 per pernottamento nella casella 17
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 4 è arrivato alla casella 10
+Giocatore 4 ha pagato 4 a giocatore 0 per pernottamento nella casella 10
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 1 è arrivato alla casella 22
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 22
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 2 è arrivato alla casella 13
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 3 è arrivato alla casella 22
+Giocatore 3 ha pagato 4 a giocatore 0 per pernottamento nella casella 22
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 2
+Giocatore 4 è arrivato alla casella 12
+Giocatore 4 ha pagato 7 a giocatore 2 per pernottamento nella casella 12
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 1 è arrivato alla casella 4
+Giocatore 1 ha pagato 4 a giocatore 2 per pernottamento nella casella 4
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 2 è arrivato alla casella 21
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 3 è arrivato alla casella 5
+Giocatore 3 ha pagato 7 a giocatore 2 per pernottamento nella casella 5
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 4 è arrivato alla casella 19
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 1 è arrivato alla casella 9
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 1
+Giocatore 2 ha pagato 7 a giocatore 3 per pernottamento nella casella 1
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 3 è arrivato alla casella 14
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 4 è arrivato alla casella 2
+Giocatore 4 ha pagato 7 a giocatore 2 per pernottamento nella casella 2
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 16
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 2 è arrivato alla casella 6
+Giocatore 2 ha pagato 2 a giocatore 1 per pernottamento nella casella 6
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 20
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 4 è arrivato alla casella 7
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 1 è arrivato alla casella 22
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 22
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 13
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 3 è arrivato alla casella 24
+Giocatore 3 ha pagato 4 a giocatore 1 per pernottamento nella casella 24
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 4 è arrivato alla casella 16
+Giocatore 4 ha pagato 7 a giocatore 1 per pernottamento nella casella 16
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 3
+Giocatore 1 ha pagato 2 a giocatore 3 per pernottamento nella casella 3
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 2 è arrivato alla casella 22
+Giocatore 2 ha pagato 4 a giocatore 0 per pernottamento nella casella 22
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 3 è arrivato alla casella 6
+Giocatore 3 ha pagato 2 a giocatore 1 per pernottamento nella casella 6
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 4 è arrivato alla casella 24
+Giocatore 4 ha pagato 4 a giocatore 1 per pernottamento nella casella 24
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 1 è arrivato alla casella 12
+Giocatore 1 ha pagato 7 a giocatore 2 per pernottamento nella casella 12
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 2 è arrivato alla casella 3
+Giocatore 2 ha pagato 2 a giocatore 3 per pernottamento nella casella 3
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 3 è arrivato alla casella 15
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 15
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 4 è arrivato alla casella 2
+Giocatore 4 ha pagato 7 a giocatore 2 per pernottamento nella casella 2
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 1 è arrivato alla casella 16
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 10
+Giocatore 2 ha pagato 4 a giocatore 0 per pernottamento nella casella 10
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 3 è arrivato alla casella 18
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 18
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 4 è arrivato alla casella 9
+Giocatore 4 ha acquistato il terreno 9
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 1 è arrivato alla casella 22
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 22
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 17
+Giocatore 2 ha pagato 7 a giocatore 0 per pernottamento nella casella 17
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 3 è arrivato alla casella 26
+Giocatore 3 ha pagato 2 a giocatore 0 per pernottamento nella casella 26
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 4 è arrivato alla casella 15
+Giocatore 4 ha pagato 4 a giocatore 2 per pernottamento nella casella 15
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 2
+Giocatore 1 è arrivato alla casella 24
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 2 è arrivato alla casella 20
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 3 è arrivato alla casella 2
+Giocatore 3 ha pagato 7 a giocatore 2 per pernottamento nella casella 2
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 4 è arrivato alla casella 25
+Giocatore 4 ha pagato 4 a giocatore 0 per pernottamento nella casella 25
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 4
+Giocatore 1 ha pagato 4 a giocatore 2 per pernottamento nella casella 4
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 2 è arrivato alla casella 2
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 8
+Giocatore 3 ha pagato 2 a giocatore 0 per pernottamento nella casella 8
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 4 è arrivato alla casella 5
+Giocatore 4 ha pagato 7 a giocatore 2 per pernottamento nella casella 5
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 11
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 2 è arrivato alla casella 10
+Giocatore 2 ha pagato 4 a giocatore 0 per pernottamento nella casella 10
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 3 è arrivato alla casella 12
+Giocatore 3 ha pagato 7 a giocatore 2 per pernottamento nella casella 12
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 4 è arrivato alla casella 14
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 1 è arrivato alla casella 21
+Giocatore 1 ha pagato 2 a giocatore 2 per pernottamento nella casella 21
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 2 è arrivato alla casella 14
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 19
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 4 è arrivato alla casella 24
+Giocatore 4 ha pagato 4 a giocatore 1 per pernottamento nella casella 24
+Giocatore 4 è stato eliminato
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 1 è arrivato alla casella 3
+Giocatore 1 ha pagato 2 a giocatore 3 per pernottamento nella casella 3
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 2 è arrivato alla casella 23
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 3 è arrivato alla casella 22
+Giocatore 3 ha pagato 4 a giocatore 0 per pernottamento nella casella 22
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 4 è arrivato alla casella 1
+Giocatore 4 ha pagato 7 a giocatore 3 per pernottamento nella casella 1
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 1 è arrivato alla casella 6
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 2 è arrivato alla casella 6
+Giocatore 2 ha pagato 2 a giocatore 1 per pernottamento nella casella 6
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 3 è arrivato alla casella 3
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 4 è arrivato alla casella 9
+Giocatore 4 ha pagato 4 a giocatore 3 per pernottamento nella casella 9
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 1 è arrivato alla casella 16
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 2 è arrivato alla casella 17
+Giocatore 2 ha pagato 7 a giocatore 0 per pernottamento nella casella 17
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 3 è arrivato alla casella 12
+Giocatore 3 ha pagato 7 a giocatore 2 per pernottamento nella casella 12
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 4 è arrivato alla casella 17
+Giocatore 4 ha pagato 7 a giocatore 0 per pernottamento nella casella 17
+Giocatore 4 è stato eliminato
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 24
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 2 è arrivato alla casella 25
+Giocatore 2 ha pagato 4 a giocatore 0 per pernottamento nella casella 25
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 3 è arrivato alla casella 16
+Giocatore 3 ha pagato 7 a giocatore 1 per pernottamento nella casella 16
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 4
+Giocatore 1 ha pagato 4 a giocatore 2 per pernottamento nella casella 4
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 2 è arrivato alla casella 4
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 23
+Giocatore 3 ha acquistato il terreno 23
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 11
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 11
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 3 è arrivato alla casella 26
+Giocatore 3 ha pagato 2 a giocatore 0 per pernottamento nella casella 26
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 19
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 2 è arrivato alla casella 16
+Giocatore 2 ha pagato 7 a giocatore 1 per pernottamento nella casella 16
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 3 è arrivato alla casella 8
+Giocatore 3 ha pagato 2 a giocatore 0 per pernottamento nella casella 8
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 1 è arrivato alla casella 1
+Giocatore 1 ha pagato 7 a giocatore 3 per pernottamento nella casella 1
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 2 è arrivato alla casella 25
+Giocatore 2 ha pagato 4 a giocatore 0 per pernottamento nella casella 25
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 3 è arrivato alla casella 16
+Giocatore 3 ha pagato 7 a giocatore 1 per pernottamento nella casella 16
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 4 è arrivato alla casella 25
+Giocatore 4 ha pagato 4 a giocatore 0 per pernottamento nella casella 25
+Giocatore 4 è stato eliminato
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 8
+Giocatore 1 ha pagato 2 a giocatore 0 per pernottamento nella casella 8
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 2 è arrivato alla casella 4
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 23
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 23
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 1 è arrivato alla casella 17
+Giocatore 1 ha pagato 7 a giocatore 0 per pernottamento nella casella 17
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 2 è arrivato alla casella 13
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 3 è arrivato alla casella 6
+Giocatore 3 ha pagato 2 a giocatore 1 per pernottamento nella casella 6
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 24
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 20
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 13
+Giocatore 3 ha pagato 2 a giocatore 2 per pernottamento nella casella 13
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 4
+Giocatore 1 ha pagato 4 a giocatore 2 per pernottamento nella casella 4
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 27
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 3 è arrivato alla casella 23
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 23
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 1 è arrivato alla casella 13
+Giocatore 1 ha pagato 2 a giocatore 2 per pernottamento nella casella 13
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 2 è arrivato alla casella 8
+Giocatore 2 ha pagato 2 a giocatore 0 per pernottamento nella casella 8
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 3 è arrivato alla casella 5
+Giocatore 3 ha pagato 7 a giocatore 2 per pernottamento nella casella 5
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 20
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 2 è arrivato alla casella 17
+Giocatore 2 ha pagato 7 a giocatore 0 per pernottamento nella casella 17
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 12
+Giocatore 3 ha pagato 7 a giocatore 2 per pernottamento nella casella 12
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 1 è arrivato alla casella 26
+Giocatore 1 ha pagato 2 a giocatore 0 per pernottamento nella casella 26
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 2 è arrivato alla casella 23
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 19
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 7
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 2 è arrivato alla casella 27
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 3 è arrivato alla casella 24
+Giocatore 3 ha pagato 4 a giocatore 1 per pernottamento nella casella 24
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 1 è arrivato alla casella 16
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 2 è arrivato alla casella 3
+Giocatore 2 ha pagato 2 a giocatore 3 per pernottamento nella casella 3
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 3 è arrivato alla casella 6
+Giocatore 3 ha pagato 2 a giocatore 1 per pernottamento nella casella 6
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 1 è arrivato alla casella 22
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 22
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 10
+Giocatore 2 ha pagato 4 a giocatore 0 per pernottamento nella casella 10
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 3 è arrivato alla casella 16
+Giocatore 3 ha pagato 7 a giocatore 1 per pernottamento nella casella 16
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 2
+Giocatore 1 ha pagato 7 a giocatore 2 per pernottamento nella casella 2
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 17
+Giocatore 2 ha pagato 7 a giocatore 0 per pernottamento nella casella 17
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 22
+Giocatore 3 ha pagato 4 a giocatore 0 per pernottamento nella casella 22
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 1 è arrivato alla casella 11
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 2 è arrivato alla casella 23
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 2
+Giocatore 3 ha pagato 7 a giocatore 2 per pernottamento nella casella 2
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 1 è arrivato alla casella 17
+Giocatore 1 ha pagato 7 a giocatore 0 per pernottamento nella casella 17
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 2 è arrivato alla casella 2
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 3 è arrivato alla casella 6
+Giocatore 3 ha pagato 2 a giocatore 1 per pernottamento nella casella 6
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 24
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 2 è arrivato alla casella 8
+Giocatore 2 ha pagato 2 a giocatore 0 per pernottamento nella casella 8
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 12
+Giocatore 3 ha pagato 7 a giocatore 2 per pernottamento nella casella 12
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 2
+Giocatore 1 è arrivato alla casella 26
+Giocatore 1 ha pagato 2 a giocatore 0 per pernottamento nella casella 26
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 2 è arrivato alla casella 13
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 12
+Giocatore 3 è arrivato alla casella 24
+Giocatore 3 ha pagato 4 a giocatore 1 per pernottamento nella casella 24
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 1 è arrivato alla casella 4
+Giocatore 1 ha pagato 4 a giocatore 2 per pernottamento nella casella 4
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 2 è arrivato alla casella 23
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 3
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 1 è arrivato alla casella 13
+Giocatore 1 ha pagato 2 a giocatore 2 per pernottamento nella casella 13
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 2 è arrivato alla casella 5
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 3 è arrivato alla casella 13
+Giocatore 3 ha pagato 2 a giocatore 2 per pernottamento nella casella 13
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 1 è arrivato alla casella 19
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 2 è arrivato alla casella 16
+Giocatore 2 ha pagato 7 a giocatore 1 per pernottamento nella casella 16
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 3 è arrivato alla casella 17
+Giocatore 3 ha pagato 7 a giocatore 0 per pernottamento nella casella 17
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 1 è arrivato alla casella 25
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 25
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 2 è arrivato alla casella 25
+Giocatore 2 ha pagato 4 a giocatore 0 per pernottamento nella casella 25
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 3 è arrivato alla casella 25
+Giocatore 3 ha pagato 4 a giocatore 0 per pernottamento nella casella 25
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 1 è arrivato alla casella 9
+Giocatore 1 ha pagato 4 a giocatore 3 per pernottamento nella casella 9
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 2 è arrivato alla casella 7
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 2
+Giocatore 3 è arrivato alla casella 27
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 4 è arrivato alla casella 6
+Giocatore 4 ha pagato 2 a giocatore 1 per pernottamento nella casella 6
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 1 è arrivato alla casella 12
+Giocatore 1 ha pagato 7 a giocatore 2 per pernottamento nella casella 12
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 2 è arrivato alla casella 13
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 7
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 4 è arrivato alla casella 16
+Giocatore 4 ha pagato 7 a giocatore 1 per pernottamento nella casella 16
+Giocatore 4 è stato eliminato
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 20
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 20
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 14
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 1
+Giocatore 1 ha pagato 7 a giocatore 3 per pernottamento nella casella 1
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 2 è arrivato alla casella 1
+Giocatore 2 ha pagato 7 a giocatore 3 per pernottamento nella casella 1
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 3 è arrivato alla casella 17
+Giocatore 3 ha pagato 7 a giocatore 0 per pernottamento nella casella 17
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 4 è arrivato alla casella 20
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 1 è arrivato alla casella 6
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 2 è arrivato alla casella 11
+Giocatore 2 ha acquistato il terreno 11
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 12
+Giocatore 3 è arrivato alla casella 2
+Giocatore 3 ha pagato 7 a giocatore 2 per pernottamento nella casella 2
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 4 è arrivato alla casella 2
+Giocatore 4 ha pagato 7 a giocatore 2 per pernottamento nella casella 2
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 1 è arrivato alla casella 17
+Giocatore 1 ha pagato 7 a giocatore 0 per pernottamento nella casella 17
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 18
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 9
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 4 è arrivato alla casella 11
+Giocatore 4 ha pagato 4 a giocatore 1 per pernottamento nella casella 11
+Giocatore 4 è stato eliminato
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 1 è arrivato alla casella 1
+Giocatore 1 ha pagato 7 a giocatore 3 per pernottamento nella casella 1
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 12
+Giocatore 2 è arrivato alla casella 3
+Giocatore 2 ha pagato 2 a giocatore 3 per pernottamento nella casella 3
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 3 è arrivato alla casella 12
+Giocatore 3 ha pagato 7 a giocatore 2 per pernottamento nella casella 12
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 4 è arrivato alla casella 18
+Giocatore 4 ha pagato 4 a giocatore 2 per pernottamento nella casella 18
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 9
+Giocatore 1 ha pagato 4 a giocatore 3 per pernottamento nella casella 9
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 10
+Giocatore 2 ha pagato 4 a giocatore 0 per pernottamento nella casella 10
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 3 è arrivato alla casella 22
+Giocatore 3 ha pagato 4 a giocatore 0 per pernottamento nella casella 22
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 4 è arrivato alla casella 25
+Giocatore 4 ha pagato 4 a giocatore 0 per pernottamento nella casella 25
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 1 è arrivato alla casella 15
+Giocatore 1 ha pagato 4 a giocatore 2 per pernottamento nella casella 15
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 2
+Giocatore 2 è arrivato alla casella 12
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 3 è arrivato alla casella 3
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 4 è arrivato alla casella 3
+Giocatore 4 ha pagato 2 a giocatore 3 per pernottamento nella casella 3
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 1 è arrivato alla casella 24
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 2 è arrivato alla casella 22
+Giocatore 2 ha pagato 4 a giocatore 0 per pernottamento nella casella 22
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 3 è arrivato alla casella 8
+Giocatore 3 ha pagato 2 a giocatore 0 per pernottamento nella casella 8
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 4 è arrivato alla casella 11
+Giocatore 4 ha pagato 4 a giocatore 1 per pernottamento nella casella 11
+Giocatore 4 è stato eliminato
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 5
+Giocatore 1 ha pagato 7 a giocatore 2 per pernottamento nella casella 5
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 2
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 3 è arrivato alla casella 11
+Giocatore 3 ha pagato 4 a giocatore 1 per pernottamento nella casella 11
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 1 è arrivato alla casella 10
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 10
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 9
+Giocatore 2 ha pagato 4 a giocatore 3 per pernottamento nella casella 9
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 3 è arrivato alla casella 21
+Giocatore 3 ha pagato 2 a giocatore 2 per pernottamento nella casella 21
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 4 è arrivato alla casella 18
+Giocatore 4 ha pagato 4 a giocatore 2 per pernottamento nella casella 18
+Giocatore 4 è stato eliminato
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 1 è arrivato alla casella 21
+Giocatore 1 ha pagato 2 a giocatore 2 per pernottamento nella casella 21
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 2 è arrivato alla casella 18
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 3 è arrivato alla casella 3
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 1
+Giocatore 1 ha pagato 7 a giocatore 3 per pernottamento nella casella 1
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 2 è arrivato alla casella 2
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 3 è arrivato alla casella 13
+Giocatore 3 ha pagato 2 a giocatore 2 per pernottamento nella casella 13
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 4 è arrivato alla casella 2
+Giocatore 4 ha pagato 7 a giocatore 2 per pernottamento nella casella 2
+Giocatore 4 è stato eliminato
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 8
+Giocatore 1 ha pagato 2 a giocatore 0 per pernottamento nella casella 8
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 9
+Giocatore 2 ha pagato 4 a giocatore 3 per pernottamento nella casella 9
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 3 è arrivato alla casella 17
+Giocatore 3 ha pagato 7 a giocatore 0 per pernottamento nella casella 17
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 4 è arrivato alla casella 11
+Giocatore 4 ha pagato 4 a giocatore 1 per pernottamento nella casella 11
+Giocatore 4 è stato eliminato
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 1 è arrivato alla casella 18
+Giocatore 1 ha pagato 4 a giocatore 2 per pernottamento nella casella 18
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 16
+Giocatore 2 ha pagato 7 a giocatore 1 per pernottamento nella casella 16
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 3 è arrivato alla casella 20
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 25
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 25
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 2 è arrivato alla casella 26
+Giocatore 2 ha pagato 2 a giocatore 0 per pernottamento nella casella 26
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 26
+Giocatore 3 ha pagato 2 a giocatore 0 per pernottamento nella casella 26
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 1 è arrivato alla casella 1
+Giocatore 1 ha pagato 7 a giocatore 3 per pernottamento nella casella 1
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 2 è arrivato alla casella 9
+Giocatore 2 ha pagato 4 a giocatore 3 per pernottamento nella casella 9
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 6
+Giocatore 3 ha pagato 2 a giocatore 1 per pernottamento nella casella 6
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 4 è arrivato alla casella 17
+Giocatore 4 ha pagato 7 a giocatore 0 per pernottamento nella casella 17
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 1 è arrivato alla casella 4
+Giocatore 1 ha pagato 4 a giocatore 2 per pernottamento nella casella 4
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 2 è arrivato alla casella 12
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 3 è arrivato alla casella 17
+Giocatore 3 ha pagato 7 a giocatore 0 per pernottamento nella casella 17
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 4 è arrivato alla casella 23
+Giocatore 4 ha pagato 4 a giocatore 2 per pernottamento nella casella 23
+Giocatore 4 è stato eliminato
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 1 è arrivato alla casella 9
+Giocatore 1 ha pagato 4 a giocatore 3 per pernottamento nella casella 9
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 2 è arrivato alla casella 21
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 3 è arrivato alla casella 25
+Giocatore 3 ha pagato 4 a giocatore 0 per pernottamento nella casella 25
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 4 è arrivato alla casella 6
+Giocatore 4 ha pagato 2 a giocatore 1 per pernottamento nella casella 6
+Giocatore 4 è stato eliminato
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 1 è arrivato alla casella 15
+Giocatore 1 ha pagato 4 a giocatore 2 per pernottamento nella casella 15
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 2 è arrivato alla casella 4
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 3 è arrivato alla casella 3
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 22
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 22
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 2
+Giocatore 2 è arrivato alla casella 6
+Giocatore 2 ha pagato 2 a giocatore 1 per pernottamento nella casella 6
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 3 è arrivato alla casella 12
+Giocatore 3 ha pagato 7 a giocatore 2 per pernottamento nella casella 12
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 1 è arrivato alla casella 26
+Giocatore 1 ha pagato 2 a giocatore 0 per pernottamento nella casella 26
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 2 è arrivato alla casella 12
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 3 è arrivato alla casella 16
+Giocatore 3 ha pagato 7 a giocatore 1 per pernottamento nella casella 16
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 6
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 2 è arrivato alla casella 21
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 3 è arrivato alla casella 19
+Giocatore 3 ha acquistato il terreno 19
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 14
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 2 è arrivato alla casella 3
+Giocatore 2 ha pagato 2 a giocatore 3 per pernottamento nella casella 3
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 3 è arrivato alla casella 1
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 4 è arrivato alla casella 15
+Giocatore 4 ha pagato 4 a giocatore 2 per pernottamento nella casella 15
+Giocatore 4 è stato eliminato
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 1 è arrivato alla casella 17
+Giocatore 1 ha pagato 7 a giocatore 0 per pernottamento nella casella 17
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 2 è arrivato alla casella 8
+Giocatore 2 ha pagato 2 a giocatore 0 per pernottamento nella casella 8
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 3 è arrivato alla casella 11
+Giocatore 3 ha pagato 4 a giocatore 1 per pernottamento nella casella 11
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 1 è arrivato alla casella 22
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 22
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 2 è arrivato alla casella 19
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 3 è arrivato alla casella 20
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 2
+Giocatore 1 ha pagato 7 a giocatore 2 per pernottamento nella casella 2
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 2 è arrivato alla casella 2
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 3 è arrivato alla casella 2
+Giocatore 3 ha pagato 7 a giocatore 2 per pernottamento nella casella 2
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 12
+Giocatore 1 è arrivato alla casella 14
+Giocatore 1 ha acquistato il terreno 14
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 9
+Giocatore 2 ha pagato 4 a giocatore 3 per pernottamento nella casella 9
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 2
+Giocatore 3 è arrivato alla casella 4
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 4
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 4 è arrivato alla casella 21
+Giocatore 4 ha pagato 2 a giocatore 2 per pernottamento nella casella 21
+Giocatore 4 è stato eliminato
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 1 è arrivato alla casella 24
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 16
+Giocatore 2 ha pagato 7 a giocatore 1 per pernottamento nella casella 16
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 3 è arrivato alla casella 13
+Giocatore 3 ha pagato 2 a giocatore 2 per pernottamento nella casella 13
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 1 è arrivato alla casella 7
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 23
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 3 è arrivato alla casella 16
+Giocatore 3 ha pagato 7 a giocatore 1 per pernottamento nella casella 16
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 15
+Giocatore 1 ha pagato 4 a giocatore 2 per pernottamento nella casella 15
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 3
+Giocatore 2 ha pagato 2 a giocatore 3 per pernottamento nella casella 3
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 22
+Giocatore 3 ha pagato 4 a giocatore 0 per pernottamento nella casella 22
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 4 è arrivato alla casella 1
+Giocatore 4 ha pagato 7 a giocatore 3 per pernottamento nella casella 1
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 1 è arrivato alla casella 25
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 25
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 2 è arrivato alla casella 9
+Giocatore 2 ha pagato 4 a giocatore 3 per pernottamento nella casella 9
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 3 è arrivato alla casella 4
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 4
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 4 è arrivato alla casella 11
+Giocatore 4 ha pagato 4 a giocatore 1 per pernottamento nella casella 11
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 5
+Giocatore 1 ha pagato 7 a giocatore 2 per pernottamento nella casella 5
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 2 è arrivato alla casella 19
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 3 è arrivato alla casella 14
+Giocatore 3 ha pagato 2 a giocatore 0 per pernottamento nella casella 14
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 4 è arrivato alla casella 19
+Giocatore 4 ha pagato 2 a giocatore 2 per pernottamento nella casella 19
+Giocatore 4 è stato eliminato
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 1 è arrivato alla casella 9
+Giocatore 1 ha pagato 4 a giocatore 3 per pernottamento nella casella 9
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 2 è arrivato alla casella 24
+Giocatore 2 ha pagato 4 a giocatore 1 per pernottamento nella casella 24
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 3 è arrivato alla casella 23
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 23
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 12
+Giocatore 4 è arrivato alla casella 4
+Giocatore 4 ha pagato 4 a giocatore 2 per pernottamento nella casella 4
+Giocatore 4 è stato eliminato
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 2
+Giocatore 1 è arrivato alla casella 11
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 2 è arrivato alla casella 2
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 12
+Giocatore 3 è arrivato alla casella 8
+Giocatore 3 ha pagato 2 a giocatore 0 per pernottamento nella casella 8
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 1 è arrivato alla casella 21
+Giocatore 1 ha pagato 2 a giocatore 2 per pernottamento nella casella 21
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 2 è arrivato alla casella 10
+Giocatore 2 ha pagato 4 a giocatore 0 per pernottamento nella casella 10
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 3 è arrivato alla casella 18
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 18
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 2
+Giocatore 1 ha pagato 7 a giocatore 2 per pernottamento nella casella 2
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 2 è arrivato alla casella 21
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 2
+Giocatore 3 è arrivato alla casella 20
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 1 è arrivato alla casella 11
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 2 è arrivato alla casella 5
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 26
+Giocatore 3 ha pagato 2 a giocatore 0 per pernottamento nella casella 26
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 1 è arrivato alla casella 21
+Giocatore 1 ha pagato 2 a giocatore 2 per pernottamento nella casella 21
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 2 è arrivato alla casella 11
+Giocatore 2 ha pagato 4 a giocatore 1 per pernottamento nella casella 11
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 5
+Giocatore 3 ha pagato 7 a giocatore 2 per pernottamento nella casella 5
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 1 è arrivato alla casella 24
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 2 è arrivato alla casella 19
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 3 è arrivato alla casella 14
+Giocatore 3 ha pagato 2 a giocatore 0 per pernottamento nella casella 14
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 4
+Giocatore 1 ha pagato 4 a giocatore 2 per pernottamento nella casella 4
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 26
+Giocatore 2 ha pagato 2 a giocatore 0 per pernottamento nella casella 26
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 20
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 11
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 2 è arrivato alla casella 7
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 26
+Giocatore 3 ha pagato 2 a giocatore 0 per pernottamento nella casella 26
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 1 è arrivato alla casella 17
+Giocatore 1 ha pagato 7 a giocatore 0 per pernottamento nella casella 17
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 2 è arrivato alla casella 16
+Giocatore 2 ha pagato 7 a giocatore 1 per pernottamento nella casella 16
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 3 è arrivato alla casella 4
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 4
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 25
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 25
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 2 è arrivato alla casella 20
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 3 è arrivato alla casella 13
+Giocatore 3 ha pagato 2 a giocatore 2 per pernottamento nella casella 13
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 5
+Giocatore 1 ha pagato 7 a giocatore 2 per pernottamento nella casella 5
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 2 è arrivato alla casella 1
+Giocatore 2 ha pagato 7 a giocatore 3 per pernottamento nella casella 1
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 3 è arrivato alla casella 18
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 18
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 4 è arrivato alla casella 11
+Giocatore 4 ha pagato 4 a giocatore 1 per pernottamento nella casella 11
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 1 è arrivato alla casella 10
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 10
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 8
+Giocatore 2 ha pagato 2 a giocatore 0 per pernottamento nella casella 8
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 3 è arrivato alla casella 1
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 12
+Giocatore 4 è arrivato alla casella 23
+Giocatore 4 ha pagato 4 a giocatore 2 per pernottamento nella casella 23
+Giocatore 4 è stato eliminato
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 18
+Giocatore 1 ha pagato 4 a giocatore 2 per pernottamento nella casella 18
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 2 è arrivato alla casella 18
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 3 è arrivato alla casella 6
+Giocatore 3 ha pagato 2 a giocatore 1 per pernottamento nella casella 6
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 25
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 25
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 12
+Giocatore 2 è arrivato alla casella 3
+Giocatore 2 ha pagato 2 a giocatore 3 per pernottamento nella casella 3
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 3 è arrivato alla casella 10
+Giocatore 3 ha pagato 4 a giocatore 0 per pernottamento nella casella 10
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 4 è arrivato alla casella 5
+Giocatore 4 ha pagato 7 a giocatore 2 per pernottamento nella casella 5
+Giocatore 4 è stato eliminato
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 1 è arrivato alla casella 9
+Giocatore 1 ha pagato 4 a giocatore 3 per pernottamento nella casella 9
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 2 è arrivato alla casella 12
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 17
+Giocatore 3 ha pagato 7 a giocatore 0 per pernottamento nella casella 17
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 1 è arrivato alla casella 13
+Giocatore 1 ha pagato 2 a giocatore 2 per pernottamento nella casella 13
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 2 è arrivato alla casella 15
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 3 è arrivato alla casella 25
+Giocatore 3 ha pagato 4 a giocatore 0 per pernottamento nella casella 25
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 1 è arrivato alla casella 18
+Giocatore 1 ha pagato 4 a giocatore 2 per pernottamento nella casella 18
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 22
+Giocatore 2 ha pagato 4 a giocatore 0 per pernottamento nella casella 22
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 3 è arrivato alla casella 8
+Giocatore 3 ha pagato 2 a giocatore 0 per pernottamento nella casella 8
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 25
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 25
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 2 è arrivato alla casella 5
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 3 è arrivato alla casella 19
+Giocatore 3 ha pagato 2 a giocatore 2 per pernottamento nella casella 19
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 1 è arrivato alla casella 3
+Giocatore 1 ha pagato 2 a giocatore 3 per pernottamento nella casella 3
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 2 è arrivato alla casella 8
+Giocatore 2 ha pagato 2 a giocatore 0 per pernottamento nella casella 8
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 3 è arrivato alla casella 2
+Giocatore 3 ha pagato 7 a giocatore 2 per pernottamento nella casella 2
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 1 è arrivato alla casella 7
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 2 è arrivato alla casella 16
+Giocatore 2 ha pagato 7 a giocatore 1 per pernottamento nella casella 16
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 3 è arrivato alla casella 7
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 14
+Giocatore 1 ha pagato 2 a giocatore 0 per pernottamento nella casella 14
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 23
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 3 è arrivato alla casella 17
+Giocatore 3 ha pagato 7 a giocatore 0 per pernottamento nella casella 17
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 1 è arrivato alla casella 20
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 3
+Giocatore 2 ha pagato 2 a giocatore 3 per pernottamento nella casella 3
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 3 è arrivato alla casella 20
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 4 è arrivato alla casella 15
+Giocatore 4 ha pagato 4 a giocatore 2 per pernottamento nella casella 15
+Giocatore 4 è stato eliminato
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 1
+Giocatore 1 ha pagato 7 a giocatore 3 per pernottamento nella casella 1
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 2 è arrivato alla casella 12
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 3 è arrivato alla casella 1
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 4 è arrivato alla casella 25
+Giocatore 4 ha pagato 4 a giocatore 0 per pernottamento nella casella 25
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 1 è arrivato alla casella 11
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 2 è arrivato alla casella 21
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 3 è arrivato alla casella 10
+Giocatore 3 ha pagato 4 a giocatore 0 per pernottamento nella casella 10
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 4 è arrivato alla casella 3
+Giocatore 4 ha pagato 2 a giocatore 3 per pernottamento nella casella 3
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 1 è arrivato alla casella 17
+Giocatore 1 ha pagato 7 a giocatore 0 per pernottamento nella casella 17
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 2 è arrivato alla casella 3
+Giocatore 2 ha pagato 2 a giocatore 3 per pernottamento nella casella 3
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 16
+Giocatore 3 ha pagato 7 a giocatore 1 per pernottamento nella casella 16
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 4 è arrivato alla casella 13
+Giocatore 4 ha pagato 2 a giocatore 2 per pernottamento nella casella 13
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 25
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 25
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 2 è arrivato alla casella 13
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 23
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 23
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 4 è arrivato alla casella 19
+Giocatore 4 ha pagato 2 a giocatore 2 per pernottamento nella casella 19
+Giocatore 4 è stato eliminato
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 1 è arrivato alla casella 1
+Giocatore 1 ha pagato 7 a giocatore 3 per pernottamento nella casella 1
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 2 è arrivato alla casella 18
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 2
+Giocatore 3 ha pagato 7 a giocatore 2 per pernottamento nella casella 2
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 2
+Giocatore 4 è arrivato alla casella 21
+Giocatore 4 ha pagato 2 a giocatore 2 per pernottamento nella casella 21
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 1 è arrivato alla casella 6
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 2 è arrivato alla casella 26
+Giocatore 2 ha pagato 2 a giocatore 0 per pernottamento nella casella 26
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 3 è arrivato alla casella 7
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 4 è arrivato alla casella 24
+Giocatore 4 ha pagato 4 a giocatore 1 per pernottamento nella casella 24
+Giocatore 4 è stato eliminato
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 13
+Giocatore 1 ha pagato 2 a giocatore 2 per pernottamento nella casella 13
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 6
+Giocatore 2 ha pagato 2 a giocatore 1 per pernottamento nella casella 6
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 3 è arrivato alla casella 15
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 15
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 20
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 2 è arrivato alla casella 10
+Giocatore 2 ha pagato 4 a giocatore 0 per pernottamento nella casella 10
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 3 è arrivato alla casella 19
+Giocatore 3 ha pagato 2 a giocatore 2 per pernottamento nella casella 19
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 27
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 17
+Giocatore 2 ha pagato 7 a giocatore 0 per pernottamento nella casella 17
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 25
+Giocatore 3 ha pagato 4 a giocatore 0 per pernottamento nella casella 25
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 1 è arrivato alla casella 9
+Giocatore 1 ha pagato 4 a giocatore 3 per pernottamento nella casella 9
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 24
+Giocatore 2 ha pagato 4 a giocatore 1 per pernottamento nella casella 24
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 3 è arrivato alla casella 6
+Giocatore 3 ha pagato 2 a giocatore 1 per pernottamento nella casella 6
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 4 è arrivato alla casella 1
+Giocatore 4 ha pagato 7 a giocatore 3 per pernottamento nella casella 1
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 1 è arrivato alla casella 14
+Giocatore 1 ha pagato 2 a giocatore 0 per pernottamento nella casella 14
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 4
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 3 è arrivato alla casella 14
+Giocatore 3 ha pagato 2 a giocatore 0 per pernottamento nella casella 14
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 4 è arrivato alla casella 5
+Giocatore 4 ha pagato 7 a giocatore 2 per pernottamento nella casella 5
+Giocatore 4 è stato eliminato
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 1 è arrivato alla casella 23
+Giocatore 1 ha pagato 4 a giocatore 2 per pernottamento nella casella 23
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 2 è arrivato alla casella 9
+Giocatore 2 ha pagato 4 a giocatore 3 per pernottamento nella casella 9
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 21
+Giocatore 3 ha pagato 2 a giocatore 2 per pernottamento nella casella 21
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 4 è arrivato alla casella 12
+Giocatore 4 ha pagato 7 a giocatore 2 per pernottamento nella casella 12
+Giocatore 4 è stato eliminato
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 3
+Giocatore 1 ha pagato 2 a giocatore 3 per pernottamento nella casella 3
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 2 è arrivato alla casella 17
+Giocatore 2 ha pagato 7 a giocatore 0 per pernottamento nella casella 17
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 3 è arrivato alla casella 3
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 10
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 10
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 2 è arrivato alla casella 20
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 9
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 18
+Giocatore 1 ha pagato 4 a giocatore 2 per pernottamento nella casella 18
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 2 è arrivato alla casella 23
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 3 è arrivato alla casella 18
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 18
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 26
+Giocatore 1 ha pagato 2 a giocatore 0 per pernottamento nella casella 26
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 2 è arrivato alla casella 2
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 3 è arrivato alla casella 27
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 7
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 2 è arrivato alla casella 10
+Giocatore 2 ha pagato 4 a giocatore 0 per pernottamento nella casella 10
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 3 è arrivato alla casella 3
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 15
+Giocatore 1 ha pagato 4 a giocatore 2 per pernottamento nella casella 15
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 2 è arrivato alla casella 19
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 3 è arrivato alla casella 11
+Giocatore 3 ha pagato 4 a giocatore 1 per pernottamento nella casella 11
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 1 è arrivato alla casella 20
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 2 è arrivato alla casella 27
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 3 è arrivato alla casella 19
+Giocatore 3 ha pagato 2 a giocatore 2 per pernottamento nella casella 19
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 1
+Giocatore 1 ha pagato 7 a giocatore 3 per pernottamento nella casella 1
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 2 è arrivato alla casella 9
+Giocatore 2 ha pagato 4 a giocatore 3 per pernottamento nella casella 9
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 3 è arrivato alla casella 1
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 4 è arrivato alla casella 20
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 1 è arrivato alla casella 10
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 10
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 16
+Giocatore 2 ha pagato 7 a giocatore 1 per pernottamento nella casella 16
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 7
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 4 è arrivato alla casella 1
+Giocatore 4 ha pagato 7 a giocatore 3 per pernottamento nella casella 1
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 17
+Giocatore 1 ha pagato 7 a giocatore 0 per pernottamento nella casella 17
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 2 è arrivato alla casella 27
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 3 è arrivato alla casella 10
+Giocatore 3 ha pagato 4 a giocatore 0 per pernottamento nella casella 10
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 4 è arrivato alla casella 5
+Giocatore 4 ha pagato 7 a giocatore 2 per pernottamento nella casella 5
+Giocatore 4 è stato eliminato
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 1 è arrivato alla casella 23
+Giocatore 1 ha pagato 4 a giocatore 2 per pernottamento nella casella 23
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 2 è arrivato alla casella 3
+Giocatore 2 ha pagato 2 a giocatore 3 per pernottamento nella casella 3
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 3 è arrivato alla casella 15
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 15
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 4 è arrivato alla casella 11
+Giocatore 4 ha pagato 4 a giocatore 1 per pernottamento nella casella 11
+Giocatore 4 è stato eliminato
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 4
+Giocatore 1 ha pagato 4 a giocatore 2 per pernottamento nella casella 4
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 2 è arrivato alla casella 7
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 3 è arrivato alla casella 18
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 18
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 12
+Giocatore 1 ha pagato 7 a giocatore 2 per pernottamento nella casella 12
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 2 è arrivato alla casella 15
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 3 è arrivato alla casella 27
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 19
+Giocatore 1 ha pagato 2 a giocatore 2 per pernottamento nella casella 19
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 2 è arrivato alla casella 24
+Giocatore 2 ha pagato 4 a giocatore 1 per pernottamento nella casella 24
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 3 è arrivato alla casella 5
+Giocatore 3 ha pagato 7 a giocatore 2 per pernottamento nella casella 5
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 27
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 2 è arrivato alla casella 6
+Giocatore 2 ha pagato 2 a giocatore 1 per pernottamento nella casella 6
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 3 è arrivato alla casella 9
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 1 è arrivato alla casella 10
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 10
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 2 è arrivato alla casella 10
+Giocatore 2 ha pagato 4 a giocatore 0 per pernottamento nella casella 10
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 16
+Giocatore 3 ha pagato 7 a giocatore 1 per pernottamento nella casella 16
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 1 è arrivato alla casella 19
+Giocatore 1 ha pagato 2 a giocatore 2 per pernottamento nella casella 19
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 17
+Giocatore 2 ha pagato 7 a giocatore 0 per pernottamento nella casella 17
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 3 è arrivato alla casella 24
+Giocatore 3 ha pagato 4 a giocatore 1 per pernottamento nella casella 24
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 1 è arrivato alla casella 1
+Giocatore 1 ha pagato 7 a giocatore 3 per pernottamento nella casella 1
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 24
+Giocatore 2 ha pagato 4 a giocatore 1 per pernottamento nella casella 24
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 3 è arrivato alla casella 1
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 4 è arrivato alla casella 19
+Giocatore 4 ha pagato 2 a giocatore 2 per pernottamento nella casella 19
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 8
+Giocatore 1 ha pagato 2 a giocatore 0 per pernottamento nella casella 8
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 2 è arrivato alla casella 6
+Giocatore 2 ha pagato 2 a giocatore 1 per pernottamento nella casella 6
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 3 è arrivato alla casella 5
+Giocatore 3 ha pagato 7 a giocatore 2 per pernottamento nella casella 5
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 4 è arrivato alla casella 27
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 1 è arrivato alla casella 13
+Giocatore 1 ha pagato 2 a giocatore 2 per pernottamento nella casella 13
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 2 è arrivato alla casella 17
+Giocatore 2 ha pagato 7 a giocatore 0 per pernottamento nella casella 17
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 12
+Giocatore 3 ha pagato 7 a giocatore 2 per pernottamento nella casella 12
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 4 è arrivato alla casella 8
+Giocatore 4 ha pagato 2 a giocatore 0 per pernottamento nella casella 8
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 21
+Giocatore 1 ha pagato 2 a giocatore 2 per pernottamento nella casella 21
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 2 è arrivato alla casella 1
+Giocatore 2 ha pagato 7 a giocatore 3 per pernottamento nella casella 1
+Giocatore 2 è stato eliminato
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 3 è arrivato alla casella 21
+Giocatore 3 ha pagato 2 a giocatore 2 per pernottamento nella casella 21
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 4 è arrivato alla casella 14
+Giocatore 4 ha pagato 2 a giocatore 0 per pernottamento nella casella 14
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 2
+Giocatore 1 ha pagato 7 a giocatore 2 per pernottamento nella casella 2
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 3 è arrivato alla casella 4
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 4
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 4 è arrivato alla casella 24
+Giocatore 4 ha pagato 4 a giocatore 1 per pernottamento nella casella 24
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 9
+Giocatore 1 ha pagato 4 a giocatore 3 per pernottamento nella casella 9
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 2 è arrivato alla casella 10
+Giocatore 2 ha pagato 4 a giocatore 0 per pernottamento nella casella 10
+Giocatore 2 è stato eliminato
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 3 è arrivato alla casella 8
+Giocatore 3 ha pagato 2 a giocatore 0 per pernottamento nella casella 8
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 4 è arrivato alla casella 3
+Giocatore 4 ha pagato 2 a giocatore 3 per pernottamento nella casella 3
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 16
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 3 è arrivato alla casella 16
+Giocatore 3 ha pagato 7 a giocatore 1 per pernottamento nella casella 16
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 4 è arrivato alla casella 10
+Giocatore 4 ha pagato 4 a giocatore 0 per pernottamento nella casella 10
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 1 è arrivato alla casella 25
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 25
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 2 è arrivato alla casella 18
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 23
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 23
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 4 è arrivato alla casella 13
+Giocatore 4 ha pagato 2 a giocatore 2 per pernottamento nella casella 13
+Giocatore 4 è stato eliminato
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 1 è arrivato alla casella 9
+Giocatore 1 ha pagato 4 a giocatore 3 per pernottamento nella casella 9
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 2 è arrivato alla casella 1
+Giocatore 2 ha pagato 7 a giocatore 3 per pernottamento nella casella 1
+Giocatore 2 è stato eliminato
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 3 è arrivato alla casella 5
+Giocatore 3 ha pagato 7 a giocatore 2 per pernottamento nella casella 5
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 4 è arrivato alla casella 23
+Giocatore 4 ha pagato 4 a giocatore 2 per pernottamento nella casella 23
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 1 è arrivato alla casella 18
+Giocatore 1 ha pagato 4 a giocatore 2 per pernottamento nella casella 18
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 3 è arrivato alla casella 10
+Giocatore 3 ha pagato 4 a giocatore 0 per pernottamento nella casella 10
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 4 è arrivato alla casella 5
+Giocatore 4 ha pagato 7 a giocatore 2 per pernottamento nella casella 5
+Giocatore 4 è stato eliminato
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 26
+Giocatore 1 ha pagato 2 a giocatore 0 per pernottamento nella casella 26
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 12
+Giocatore 3 è arrivato alla casella 22
+Giocatore 3 ha pagato 4 a giocatore 0 per pernottamento nella casella 22
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 6
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 3 è arrivato alla casella 4
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 4
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 13
+Giocatore 1 ha pagato 2 a giocatore 2 per pernottamento nella casella 13
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 3 è arrivato alla casella 13
+Giocatore 3 ha pagato 2 a giocatore 2 per pernottamento nella casella 13
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 1 è arrivato alla casella 22
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 22
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 3 è arrivato alla casella 18
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 18
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 1 è arrivato alla casella 27
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 24
+Giocatore 3 ha pagato 4 a giocatore 1 per pernottamento nella casella 24
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 1 è arrivato alla casella 11
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 8
+Giocatore 2 ha pagato 2 a giocatore 0 per pernottamento nella casella 8
+Giocatore 2 è stato eliminato
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 12
+Giocatore 3 è arrivato alla casella 9
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 1 è arrivato alla casella 20
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 3 è arrivato alla casella 19
+Giocatore 3 ha pagato 2 a giocatore 2 per pernottamento nella casella 19
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 1 è arrivato alla casella 25
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 25
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 3 è arrivato alla casella 24
+Giocatore 3 ha pagato 4 a giocatore 1 per pernottamento nella casella 24
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 6
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 2 è arrivato alla casella 16
+Giocatore 2 ha pagato 7 a giocatore 1 per pernottamento nella casella 16
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 3 è arrivato alla casella 8
+Giocatore 3 ha pagato 2 a giocatore 0 per pernottamento nella casella 8
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 1 è arrivato alla casella 15
+Giocatore 1 ha pagato 4 a giocatore 2 per pernottamento nella casella 15
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 23
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 3 è arrivato alla casella 13
+Giocatore 3 ha pagato 2 a giocatore 2 per pernottamento nella casella 13
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 1 è arrivato alla casella 21
+Giocatore 1 ha pagato 2 a giocatore 2 per pernottamento nella casella 21
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 3
+Giocatore 2 ha pagato 2 a giocatore 3 per pernottamento nella casella 3
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 3 è arrivato alla casella 22
+Giocatore 3 ha pagato 4 a giocatore 0 per pernottamento nella casella 22
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 12
+Giocatore 4 è arrivato alla casella 17
+Giocatore 4 ha pagato 7 a giocatore 0 per pernottamento nella casella 17
+Giocatore 4 è stato eliminato
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 1 è arrivato alla casella 24
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 2 è arrivato alla casella 12
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 3 è arrivato alla casella 6
+Giocatore 3 ha pagato 2 a giocatore 1 per pernottamento nella casella 6
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 5
+Giocatore 1 ha pagato 7 a giocatore 2 per pernottamento nella casella 5
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 19
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 3 è arrivato alla casella 15
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 15
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 1 è arrivato alla casella 10
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 10
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 2 è arrivato alla casella 1
+Giocatore 2 ha pagato 7 a giocatore 3 per pernottamento nella casella 1
+Giocatore 2 è stato eliminato
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 3 è arrivato alla casella 24
+Giocatore 3 ha pagato 4 a giocatore 1 per pernottamento nella casella 24
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 4 è arrivato alla casella 22
+Giocatore 4 ha pagato 4 a giocatore 0 per pernottamento nella casella 22
+Giocatore 4 è stato eliminato
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 1 è arrivato alla casella 19
+Giocatore 1 ha pagato 2 a giocatore 2 per pernottamento nella casella 19
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 3 è arrivato alla casella 27
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 1 è arrivato alla casella 22
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 22
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 3 è arrivato alla casella 10
+Giocatore 3 ha pagato 4 a giocatore 0 per pernottamento nella casella 10
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 2
+Giocatore 1 ha pagato 7 a giocatore 2 per pernottamento nella casella 2
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 16
+Giocatore 3 ha pagato 7 a giocatore 1 per pernottamento nella casella 16
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 9
+Giocatore 1 ha pagato 4 a giocatore 3 per pernottamento nella casella 9
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 8
+Giocatore 2 ha pagato 2 a giocatore 0 per pernottamento nella casella 8
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 22
+Giocatore 3 ha pagato 4 a giocatore 0 per pernottamento nella casella 22
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 4 è arrivato alla casella 27
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 1 è arrivato alla casella 13
+Giocatore 1 ha pagato 2 a giocatore 2 per pernottamento nella casella 13
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 15
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 3 è arrivato alla casella 4
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 4
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 4 è arrivato alla casella 7
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 2
+Giocatore 1 è arrivato alla casella 15
+Giocatore 1 ha pagato 4 a giocatore 2 per pernottamento nella casella 15
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 2 è arrivato alla casella 23
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 10
+Giocatore 3 ha pagato 4 a giocatore 0 per pernottamento nella casella 10
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 4 è arrivato alla casella 15
+Giocatore 4 ha pagato 4 a giocatore 2 per pernottamento nella casella 15
+Giocatore 4 è stato eliminato
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 23
+Giocatore 1 ha pagato 4 a giocatore 2 per pernottamento nella casella 23
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 3
+Giocatore 2 ha pagato 2 a giocatore 3 per pernottamento nella casella 3
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 2
+Giocatore 3 è arrivato alla casella 12
+Giocatore 3 ha pagato 7 a giocatore 2 per pernottamento nella casella 12
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 3
+Giocatore 1 ha pagato 2 a giocatore 3 per pernottamento nella casella 3
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 10
+Giocatore 2 ha pagato 4 a giocatore 0 per pernottamento nella casella 10
+Giocatore 2 è stato eliminato
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 18
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 18
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 4 è arrivato alla casella 22
+Giocatore 4 ha pagato 4 a giocatore 0 per pernottamento nella casella 22
+Giocatore 4 è stato eliminato
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 1 è arrivato alla casella 7
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 3 è arrivato alla casella 26
+Giocatore 3 ha pagato 2 a giocatore 0 per pernottamento nella casella 26
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 1 è arrivato alla casella 12
+Giocatore 1 ha pagato 7 a giocatore 2 per pernottamento nella casella 12
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 3 è arrivato alla casella 7
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 2
+Giocatore 1 è arrivato alla casella 14
+Giocatore 1 ha pagato 2 a giocatore 0 per pernottamento nella casella 14
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 3 è arrivato alla casella 16
+Giocatore 3 ha pagato 7 a giocatore 1 per pernottamento nella casella 16
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 1 è arrivato alla casella 17
+Giocatore 1 ha pagato 7 a giocatore 0 per pernottamento nella casella 17
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 17
+Giocatore 2 ha pagato 7 a giocatore 0 per pernottamento nella casella 17
+Giocatore 2 è stato eliminato
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 23
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 23
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 2
+Giocatore 1 è arrivato alla casella 19
+Giocatore 1 ha pagato 2 a giocatore 2 per pernottamento nella casella 19
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 3 è arrivato alla casella 7
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 1 è arrivato alla casella 23
+Giocatore 1 ha pagato 4 a giocatore 2 per pernottamento nella casella 23
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 3 è arrivato alla casella 10
+Giocatore 3 ha pagato 4 a giocatore 0 per pernottamento nella casella 10
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 1 è arrivato alla casella 26
+Giocatore 1 ha pagato 2 a giocatore 0 per pernottamento nella casella 26
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 17
+Giocatore 3 ha pagato 7 a giocatore 0 per pernottamento nella casella 17
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 1 è arrivato alla casella 3
+Giocatore 1 ha pagato 2 a giocatore 3 per pernottamento nella casella 3
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 12
+Giocatore 3 è arrivato alla casella 2
+Giocatore 3 ha pagato 7 a giocatore 2 per pernottamento nella casella 2
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 12
+Giocatore 1 è arrivato alla casella 15
+Giocatore 1 ha pagato 4 a giocatore 2 per pernottamento nella casella 15
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 2
+Giocatore 3 è arrivato alla casella 4
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 4
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 22
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 22
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 3 è arrivato alla casella 8
+Giocatore 3 ha pagato 2 a giocatore 0 per pernottamento nella casella 8
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 1 è arrivato alla casella 25
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 25
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 3 è arrivato alla casella 17
+Giocatore 3 ha pagato 7 a giocatore 0 per pernottamento nella casella 17
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 1 è arrivato alla casella 4
+Giocatore 1 ha pagato 4 a giocatore 2 per pernottamento nella casella 4
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 3 è arrivato alla casella 22
+Giocatore 3 ha pagato 4 a giocatore 0 per pernottamento nella casella 22
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 1 è arrivato alla casella 8
+Giocatore 1 ha pagato 2 a giocatore 0 per pernottamento nella casella 8
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 2
+Giocatore 3 ha pagato 7 a giocatore 2 per pernottamento nella casella 2
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 16
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 8
+Giocatore 3 ha pagato 2 a giocatore 0 per pernottamento nella casella 8
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 1 è arrivato alla casella 26
+Giocatore 1 ha pagato 2 a giocatore 0 per pernottamento nella casella 26
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 3 è arrivato alla casella 12
+Giocatore 3 ha pagato 7 a giocatore 2 per pernottamento nella casella 12
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 1 è arrivato alla casella 10
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 10
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 19
+Giocatore 3 ha pagato 2 a giocatore 2 per pernottamento nella casella 19
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 18
+Giocatore 1 ha pagato 4 a giocatore 2 per pernottamento nella casella 18
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 25
+Giocatore 3 ha pagato 4 a giocatore 0 per pernottamento nella casella 25
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 1 è arrivato alla casella 22
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 22
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 4
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 4
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 1 è arrivato alla casella 1
+Giocatore 1 ha pagato 7 a giocatore 3 per pernottamento nella casella 1
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 3 è arrivato alla casella 12
+Giocatore 3 ha pagato 7 a giocatore 2 per pernottamento nella casella 12
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 4 è arrivato alla casella 27
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 1 è arrivato alla casella 4
+Giocatore 1 ha pagato 4 a giocatore 2 per pernottamento nella casella 4
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 19
+Giocatore 3 ha pagato 2 a giocatore 2 per pernottamento nella casella 19
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 4 è arrivato alla casella 10
+Giocatore 4 ha pagato 4 a giocatore 0 per pernottamento nella casella 10
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 12
+Giocatore 1 ha pagato 7 a giocatore 2 per pernottamento nella casella 12
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 3 è arrivato alla casella 2
+Giocatore 3 ha pagato 7 a giocatore 2 per pernottamento nella casella 2
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 4 è arrivato alla casella 18
+Giocatore 4 ha pagato 4 a giocatore 2 per pernottamento nella casella 18
+Giocatore 4 è stato eliminato
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 1 è arrivato alla casella 22
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 22
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 3 è arrivato alla casella 10
+Giocatore 3 ha pagato 4 a giocatore 0 per pernottamento nella casella 10
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 3
+Giocatore 1 ha pagato 2 a giocatore 3 per pernottamento nella casella 3
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 17
+Giocatore 3 ha pagato 7 a giocatore 0 per pernottamento nella casella 17
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 4 è arrivato alla casella 27
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 12
+Giocatore 1 è arrivato alla casella 15
+Giocatore 1 ha pagato 4 a giocatore 2 per pernottamento nella casella 15
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 2
+Giocatore 3 è arrivato alla casella 19
+Giocatore 3 ha pagato 2 a giocatore 2 per pernottamento nella casella 19
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 4 è arrivato alla casella 6
+Giocatore 4 ha pagato 2 a giocatore 1 per pernottamento nella casella 6
+Giocatore 4 è stato eliminato
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 22
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 22
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 2 è arrivato alla casella 25
+Giocatore 2 ha pagato 4 a giocatore 0 per pernottamento nella casella 25
+Giocatore 2 è stato eliminato
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 25
+Giocatore 3 ha pagato 4 a giocatore 0 per pernottamento nella casella 25
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 1 è arrivato alla casella 27
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 3 è arrivato alla casella 1
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 1 è arrivato alla casella 3
+Giocatore 1 ha pagato 2 a giocatore 3 per pernottamento nella casella 3
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 3 è arrivato alla casella 12
+Giocatore 3 ha pagato 7 a giocatore 2 per pernottamento nella casella 12
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 4 è arrivato alla casella 11
+Giocatore 4 ha pagato 4 a giocatore 1 per pernottamento nella casella 11
+Giocatore 4 è stato eliminato
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 12
+Giocatore 1 è arrivato alla casella 15
+Giocatore 1 ha pagato 4 a giocatore 2 per pernottamento nella casella 15
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 5
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 18
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 18
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 1 è arrivato alla casella 24
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 2
+Giocatore 2 è arrivato alla casella 7
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 12
+Giocatore 3 è arrivato alla casella 3
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 4
+Giocatore 1 ha pagato 4 a giocatore 2 per pernottamento nella casella 4
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 2 è arrivato alla casella 18
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 3 è arrivato alla casella 14
+Giocatore 3 ha pagato 2 a giocatore 0 per pernottamento nella casella 14
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 1 è arrivato alla casella 14
+Giocatore 1 ha pagato 2 a giocatore 0 per pernottamento nella casella 14
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 2 è arrivato alla casella 27
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 3 è arrivato alla casella 23
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 23
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 21
+Giocatore 1 ha pagato 2 a giocatore 2 per pernottamento nella casella 21
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 2 è arrivato alla casella 9
+Giocatore 2 ha pagato 4 a giocatore 3 per pernottamento nella casella 9
+Giocatore 2 è stato eliminato
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 3 è arrivato alla casella 27
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 4 è arrivato alla casella 15
+Giocatore 4 ha pagato 4 a giocatore 2 per pernottamento nella casella 15
+Giocatore 4 è stato eliminato
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 1 è arrivato alla casella 25
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 25
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 6
+Giocatore 3 ha pagato 2 a giocatore 1 per pernottamento nella casella 6
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 5
+Giocatore 1 ha pagato 7 a giocatore 2 per pernottamento nella casella 5
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 3 è arrivato alla casella 16
+Giocatore 3 ha pagato 7 a giocatore 1 per pernottamento nella casella 16
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 1 è arrivato alla casella 10
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 10
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 2 è arrivato alla casella 18
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 3 è arrivato alla casella 20
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 17
+Giocatore 1 ha pagato 7 a giocatore 0 per pernottamento nella casella 17
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 2 è arrivato alla casella 24
+Giocatore 2 ha pagato 4 a giocatore 1 per pernottamento nella casella 24
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 27
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 2
+Giocatore 1 è arrivato alla casella 19
+Giocatore 1 ha pagato 2 a giocatore 2 per pernottamento nella casella 19
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 4
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 3 è arrivato alla casella 3
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 27
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 2 è arrivato alla casella 9
+Giocatore 2 ha pagato 4 a giocatore 3 per pernottamento nella casella 9
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 10
+Giocatore 3 ha pagato 4 a giocatore 0 per pernottamento nella casella 10
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 4 è arrivato alla casella 24
+Giocatore 4 ha pagato 4 a giocatore 1 per pernottamento nella casella 24
+Giocatore 4 è stato eliminato
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 1 è arrivato alla casella 4
+Giocatore 1 ha pagato 4 a giocatore 2 per pernottamento nella casella 4
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 2 è arrivato alla casella 14
+Giocatore 2 ha pagato 2 a giocatore 0 per pernottamento nella casella 14
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 17
+Giocatore 3 ha pagato 7 a giocatore 0 per pernottamento nella casella 17
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 1 è arrivato alla casella 9
+Giocatore 1 ha pagato 4 a giocatore 3 per pernottamento nella casella 9
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 2 è arrivato alla casella 20
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 3 è arrivato alla casella 25
+Giocatore 3 ha pagato 4 a giocatore 0 per pernottamento nella casella 25
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 4 è arrivato alla casella 2
+Giocatore 4 ha pagato 7 a giocatore 2 per pernottamento nella casella 2
+Giocatore 4 è stato eliminato
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 1 è arrivato alla casella 14
+Giocatore 1 ha pagato 2 a giocatore 0 per pernottamento nella casella 14
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 27
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 3 è arrivato alla casella 2
+Giocatore 3 ha pagato 7 a giocatore 2 per pernottamento nella casella 2
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 1 è arrivato alla casella 24
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 2 è arrivato alla casella 8
+Giocatore 2 ha pagato 2 a giocatore 0 per pernottamento nella casella 8
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 8
+Giocatore 3 ha pagato 2 a giocatore 0 per pernottamento nella casella 8
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 1 è arrivato alla casella 3
+Giocatore 1 ha pagato 2 a giocatore 3 per pernottamento nella casella 3
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 2 è arrivato alla casella 12
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 15
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 15
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 10
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 10
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 19
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 22
+Giocatore 3 ha pagato 4 a giocatore 0 per pernottamento nella casella 22
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 18
+Giocatore 1 ha pagato 4 a giocatore 2 per pernottamento nella casella 18
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 2 è arrivato alla casella 25
+Giocatore 2 ha pagato 4 a giocatore 0 per pernottamento nella casella 25
+Giocatore 2 è stato eliminato
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 3 è arrivato alla casella 26
+Giocatore 3 ha pagato 2 a giocatore 0 per pernottamento nella casella 26
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 25
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 25
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 6
+Giocatore 3 ha pagato 2 a giocatore 1 per pernottamento nella casella 6
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 6
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 13
+Giocatore 3 ha pagato 2 a giocatore 2 per pernottamento nella casella 13
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 1 è arrivato alla casella 17
+Giocatore 1 ha pagato 7 a giocatore 0 per pernottamento nella casella 17
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 3 è arrivato alla casella 21
+Giocatore 3 ha pagato 2 a giocatore 2 per pernottamento nella casella 21
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 1 è arrivato alla casella 22
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 22
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 3 è arrivato alla casella 3
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 1 è arrivato alla casella 27
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 10
+Giocatore 3 ha pagato 4 a giocatore 0 per pernottamento nella casella 10
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 1 è arrivato alla casella 5
+Giocatore 1 ha pagato 7 a giocatore 2 per pernottamento nella casella 5
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 3 è arrivato alla casella 18
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 18
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 12
+Giocatore 1 ha pagato 7 a giocatore 2 per pernottamento nella casella 12
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 25
+Giocatore 3 ha pagato 4 a giocatore 0 per pernottamento nella casella 25
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 1 è arrivato alla casella 22
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 22
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 3 è arrivato alla casella 2
+Giocatore 3 ha pagato 7 a giocatore 2 per pernottamento nella casella 2
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 2
+Giocatore 1 ha pagato 7 a giocatore 2 per pernottamento nella casella 2
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 8
+Giocatore 3 ha pagato 2 a giocatore 0 per pernottamento nella casella 8
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 1 è arrivato alla casella 7
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 3 è arrivato alla casella 12
+Giocatore 3 ha pagato 7 a giocatore 2 per pernottamento nella casella 12
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 1 è arrivato alla casella 11
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 19
+Giocatore 3 ha pagato 2 a giocatore 2 per pernottamento nella casella 19
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 1 è arrivato alla casella 21
+Giocatore 1 ha pagato 2 a giocatore 2 per pernottamento nella casella 21
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 3 è arrivato alla casella 27
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 1 è arrivato alla casella 5
+Giocatore 1 ha pagato 7 a giocatore 2 per pernottamento nella casella 5
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 3 è arrivato alla casella 5
+Giocatore 3 ha pagato 7 a giocatore 2 per pernottamento nella casella 5
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 13
+Giocatore 1 ha pagato 2 a giocatore 2 per pernottamento nella casella 13
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 3 è arrivato alla casella 14
+Giocatore 3 ha pagato 2 a giocatore 0 per pernottamento nella casella 14
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 20
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 21
+Giocatore 3 ha pagato 2 a giocatore 2 per pernottamento nella casella 21
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 1 è arrivato alla casella 26
+Giocatore 1 ha pagato 2 a giocatore 0 per pernottamento nella casella 26
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 1
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 1 è arrivato alla casella 9
+Giocatore 1 ha pagato 4 a giocatore 3 per pernottamento nella casella 9
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 3 è arrivato alla casella 9
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 1 è arrivato alla casella 20
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 3 è arrivato alla casella 12
+Giocatore 3 ha pagato 7 a giocatore 2 per pernottamento nella casella 12
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 1 è arrivato alla casella 23
+Giocatore 1 ha pagato 4 a giocatore 2 per pernottamento nella casella 23
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 3 è arrivato alla casella 16
+Giocatore 3 ha pagato 7 a giocatore 1 per pernottamento nella casella 16
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 1 è arrivato alla casella 2
+Giocatore 1 ha pagato 7 a giocatore 2 per pernottamento nella casella 2
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 2 è arrivato alla casella 8
+Giocatore 2 ha pagato 2 a giocatore 0 per pernottamento nella casella 8
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 3 è arrivato alla casella 25
+Giocatore 3 ha pagato 4 a giocatore 0 per pernottamento nella casella 25
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 1 è arrivato alla casella 12
+Giocatore 1 ha pagato 7 a giocatore 2 per pernottamento nella casella 12
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 15
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 3 è arrivato alla casella 3
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 19
+Giocatore 1 ha pagato 2 a giocatore 2 per pernottamento nella casella 19
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 2 è arrivato alla casella 21
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 3 è arrivato alla casella 12
+Giocatore 3 ha pagato 7 a giocatore 2 per pernottamento nella casella 12
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 1 è arrivato alla casella 23
+Giocatore 1 ha pagato 4 a giocatore 2 per pernottamento nella casella 23
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 2 è arrivato alla casella 3
+Giocatore 2 ha pagato 2 a giocatore 3 per pernottamento nella casella 3
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 18
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 18
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 4 è arrivato alla casella 7
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 4
+Giocatore 1 ha pagato 4 a giocatore 2 per pernottamento nella casella 4
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 2
+Giocatore 2 è arrivato alla casella 5
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 2
+Giocatore 3 è arrivato alla casella 20
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 4 è arrivato alla casella 12
+Giocatore 4 ha pagato 7 a giocatore 2 per pernottamento nella casella 12
+Giocatore 4 è stato eliminato
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 1 è arrivato alla casella 15
+Giocatore 1 ha pagato 4 a giocatore 2 per pernottamento nella casella 15
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 2 è arrivato alla casella 13
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 26
+Giocatore 3 ha pagato 2 a giocatore 0 per pernottamento nella casella 26
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 22
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 22
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 2 è arrivato alla casella 19
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 3 è arrivato alla casella 4
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 4
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 2
+Giocatore 1 è arrivato alla casella 24
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 2 è arrivato alla casella 25
+Giocatore 2 ha pagato 4 a giocatore 0 per pernottamento nella casella 25
+Giocatore 2 è stato eliminato
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 3 è arrivato alla casella 12
+Giocatore 3 ha pagato 7 a giocatore 2 per pernottamento nella casella 12
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 1 è arrivato alla casella 2
+Giocatore 1 ha pagato 7 a giocatore 2 per pernottamento nella casella 2
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 19
+Giocatore 3 ha pagato 2 a giocatore 2 per pernottamento nella casella 19
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 1 è arrivato alla casella 7
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 3 è arrivato alla casella 24
+Giocatore 3 ha pagato 4 a giocatore 1 per pernottamento nella casella 24
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 1 è arrivato alla casella 16
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 2 è arrivato alla casella 3
+Giocatore 2 ha pagato 2 a giocatore 3 per pernottamento nella casella 3
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 3 è arrivato alla casella 1
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 1 è arrivato alla casella 20
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 2 è arrivato alla casella 6
+Giocatore 2 ha pagato 2 a giocatore 1 per pernottamento nella casella 6
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 3 è arrivato alla casella 11
+Giocatore 3 ha pagato 4 a giocatore 1 per pernottamento nella casella 11
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 2
+Giocatore 1 è arrivato alla casella 22
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 22
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 2 è arrivato alla casella 14
+Giocatore 2 ha pagato 2 a giocatore 0 per pernottamento nella casella 14
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 3 è arrivato alla casella 20
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 1 è arrivato alla casella 6
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 2 è arrivato alla casella 25
+Giocatore 2 ha pagato 4 a giocatore 0 per pernottamento nella casella 25
+Giocatore 2 è stato eliminato
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 3 è arrivato alla casella 25
+Giocatore 3 ha pagato 4 a giocatore 0 per pernottamento nella casella 25
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 12
+Giocatore 1 è arrivato alla casella 18
+Giocatore 1 ha pagato 4 a giocatore 2 per pernottamento nella casella 18
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 4
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 4
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 1 è arrivato alla casella 1
+Giocatore 1 ha pagato 7 a giocatore 3 per pernottamento nella casella 1
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 11
+Giocatore 3 ha pagato 4 a giocatore 1 per pernottamento nella casella 11
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 4 è arrivato alla casella 16
+Giocatore 4 ha pagato 7 a giocatore 1 per pernottamento nella casella 16
+Giocatore 4 è stato eliminato
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 1 è arrivato alla casella 7
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 2 è arrivato alla casella 8
+Giocatore 2 ha pagato 2 a giocatore 0 per pernottamento nella casella 8
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 3 è arrivato alla casella 21
+Giocatore 3 ha pagato 2 a giocatore 2 per pernottamento nella casella 21
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 1 è arrivato alla casella 17
+Giocatore 1 ha pagato 7 a giocatore 0 per pernottamento nella casella 17
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 2 è arrivato alla casella 16
+Giocatore 2 ha pagato 7 a giocatore 1 per pernottamento nella casella 16
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 3 è arrivato alla casella 5
+Giocatore 3 ha pagato 7 a giocatore 2 per pernottamento nella casella 5
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 1 è arrivato alla casella 23
+Giocatore 1 ha pagato 4 a giocatore 2 per pernottamento nella casella 23
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 2 è arrivato alla casella 24
+Giocatore 2 ha pagato 4 a giocatore 1 per pernottamento nella casella 24
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 11
+Giocatore 3 ha pagato 4 a giocatore 1 per pernottamento nella casella 11
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 1 è arrivato alla casella 6
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 2 è arrivato alla casella 7
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 18
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 18
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 14
+Giocatore 1 ha pagato 2 a giocatore 0 per pernottamento nella casella 14
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 2 è arrivato alla casella 16
+Giocatore 2 ha pagato 7 a giocatore 1 per pernottamento nella casella 16
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 3 è arrivato alla casella 23
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 23
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 22
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 22
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 23
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 3 è arrivato alla casella 6
+Giocatore 3 ha pagato 2 a giocatore 1 per pernottamento nella casella 6
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 1 è arrivato alla casella 4
+Giocatore 1 ha pagato 4 a giocatore 2 per pernottamento nella casella 4
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 2 è arrivato alla casella 1
+Giocatore 2 ha pagato 7 a giocatore 3 per pernottamento nella casella 1
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 12
+Giocatore 3 ha pagato 7 a giocatore 2 per pernottamento nella casella 12
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 4 è arrivato alla casella 23
+Giocatore 4 ha pagato 4 a giocatore 2 per pernottamento nella casella 23
+Giocatore 4 è stato eliminato
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 1 è arrivato alla casella 10
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 10
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 8
+Giocatore 2 ha pagato 2 a giocatore 0 per pernottamento nella casella 8
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 19
+Giocatore 3 ha pagato 2 a giocatore 2 per pernottamento nella casella 19
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 17
+Giocatore 1 ha pagato 7 a giocatore 0 per pernottamento nella casella 17
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 15
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 3 è arrivato alla casella 22
+Giocatore 3 ha pagato 4 a giocatore 0 per pernottamento nella casella 22
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 1 è arrivato alla casella 20
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 2 è arrivato alla casella 20
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 1
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 1 è arrivato alla casella 23
+Giocatore 1 ha pagato 4 a giocatore 2 per pernottamento nella casella 23
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 2 è arrivato alla casella 23
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 7
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 2
+Giocatore 1 è arrivato alla casella 25
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 25
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 2 è arrivato alla casella 5
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 14
+Giocatore 3 ha pagato 2 a giocatore 0 per pernottamento nella casella 14
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 1 è arrivato alla casella 1
+Giocatore 1 ha pagato 7 a giocatore 3 per pernottamento nella casella 1
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 12
+Giocatore 2 è arrivato alla casella 17
+Giocatore 2 ha pagato 7 a giocatore 0 per pernottamento nella casella 17
+Giocatore 2 è stato eliminato
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 3 è arrivato alla casella 25
+Giocatore 3 ha pagato 4 a giocatore 0 per pernottamento nella casella 25
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 4 è arrivato alla casella 2
+Giocatore 4 ha pagato 7 a giocatore 2 per pernottamento nella casella 2
+Giocatore 4 è stato eliminato
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 2
+Giocatore 1 è arrivato alla casella 3
+Giocatore 1 ha pagato 2 a giocatore 3 per pernottamento nella casella 3
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 3 è arrivato alla casella 6
+Giocatore 3 ha pagato 2 a giocatore 1 per pernottamento nella casella 6
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 4 è arrivato alla casella 11
+Giocatore 4 ha pagato 4 a giocatore 1 per pernottamento nella casella 11
+Giocatore 4 è stato eliminato
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 1 è arrivato alla casella 12
+Giocatore 1 ha pagato 7 a giocatore 2 per pernottamento nella casella 12
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 12
+Giocatore 2 è arrivato alla casella 2
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 3 è arrivato alla casella 16
+Giocatore 3 ha pagato 7 a giocatore 1 per pernottamento nella casella 16
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 1 è arrivato alla casella 18
+Giocatore 1 ha pagato 4 a giocatore 2 per pernottamento nella casella 18
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 2 è arrivato alla casella 12
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 3 è arrivato alla casella 26
+Giocatore 3 ha pagato 2 a giocatore 0 per pernottamento nella casella 26
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 1 è arrivato alla casella 24
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 19
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 3 è arrivato alla casella 4
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 4
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 1 è arrivato alla casella 7
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 2 è arrivato alla casella 27
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 11
+Giocatore 3 ha pagato 4 a giocatore 1 per pernottamento nella casella 11
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 15
+Giocatore 1 ha pagato 4 a giocatore 2 per pernottamento nella casella 15
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 2 è arrivato alla casella 8
+Giocatore 2 ha pagato 2 a giocatore 0 per pernottamento nella casella 8
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 3 è arrivato alla casella 19
+Giocatore 3 ha pagato 2 a giocatore 2 per pernottamento nella casella 19
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 1 è arrivato alla casella 20
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 2 è arrivato alla casella 17
+Giocatore 2 ha pagato 7 a giocatore 0 per pernottamento nella casella 17
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 3 è arrivato alla casella 23
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 23
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 1 è arrivato alla casella 3
+Giocatore 1 ha pagato 2 a giocatore 3 per pernottamento nella casella 3
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 2 è arrivato alla casella 25
+Giocatore 2 ha pagato 4 a giocatore 0 per pernottamento nella casella 25
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 2
+Giocatore 3 ha pagato 7 a giocatore 2 per pernottamento nella casella 2
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 1 è arrivato alla casella 7
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 2 è arrivato alla casella 6
+Giocatore 2 ha pagato 2 a giocatore 1 per pernottamento nella casella 6
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 3 è arrivato alla casella 11
+Giocatore 3 ha pagato 4 a giocatore 1 per pernottamento nella casella 11
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 1 è arrivato alla casella 13
+Giocatore 1 ha pagato 2 a giocatore 2 per pernottamento nella casella 13
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 2 è arrivato alla casella 11
+Giocatore 2 ha pagato 4 a giocatore 1 per pernottamento nella casella 11
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 17
+Giocatore 3 ha pagato 7 a giocatore 0 per pernottamento nella casella 17
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 1 è arrivato alla casella 18
+Giocatore 1 ha pagato 4 a giocatore 2 per pernottamento nella casella 18
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 2 è arrivato alla casella 19
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 3 è arrivato alla casella 22
+Giocatore 3 ha pagato 4 a giocatore 0 per pernottamento nella casella 22
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 1 è arrivato alla casella 1
+Giocatore 1 ha pagato 7 a giocatore 3 per pernottamento nella casella 1
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 2 è arrivato alla casella 25
+Giocatore 2 ha pagato 4 a giocatore 0 per pernottamento nella casella 25
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 1
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 4 è arrivato alla casella 18
+Giocatore 4 ha pagato 4 a giocatore 2 per pernottamento nella casella 18
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 1 è arrivato alla casella 7
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 5
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 3 è arrivato alla casella 10
+Giocatore 3 ha pagato 4 a giocatore 0 per pernottamento nella casella 10
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 4 è arrivato alla casella 27
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 1 è arrivato alla casella 10
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 10
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 2 è arrivato alla casella 8
+Giocatore 2 ha pagato 2 a giocatore 0 per pernottamento nella casella 8
+Giocatore 2 è stato eliminato
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 3 è arrivato alla casella 15
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 15
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 4 è arrivato alla casella 8
+Giocatore 4 ha pagato 2 a giocatore 0 per pernottamento nella casella 8
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 1 è arrivato alla casella 21
+Giocatore 1 ha pagato 2 a giocatore 2 per pernottamento nella casella 21
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 3 è arrivato alla casella 23
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 23
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 4 è arrivato alla casella 18
+Giocatore 4 ha pagato 4 a giocatore 2 per pernottamento nella casella 18
+Giocatore 4 è stato eliminato
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 1 è arrivato alla casella 27
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 3 è arrivato alla casella 1
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 7
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 3 è arrivato alla casella 4
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 4
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 1 è arrivato alla casella 12
+Giocatore 1 ha pagato 7 a giocatore 2 per pernottamento nella casella 12
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 3 è arrivato alla casella 8
+Giocatore 3 ha pagato 2 a giocatore 0 per pernottamento nella casella 8
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 1 è arrivato alla casella 17
+Giocatore 1 ha pagato 7 a giocatore 0 per pernottamento nella casella 17
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 3 è arrivato alla casella 19
+Giocatore 3 ha pagato 2 a giocatore 2 per pernottamento nella casella 19
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 25
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 25
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 3 è arrivato alla casella 22
+Giocatore 3 ha pagato 4 a giocatore 0 per pernottamento nella casella 22
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 1 è arrivato alla casella 2
+Giocatore 1 ha pagato 7 a giocatore 2 per pernottamento nella casella 2
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 3 è arrivato alla casella 3
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 1 è arrivato alla casella 8
+Giocatore 1 ha pagato 2 a giocatore 0 per pernottamento nella casella 8
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 2
+Giocatore 3 è arrivato alla casella 5
+Giocatore 3 ha pagato 7 a giocatore 2 per pernottamento nella casella 5
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 2
+Giocatore 1 è arrivato alla casella 10
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 10
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 3 è arrivato alla casella 8
+Giocatore 3 ha pagato 2 a giocatore 0 per pernottamento nella casella 8
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 1 è arrivato alla casella 21
+Giocatore 1 ha pagato 2 a giocatore 2 per pernottamento nella casella 21
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 15
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 15
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 1 è arrivato alla casella 3
+Giocatore 1 ha pagato 2 a giocatore 3 per pernottamento nella casella 3
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 3 è arrivato alla casella 18
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 18
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 1 è arrivato alla casella 7
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 3 è arrivato alla casella 22
+Giocatore 3 ha pagato 4 a giocatore 0 per pernottamento nella casella 22
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 14
+Giocatore 1 ha pagato 2 a giocatore 0 per pernottamento nella casella 14
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 3 è arrivato alla casella 5
+Giocatore 3 ha pagato 7 a giocatore 2 per pernottamento nella casella 5
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 1 è arrivato alla casella 24
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 11
+Giocatore 3 ha pagato 4 a giocatore 1 per pernottamento nella casella 11
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 5
+Giocatore 1 ha pagato 7 a giocatore 2 per pernottamento nella casella 5
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 15
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 17
+Giocatore 3 ha pagato 7 a giocatore 0 per pernottamento nella casella 17
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 1 è arrivato alla casella 11
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 2 è arrivato alla casella 18
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 23
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 23
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 19
+Giocatore 1 ha pagato 2 a giocatore 2 per pernottamento nella casella 19
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 2 è arrivato alla casella 21
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 2
+Giocatore 3 ha pagato 7 a giocatore 2 per pernottamento nella casella 2
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 26
+Giocatore 1 ha pagato 2 a giocatore 0 per pernottamento nella casella 26
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 2 è arrivato alla casella 3
+Giocatore 2 ha pagato 2 a giocatore 3 per pernottamento nella casella 3
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 3 è arrivato alla casella 12
+Giocatore 3 ha pagato 7 a giocatore 2 per pernottamento nella casella 12
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 4 è arrivato alla casella 27
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 1 è arrivato alla casella 3
+Giocatore 1 ha pagato 2 a giocatore 3 per pernottamento nella casella 3
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 2 è arrivato alla casella 9
+Giocatore 2 ha pagato 4 a giocatore 3 per pernottamento nella casella 9
+Giocatore 2 è stato eliminato
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 19
+Giocatore 3 ha pagato 2 a giocatore 2 per pernottamento nella casella 19
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 4 è arrivato alla casella 8
+Giocatore 4 ha pagato 2 a giocatore 0 per pernottamento nella casella 8
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 1 è arrivato alla casella 14
+Giocatore 1 ha pagato 2 a giocatore 0 per pernottamento nella casella 14
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 3 è arrivato alla casella 3
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 4 è arrivato alla casella 15
+Giocatore 4 ha pagato 4 a giocatore 2 per pernottamento nella casella 15
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 1 è arrivato alla casella 25
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 25
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 3 è arrivato alla casella 11
+Giocatore 3 ha pagato 4 a giocatore 1 per pernottamento nella casella 11
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 2
+Giocatore 4 è arrivato alla casella 17
+Giocatore 4 ha pagato 7 a giocatore 0 per pernottamento nella casella 17
+Giocatore 4 è stato eliminato
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 6
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 2
+Giocatore 2 è arrivato alla casella 11
+Giocatore 2 ha pagato 4 a giocatore 1 per pernottamento nella casella 11
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 17
+Giocatore 3 ha pagato 7 a giocatore 0 per pernottamento nella casella 17
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 1 è arrivato alla casella 11
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 2 è arrivato alla casella 19
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 23
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 23
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 1 è arrivato alla casella 20
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 2 è arrivato alla casella 24
+Giocatore 2 ha pagato 4 a giocatore 1 per pernottamento nella casella 24
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 3
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 1 è arrivato alla casella 2
+Giocatore 1 ha pagato 7 a giocatore 2 per pernottamento nella casella 2
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 2 è arrivato alla casella 5
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 9
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 1 è arrivato alla casella 8
+Giocatore 1 ha pagato 2 a giocatore 0 per pernottamento nella casella 8
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 2 è arrivato alla casella 15
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 15
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 15
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 1 è arrivato alla casella 11
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 2 è arrivato alla casella 24
+Giocatore 2 ha pagato 4 a giocatore 1 per pernottamento nella casella 24
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 22
+Giocatore 3 ha pagato 4 a giocatore 0 per pernottamento nella casella 22
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 1 è arrivato alla casella 21
+Giocatore 1 ha pagato 2 a giocatore 2 per pernottamento nella casella 21
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 2 è arrivato alla casella 1
+Giocatore 2 ha pagato 7 a giocatore 3 per pernottamento nella casella 1
+Giocatore 2 è stato eliminato
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 1
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 4 è arrivato alla casella 24
+Giocatore 4 ha pagato 4 a giocatore 1 per pernottamento nella casella 24
+Giocatore 4 è stato eliminato
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 2
+Giocatore 1 ha pagato 7 a giocatore 2 per pernottamento nella casella 2
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 3 è arrivato alla casella 12
+Giocatore 3 ha pagato 7 a giocatore 2 per pernottamento nella casella 12
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 9
+Giocatore 1 ha pagato 4 a giocatore 3 per pernottamento nella casella 9
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 3 è arrivato alla casella 16
+Giocatore 3 ha pagato 7 a giocatore 1 per pernottamento nella casella 16
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 4 è arrivato alla casella 8
+Giocatore 4 ha pagato 2 a giocatore 0 per pernottamento nella casella 8
+Giocatore 4 è stato eliminato
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 1 è arrivato alla casella 14
+Giocatore 1 ha pagato 2 a giocatore 0 per pernottamento nella casella 14
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 2 è arrivato alla casella 5
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 2
+Giocatore 3 è arrivato alla casella 18
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 18
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 1 è arrivato alla casella 19
+Giocatore 1 ha pagato 2 a giocatore 2 per pernottamento nella casella 19
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 2 è arrivato alla casella 14
+Giocatore 2 ha pagato 2 a giocatore 0 per pernottamento nella casella 14
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 3 è arrivato alla casella 26
+Giocatore 3 ha pagato 2 a giocatore 0 per pernottamento nella casella 26
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 26
+Giocatore 1 ha pagato 2 a giocatore 0 per pernottamento nella casella 26
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 21
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 6
+Giocatore 3 ha pagato 2 a giocatore 1 per pernottamento nella casella 6
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 1 è arrivato alla casella 3
+Giocatore 1 ha pagato 2 a giocatore 3 per pernottamento nella casella 3
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 2 è arrivato alla casella 25
+Giocatore 2 ha pagato 4 a giocatore 0 per pernottamento nella casella 25
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 3 è arrivato alla casella 16
+Giocatore 3 ha pagato 7 a giocatore 1 per pernottamento nella casella 16
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 4 è arrivato alla casella 15
+Giocatore 4 ha pagato 4 a giocatore 2 per pernottamento nella casella 15
+Giocatore 4 è stato eliminato
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 1 è arrivato alla casella 7
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 2 è arrivato alla casella 6
+Giocatore 2 ha pagato 2 a giocatore 1 per pernottamento nella casella 6
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 23
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 23
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 1 è arrivato alla casella 11
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 2 è arrivato alla casella 17
+Giocatore 2 ha pagato 7 a giocatore 0 per pernottamento nella casella 17
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 3
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 19
+Giocatore 1 ha pagato 2 a giocatore 2 per pernottamento nella casella 19
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 24
+Giocatore 2 ha pagato 4 a giocatore 1 per pernottamento nella casella 24
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 3 è arrivato alla casella 14
+Giocatore 3 ha pagato 2 a giocatore 0 per pernottamento nella casella 14
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 1 è arrivato alla casella 24
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 4
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 3 è arrivato alla casella 22
+Giocatore 3 ha pagato 4 a giocatore 0 per pernottamento nella casella 22
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 5
+Giocatore 1 ha pagato 7 a giocatore 2 per pernottamento nella casella 5
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 2
+Giocatore 2 è arrivato alla casella 6
+Giocatore 2 ha pagato 2 a giocatore 1 per pernottamento nella casella 6
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 3 è arrivato alla casella 27
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 13
+Giocatore 1 ha pagato 2 a giocatore 2 per pernottamento nella casella 13
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 12
+Giocatore 2 è arrivato alla casella 18
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 3 è arrivato alla casella 10
+Giocatore 3 ha pagato 4 a giocatore 0 per pernottamento nella casella 10
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 1 è arrivato alla casella 22
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 22
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 2 è arrivato alla casella 24
+Giocatore 2 ha pagato 4 a giocatore 1 per pernottamento nella casella 24
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 3 è arrivato alla casella 21
+Giocatore 3 ha pagato 2 a giocatore 2 per pernottamento nella casella 21
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 1 è arrivato alla casella 4
+Giocatore 1 ha pagato 4 a giocatore 2 per pernottamento nella casella 4
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 4
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 3 è arrivato alla casella 25
+Giocatore 3 ha pagato 4 a giocatore 0 per pernottamento nella casella 25
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 1 è arrivato alla casella 10
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 10
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 2 è arrivato alla casella 13
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 2
+Giocatore 3 è arrivato alla casella 27
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 1 è arrivato alla casella 19
+Giocatore 1 ha pagato 2 a giocatore 2 per pernottamento nella casella 19
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 2 è arrivato alla casella 16
+Giocatore 2 ha pagato 7 a giocatore 1 per pernottamento nella casella 16
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 3 è arrivato alla casella 8
+Giocatore 3 ha pagato 2 a giocatore 0 per pernottamento nella casella 8
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 1 è arrivato alla casella 2
+Giocatore 1 ha pagato 7 a giocatore 2 per pernottamento nella casella 2
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 2 è arrivato alla casella 20
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 3 è arrivato alla casella 18
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 18
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 1 è arrivato alla casella 8
+Giocatore 1 ha pagato 2 a giocatore 0 per pernottamento nella casella 8
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 27
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 3 è arrivato alla casella 23
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 23
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 1 è arrivato alla casella 13
+Giocatore 1 ha pagato 2 a giocatore 2 per pernottamento nella casella 13
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 2 è arrivato alla casella 4
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 3
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 2
+Giocatore 1 è arrivato alla casella 15
+Giocatore 1 ha pagato 4 a giocatore 2 per pernottamento nella casella 15
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 2 è arrivato alla casella 13
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 10
+Giocatore 3 ha pagato 4 a giocatore 0 per pernottamento nella casella 10
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 1 è arrivato alla casella 21
+Giocatore 1 ha pagato 2 a giocatore 2 per pernottamento nella casella 21
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella 20
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 17
+Giocatore 3 ha pagato 7 a giocatore 0 per pernottamento nella casella 17
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 2
+Giocatore 1 ha pagato 7 a giocatore 2 per pernottamento nella casella 2
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 2 è arrivato alla casella 3
+Giocatore 2 ha pagato 2 a giocatore 3 per pernottamento nella casella 3
+Giocatore 2 è stato eliminato
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 3 è arrivato alla casella 22
+Giocatore 3 ha pagato 4 a giocatore 0 per pernottamento nella casella 22
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 1 è arrivato alla casella 12
+Giocatore 1 ha pagato 7 a giocatore 2 per pernottamento nella casella 12
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 3 è arrivato alla casella 6
+Giocatore 3 ha pagato 2 a giocatore 1 per pernottamento nella casella 6
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 1 è arrivato alla casella 21
+Giocatore 1 ha pagato 2 a giocatore 2 per pernottamento nella casella 21
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 2 è arrivato alla casella 8
+Giocatore 2 ha pagato 2 a giocatore 0 per pernottamento nella casella 8
+Giocatore 2 è stato eliminato
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 13
+Giocatore 3 ha pagato 2 a giocatore 2 per pernottamento nella casella 13
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 1
+Giocatore 1 ha pagato 7 a giocatore 3 per pernottamento nella casella 1
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 3 è arrivato alla casella 21
+Giocatore 3 ha pagato 2 a giocatore 2 per pernottamento nella casella 21
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 4 è arrivato alla casella 18
+Giocatore 4 ha pagato 4 a giocatore 2 per pernottamento nella casella 18
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 1 è arrivato alla casella 10
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 10
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 3 è arrivato alla casella 26
+Giocatore 3 ha pagato 2 a giocatore 0 per pernottamento nella casella 26
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 4 è arrivato alla casella 25
+Giocatore 4 ha pagato 4 a giocatore 0 per pernottamento nella casella 25
+Giocatore 4 è stato eliminato
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 1 è arrivato alla casella 19
+Giocatore 1 ha pagato 2 a giocatore 2 per pernottamento nella casella 19
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 6
+Giocatore 3 ha pagato 2 a giocatore 1 per pernottamento nella casella 6
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 1 è arrivato alla casella 25
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 25
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 2 è arrivato alla casella 17
+Giocatore 2 ha pagato 7 a giocatore 0 per pernottamento nella casella 17
+Giocatore 2 è stato eliminato
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 3 è arrivato alla casella 11
+Giocatore 3 ha pagato 4 a giocatore 1 per pernottamento nella casella 11
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 6
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 18
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 18
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 1 è arrivato alla casella 12
+Giocatore 1 ha pagato 7 a giocatore 2 per pernottamento nella casella 12
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 24
+Giocatore 3 ha pagato 4 a giocatore 1 per pernottamento nella casella 24
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 1 è arrivato alla casella 18
+Giocatore 1 ha pagato 4 a giocatore 2 per pernottamento nella casella 18
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 2 è arrivato alla casella 1
+Giocatore 2 ha pagato 7 a giocatore 3 per pernottamento nella casella 1
+Giocatore 2 è stato eliminato
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 2
+Giocatore 3 è arrivato alla casella 26
+Giocatore 3 ha pagato 2 a giocatore 0 per pernottamento nella casella 26
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 4 è arrivato alla casella 5
+Giocatore 4 ha pagato 7 a giocatore 2 per pernottamento nella casella 5
+Giocatore 4 è stato eliminato
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 25
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 25
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 3 è arrivato alla casella 10
+Giocatore 3 ha pagato 4 a giocatore 0 per pernottamento nella casella 10
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 1 è arrivato alla casella 9
+Giocatore 1 ha pagato 4 a giocatore 3 per pernottamento nella casella 9
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 3 è arrivato alla casella 19
+Giocatore 3 ha pagato 2 a giocatore 2 per pernottamento nella casella 19
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 4 è arrivato alla casella 14
+Giocatore 4 ha pagato 2 a giocatore 0 per pernottamento nella casella 14
+Giocatore 4 è stato eliminato
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella 17
+Giocatore 1 ha pagato 7 a giocatore 0 per pernottamento nella casella 17
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 3 è arrivato alla casella 3
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 1 è arrivato alla casella 21
+Giocatore 1 ha pagato 2 a giocatore 2 per pernottamento nella casella 21
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 3 è arrivato alla casella 12
+Giocatore 3 ha pagato 7 a giocatore 2 per pernottamento nella casella 12
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 1 è arrivato alla casella 25
+Giocatore 1 ha pagato 4 a giocatore 0 per pernottamento nella casella 25
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 18
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 18
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 4
+Giocatore 1 è arrivato alla casella 2
+Giocatore 1 ha pagato 7 a giocatore 2 per pernottamento nella casella 2
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 3 è arrivato alla casella 2
+Giocatore 3 ha pagato 7 a giocatore 2 per pernottamento nella casella 2
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella 9
+Giocatore 1 ha pagato 4 a giocatore 3 per pernottamento nella casella 9
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 3 è arrivato alla casella 7
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 4 è arrivato alla casella 24
+Giocatore 4 ha pagato 4 a giocatore 1 per pernottamento nella casella 24
+Giocatore 4 è stato eliminato
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 1 è arrivato alla casella 20
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella 13
+Giocatore 3 ha pagato 2 a giocatore 2 per pernottamento nella casella 13
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 3
+Giocatore 1 è arrivato alla casella 23
+Giocatore 1 ha pagato 4 a giocatore 2 per pernottamento nella casella 23
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 3 è arrivato alla casella 18
+Giocatore 3 ha pagato 4 a giocatore 2 per pernottamento nella casella 18
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 9
+Giocatore 1 è arrivato alla casella 5
+Giocatore 1 ha pagato 7 a giocatore 2 per pernottamento nella casella 5
+Giocatore 1 è stato eliminato
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella 25
+Giocatore 3 ha pagato 4 a giocatore 0 per pernottamento nella casella 25
