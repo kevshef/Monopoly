@@ -6,8 +6,9 @@
 #define MONOPOLY_COMPUTERPLAYER_H
 
 #include "Player.h"
+#include <iostream>
 
-class ComputerPlayer : Player {
+class ComputerPlayer : public Player {
 
 public:
 
@@ -15,19 +16,13 @@ public:
 
     int getPlayerType() const override { return 1; };
 
-    void pay(Player& recipient, int amount);
+    bool buy(Box &box, int amount) override;
 
-    virtual bool buy(int amount) override;
+    bool buildHouse(Box &box) override;
 
-    bool buildHouse(int amount) override;
-
-    bool buildHotel(int amount) override;
-
-
-
-
+    bool buildHotel(Box &box) override;
 
 };
 
-
+std::ostream& operator<<(std::ostream &os, ComputerPlayer &obj);
 #endif //MONOPOLY_COMPUTERPLAYER_H

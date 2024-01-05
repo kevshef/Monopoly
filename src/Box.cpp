@@ -9,6 +9,7 @@
  * @details Initializes a Box object with the specified position and property type.
  */
 Box::Box(int position, int propertyType) {
+    ownerNumber = -1;
     if (position == 0) {
         type = BoxType::ANGULAR;
         isStart = true;

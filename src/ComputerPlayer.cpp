@@ -3,7 +3,6 @@
 //
 
 #include "../include/ComputerPlayer.h"
-#include <iostream>
 
 ComputerPlayer::ComputerPlayer(int playerNumber) {
 
@@ -14,19 +13,19 @@ ComputerPlayer::ComputerPlayer(int playerNumber) {
 }
 
 
-void ComputerPlayer::pay(Player &recipient, int amount) {+
-
-    bankAccount.updateBalance(-amount);
-    recipient.bankAccount.updateBalance(amount);
-}
-
-
-bool ComputerPlayer::buy(int amount) {
+bool ComputerPlayer::buy(Box &box, int amount) {
 
     if(rand() % 4  == 0) {
 
         if (bankAccount.getBalance() >= amount) {
             bankAccount.updateBalance(-amount);
+
+            if(box.isFree()) {
+                box.setNotFree(getNumber());
+            }
+
+
+            std::cout << "comprata ";
             return true;
         }
     }
@@ -34,28 +33,26 @@ bool ComputerPlayer::buy(int amount) {
 
 }
 
-bool ComputerPlayer::buildHouse(int amount) {
+bool ComputerPlayer::buildHouse(Box &box) {
 
-    if(rand() % 4  == 0) {
+    buy(box, box.getHousePrice());
 
-        if (bankAccount.getBalance() >= amount) {
-            bankAccount.updateBalance(-amount);
-            return true;
-        }
-    }
-    return false;
+    box.setIdentifying() ;
+
 
 }
 
-bool ComputerPlayer::buildHotel (int amount) {
+bool ComputerPlayer::buildHotel (Box &box) {
 
-    if(rand() % 4  == 0) {
+    buy(box, box.getHotelPrice());
 
-        if (bankAccount.getBalance() >= amount) {
-            bankAccount.updateBalance(-amount);
-            return true;
-        }
-    }
-    return false;
+    box.setIdentifying() ;
 
 }
+
+std::ostream& operator<<(std::ostream &os, ComputerPlayer &obj) {
+
+
+    return os << "Giocatore " << obj.getNumber() << " (computer) saldo: " << obj.getBalance() << "\n";
+
+};

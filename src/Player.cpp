@@ -53,30 +53,20 @@ int Player::throwDice() {
     return (((rand() % 6) + 1) + ((rand() % 6) + 1));
 }
 
+
 /**
  * @brief Performs a payment transaction from the player to a recipient player.
  *
  * @param recipient The player to receive the payment.
  * @param amount The amount to be paid.
  */
-void Player::pay(Player& recipient, int amount) {
+void Player::pay(std::shared_ptr<Player> &recipient, int amount) {
     bankAccount.updateBalance(-amount);
-    recipient.bankAccount.updateBalance(amount);
+    recipient->bankAccount.updateBalance(amount);
 }
 
-/**
- * @brief Attempts to make a purchase with the specified amount from the player.
- *
- * @param amount The amount to be spent on the purchase.
- * @return True if the purchase is successful, false if the player doesn't have enough balance.
- */
-bool Player::buy(int amount) {
-    if (bankAccount.getBalance() >= amount) {
-        bankAccount.updateBalance(-amount);
-        return true;
-    }
-    return false;
-}
+
+
 
 /**
  * @brief Sets the player's bank account balance to a specific amount.
@@ -103,25 +93,4 @@ bool Player::isBankrupt() const {
  */
 void Player::setPosition(int newPosition) {
     position = newPosition;
-}
-
-/**
- * @brief Overloaded stream insertion operator to allow printing Player objects to an ostream.
- *
- * @param os The output stream to which the Player information will be printed.
- * @param obj The Player object to be printed.
- *
- * @return The modified output stream.
- *
- * @details Prints the player's identifying number, type, and balance to the output stream.
- */
-std::ostream& operator<<(std::ostream& os, Player& obj) {
-    os << "Giocatore " << obj.getNumber() << " (";
-    if (obj.getPlayerType() == 0)
-        os << "real)";
-    else
-        os << "computer)";
-    os << " saldo: " << obj.getBalance() << "\n";
-
-    return os;
 }

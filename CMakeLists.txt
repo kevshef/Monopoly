@@ -16,4 +16,6 @@ add_executable(Monopoly
         src/ComputerPlayer.cpp
         include/ComputerPlayer.h
         src/HumanPlayer.cpp
-        include/HumanPlayer.h)
+        include/HumanPlayer.h
+        src/Game.cpp
+        include/Game.h)

@@ -27,7 +27,7 @@ private:
 
     PropertyType propertyType; // Type of property on the box (ECONOMIC, STANDARD, LUXURY)
 
-    int ownerNumber = -1; // Player number who owns the box
+    int ownerNumber; // Player number who owns the box
 
     bool free = false; // Indicates whether the box is free or owned by a player
 
