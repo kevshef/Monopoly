@@ -1,73 +1,46 @@
-
- 
-
- 
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
- 
-
-
- 
-
- 
-
- 
-
-
- 
- 
-
- 
- 
-
-
- 
-
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-
- 
- 
-
- 
-
- 
-
-
- 
- 
-
- 
-
- 
- 
-
- 
-
- 
-
- 
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella A8
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 2
+Giocatore 1 è arrivato alla casella A3
+Giocatore 1 ha acquistato il terreno A3
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella A7
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 4 è arrivato alla casella D8
+Giocatore 4 ha acquistato il terreno D8
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella H8
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 1 è arrivato alla casella G8
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 3 è arrivato alla casella G8
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 4 è arrivato alla casella H4
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 2 è arrivato alla casella H3
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è arrivato alla casella H1
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 6
+Giocatore 3 è arrivato alla casella H3
+Giocatore 3 ha acquistato il terreno H3
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 12
+Giocatore 4 è passato per il via e ha ritirato 20 fiorini
+Giocatore 4 è arrivato alla casella A4
+Giocatore 4 ha acquistato il terreno A4
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 11
+Giocatore 2 è passato per il via e ha ritirato 20 fiorini
+Giocatore 2 è arrivato alla casella A4
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 8
+Giocatore 1 è passato per il via e ha ritirato 20 fiorini
+Giocatore 1 è arrivato alla casella A3
+Giocatore 1 ha acquistato il terreno A3
+Giocatore 3 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 3 è arrivato alla casella E1
+Giocatore 3 ha acquistato il terreno E1
+Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 4 è arrivato alla casella B8
+Giocatore 4 ha acquistato il terreno B8
+Giocatore 2 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 2 è arrivato alla casella D8
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 7
+Giocatore 1 è arrivato alla casella C8
