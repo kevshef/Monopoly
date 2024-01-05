@@ -9,9 +9,6 @@
  * @details Initializes a Player object with the specified type, identifying number,
  * and sets the initial position to 0. Seeds the random number generator with the current time.
  */
-Player::Player(PlayerType playerType, int playerNumber) : type(playerType), identifyingNumber(playerNumber), position(0) {
-    srand(static_cast<unsigned int>(std::time(nullptr)));
-}
 
 /**
  * @brief Getter function to retrieve the identifying number of the player.
@@ -27,9 +24,7 @@ int Player::getNumber() const {
  *
  * @return The type of the player.
  */
-int Player::getPlayerType() const {
-    return static_cast<int>(type);
-}
+
 
 /**
  * @brief Getter function to retrieve the current position of the player on the board.
@@ -47,15 +42,6 @@ int Player::getPosition() const {
  */
 int Player::getBalance() const {
     return bankAccount.getBalance();
-}
-
-/**
- * @brief Checks if the player is still in the game (not bankrupt).
- *
- * @return True if the player is still in the game, false otherwise.
- */
-bool Player::isInGame() const {
-    return !bankAccount.isBankrupt();
 }
 
 /**
