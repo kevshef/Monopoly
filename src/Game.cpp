@@ -1,24 +1,24 @@
-#include "../include/Players.h"
+#include "../include/Game.h"
 #include <algorithm> // std::sort
 
 /**
- * @brief Constructor for the Players class.
+ * @brief Constructor for the Game class.
  *
  * @param numberOfPlayers The number of players in the game.
  *
- * @details Initializes a Players object with a specified number of real and computer players.
+ * @details Initializes a Game object with a specified number of real and computer players.
  * The random number generator is seeded with the current time, and a file "Load.txt" is created.
  */
-Players::Players(int numberOfPlayers) {
+Game::Game(std::string gamer) {
     srand(static_cast<unsigned int>(std::time(nullptr)));
 
     // Create real players
-    for (int i = 0; i < numberOfPlayers; ++i) {
-        players.push_back(Player(PlayerType::REAL, i + 1));
+    if (gamer == "Human") {
+        players.push_back(Player(PlayerType::REAL, 1));
     }
 
     // Fill remaining slots with computer players
-    for (int i = numberOfPlayers; i < 4; ++i) {
+    for (int i = players.size() ; i < 4; ++i) {
         players.push_back(Player(PlayerType::COMPUTER, i + 1));
     }
 
@@ -32,7 +32,7 @@ Players::Players(int numberOfPlayers) {
  *
  * @return The vector of Player objects.
  */
-std::vector<Player>& Players::getPlayers() {
+std::vector<Player>& Game::getPlayers() {
     return players;
 }
 
@@ -41,7 +41,7 @@ std::vector<Player>& Players::getPlayers() {
  *
  * @param newPlayers The new vector of Player objects.
  */
-void Players::setPlayers(const std::vector<Player>& newPlayers) {
+void Game::setPlayers(const std::vector<Player>& newPlayers) {
     players = newPlayers;
 }
 
@@ -56,7 +56,7 @@ void Players::setPlayers(const std::vector<Player>& newPlayers) {
  * @details Moves the player on the board, checks for various conditions such as property ownership,
  * payments, and purchases, and updates the game state.
  */
-int Players::move(Board& board, int i) {
+int Game::move(Board& board, int i) {
     std::vector<Box> temp_board = board.getBoard();
 
     int mossa = players[i].throwDice();
@@ -119,6 +119,7 @@ int Players::move(Board& board, int i) {
                 updateTextFile("Giocatore " + std::to_string(players[i].getNumber()) + " è stato eliminato");
 
         } else if (temp_board[new_position].getIdentifying() != '^') {
+            //players[i].getBalance - temp_board[new_position].getHotelPrice() > 0 && players[i].getBalance - temp_board[new_position].getHousePrice() > 0
             if (players[i].getPlayerType() == 0) {
                 if (temp_board[new_position].getIdentifying() == '*')
                     return (-1) * temp_board[new_position].getHotelPrice();
@@ -151,7 +152,7 @@ int Players::move(Board& board, int i) {
  *
  * @param message The message to be added to the text file.
  */
-void Players::updateTextFile(const std::string& message) {
+void Game::updateTextFile(const std::string& message) {
     std::ofstream file("../data/Load.txt", std::ios::app);
     if (file.is_open()) {
         file << message << "\n";
@@ -166,7 +167,7 @@ void Players::updateTextFile(const std::string& message) {
  *
  * @return True if the game can continue, false if an error occurs.
  */
-bool Players::start() {
+bool Game::start() {
     int tempThrowDice[4];
 
     // Roll the dice for each player and check for duplicates
@@ -201,7 +202,7 @@ bool Players::start() {
  *
  * @return True if the game has ended, false otherwise.
  */
-bool Players::end() const {
+bool Game::end() const {
     int bankruptCount = 0;
 
     for (int i = 0; i < 4; ++i) {
@@ -216,16 +217,16 @@ bool Players::end() const {
 }
 
 /**
- * @brief Overloaded stream insertion operator to allow printing Players objects to an ostream.
+ * @brief Overloaded stream insertion operator to allow printing Game objects to an ostream.
  *
- * @param os The output stream to which the Players information will be printed.
- * @param obj The Players object to be printed.
+ * @param os The output stream to which the Game information will be printed.
+ * @param obj The Game object to be printed.
  *
  * @return The modified output stream.
  *
- * @details Prints information about each player in the Players object.
+ * @details Prints information about each player in the Game object.
  */
-std::ostream& operator<<(std::ostream& os, Players& obj) {
+std::ostream& operator<<(std::ostream& os, Game& obj) {
     std::vector<Player> temp = obj.getPlayers();
 
     for (int i = 0; i < 4; ++i)

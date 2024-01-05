@@ -1,5 +1,5 @@
-#ifndef MONOPOLY_PLAYERS_H
-#define MONOPOLY_PLAYERS_H
+#ifndef MONOPOLY_GAME_H
+#define MONOPOLY_GAME_H
 
 #include "Player.h" // Include necessary header for Player class
 #include "Board.h" // Include necessary header for Board class
@@ -12,7 +12,7 @@
 #include <fstream>
 
 // Class representing the set of players in the game
-class Players {
+class Game {
 
 private:
 
@@ -21,7 +21,7 @@ private:
 public:
 
     // Constructor: Initializes the set of players based on the number of players
-    Players(int numberOfPlayers);
+    Game(std::string gamer);
 
     // Getter function to retrieve the vector of Player objects representing the players
     std::vector<Player>& getPlayers();
@@ -42,7 +42,7 @@ public:
     bool end() const;
 };
 
-// Overloaded stream insertion operator to allow printing Players objects to an ostream
-std::ostream& operator<<(std::ostream& os, Players& obj);
+// Overloaded stream insertion operator to allow printing Game objects to an ostream
+std::ostream& operator<<(std::ostream& os, Game& obj);
 
-#endif //MONOPOLY_PLAYERS_H
+#endif //MONOPOLY_GAME_H

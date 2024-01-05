@@ -1,5 +1,5 @@
 #include "include/Board.h"
-#include "include/Players.h"
+#include "include/Game.h"
 
 
 #include <iostream>
@@ -11,7 +11,8 @@ int main() {
     std::cout << scoreboard;
 
 
-    Players players(0);
+    Game players("Computer");
+
     std::cout << players;
 
     players.start();
