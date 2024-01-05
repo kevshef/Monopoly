@@ -95,9 +95,6 @@ int main() {
                         }
                     }
                 }
-                if (moveResult == -20) {
-                    std::cout << "\n\nCASSSSAAAAA\n\n";
-                }
             }
         }
 
