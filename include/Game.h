@@ -6,6 +6,7 @@
 #define MONOPOLY_GAME_H
 
 #include <fstream>
+#include <memory>
 #include "ComputerPlayer.h"
 #include "HumanPlayer.h"
 #include "Board.h"

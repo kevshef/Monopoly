@@ -121,7 +121,8 @@ bool Game::start() {
         for (int i = 0; i < 4; ++i) {
             tempThrowDice[i] = players[i]->throwDice();
         }
-    } while (tempThrowDice[0] == tempThrowDice[2] || tempThrowDice[0] == tempThrowDice[3] || tempThrowDice[1] == tempThrowDice[2] || tempThrowDice[1] == tempThrowDice[3]);
+    } while (tempThrowDice[0] == tempThrowDice[2] || tempThrowDice[0] == tempThrowDice[3] ||
+             tempThrowDice[1] == tempThrowDice[2] || tempThrowDice[1] == tempThrowDice[3]);
 
     // Sort players based on dice throw values
     std::vector<std::pair<int, int>> playerValues; // {playerIndex, diceThrow}
@@ -135,7 +136,7 @@ bool Game::start() {
 
     // Rearrange players vector based on sorted order
     std::vector<std::shared_ptr<Player>> sortedPlayers;
-    for (const auto &pv : playerValues) {
+    for (const auto &pv: playerValues) {
         sortedPlayers.push_back(players[pv.first]);
     }
 
