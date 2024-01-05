@@ -9,16 +9,16 @@
  * @details Initializes a Game object with a specified number of real and computer players.
  * The random number generator is seeded with the current time, and a file "Load.txt" is created.
  */
-Game::Game(int numberOfPlayers) {
+Game::Game(std::string gamer) {
     srand(static_cast<unsigned int>(std::time(nullptr)));
 
     // Create real players
-    for (int i = 0; i < numberOfPlayers; ++i) {
-        players.push_back(Player(PlayerType::REAL, i + 1));
+    if (gamer == "Human") {
+        players.push_back(Player(PlayerType::REAL, 1));
     }
 
     // Fill remaining slots with computer players
-    for (int i = numberOfPlayers; i < 4; ++i) {
+    for (int i = players.size() ; i < 4; ++i) {
         players.push_back(Player(PlayerType::COMPUTER, i + 1));
     }
 

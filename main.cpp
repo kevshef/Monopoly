@@ -11,7 +11,8 @@ int main() {
     std::cout << scoreboard;
 
 
-    Game players(0);
+    Game players("Computer");
+
     std::cout << players;
 
     players.start();
