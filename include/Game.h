@@ -1,33 +1,28 @@
+//
+// Created by Kevin Shefkiu on 05/01/24.
+//
+
 #ifndef MONOPOLY_GAME_H
 #define MONOPOLY_GAME_H
 
-#include "Player.h" // Include necessary header for Player class
-#include "Board.h" // Include necessary header for Board class
-
-#include <iostream>
-#include <vector>
-#include <ctime>
-#include <cstdlib>
-#include <string>
 #include <fstream>
+#include <memory>
+#include "ComputerPlayer.h"
+#include "HumanPlayer.h"
+#include "Board.h"
+
 
 // Class representing the set of players in the game
 class Game {
 
 private:
 
-    std::vector<Player> players; // Vector to store the players in the game
+    std::vector<std::shared_ptr<Player>> players; // Vector to store the players in the game
 
 public:
 
     // Constructor: Initializes the set of players based on the number of players
     Game(std::string gamer);
-
-    // Getter function to retrieve the vector of Player objects representing the players
-    std::vector<Player>& getPlayers();
-
-    // Setter function to update the vector of Player objects representing the players
-    void setPlayers(const std::vector<Player>& newPlayers);
 
     // Function to simulate a player's move on the board
     int move(Board& board, int playerIndex);
@@ -37,6 +32,11 @@ public:
 
     // Function to determine the starting order of players based on dice rolls
     bool start();
+
+
+    void setPlayers(const std::vector<std::shared_ptr<Player>> &newPlayers) { players = newPlayers; }
+
+    std::vector<std::shared_ptr<Player>>& getPlayers() { return players; }
 
     // Function to check if the game has ended (three or more players bankrupt)
     bool end() const;

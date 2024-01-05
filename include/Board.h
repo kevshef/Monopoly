@@ -22,8 +22,7 @@ public:
     // Getter function to retrieve the vector of Box objects representing the board
     std::vector<Box>& getBoard();
 
-    // Setter function to update the vector of Box objects representing the board
-    void setBoard(const std::vector<Box>& boxes);
+    std::string returnCoordinates(int position);
 
 };
 

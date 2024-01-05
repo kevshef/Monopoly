@@ -14,8 +14,11 @@ Box::Box(int position, int propertyType) {
         isStart = true;
     } else if (position == 7 || position == 20 || position == 27)
         type = BoxType::ANGULAR;
-    else
-        setProperty(static_cast<PropertyType>(propertyType));
+    else {
+
+        setProperty(propertyType);
+    }
+
 }
 
 /**
@@ -23,25 +26,29 @@ Box::Box(int position, int propertyType) {
  *
  * @param propertyType The type of property associated with the box.
  */
-void Box::setProperty(PropertyType propertyType) {
+void Box::setProperty(int pType) {
     free = true;
     type = BoxType::LATERAL;
-    switch (propertyType) {
-        case PropertyType::ECONOMIC:
+
+    switch (pType) {
+        case 0:
+            propertyType = PropertyType::ECONOMIC;
             price = 6;
             housePrice = 3;
             hotelPrice = 3;
             dailyHousePrice = 2;
             dailyHotelPrice = 4;
             break;
-        case PropertyType::STANDARD:
+        case 1:
+            propertyType = PropertyType::STANDARD;
             price = 10;
             housePrice = 5;
             hotelPrice = 5;
             dailyHousePrice = 4;
             dailyHotelPrice = 8;
             break;
-        case PropertyType::LUXURY:
+        case 2:
+            propertyType = PropertyType::LUXURY;
             price = 20;
             housePrice = 10;
             hotelPrice = 10;
@@ -184,6 +191,7 @@ std::ostream& operator<<(std::ostream& os, Box& obj) {
         os << "| |";
     else {
         os << "|";
+
 
         if (obj.getPropertyType() == PropertyType::ECONOMIC)
             os << "E";

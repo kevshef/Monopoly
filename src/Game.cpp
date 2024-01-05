@@ -1,157 +1,107 @@
+//
+// Created by Kevin Shefkiu on 05/01/24.
+//
+
 #include "../include/Game.h"
-#include <algorithm> // std::sort
 
-/**
- * @brief Constructor for the Game class.
- *
- * @param numberOfPlayers The number of players in the game.
- *
- * @details Initializes a Game object with a specified number of real and computer players.
- * The random number generator is seeded with the current time, and a file "Load.txt" is created.
- */
+
 Game::Game(std::string gamer) {
-    srand(static_cast<unsigned int>(std::time(nullptr)));
 
-    // Create real players
-    if (gamer == "Human") {
-        players.push_back(Player(PlayerType::REAL, 1));
+    if(gamer == "human")
+        players.push_back(std::make_shared<HumanPlayer>(HumanPlayer(1)));
+
+    for(int i = players.size() ; i < 4; i++) {
+
+        players.push_back(std::make_shared<ComputerPlayer>(ComputerPlayer(i + 1)));
+
     }
 
-    // Fill remaining slots with computer players
-    for (int i = players.size() ; i < 4; ++i) {
-        players.push_back(Player(PlayerType::COMPUTER, i + 1));
-    }
-
-    // Create an empty file "Load.txt"
-    std::ofstream file("../data/Load.txt", std::ios::trunc);
+    std::ofstream file("../data/load.txt", std::ios::trunc);
     file.close();
+
 }
 
-/**
- * @brief Getter function to retrieve the vector of Player objects.
- *
- * @return The vector of Player objects.
- */
-std::vector<Player>& Game::getPlayers() {
-    return players;
-}
+// Function to simulate a player's move on the board
+int Game::move(Board& board, int playerIndex) {
 
-/**
- * @brief Setter function to update the vector of Player objects.
- *
- * @param newPlayers The new vector of Player objects.
- */
-void Game::setPlayers(const std::vector<Player>& newPlayers) {
-    players = newPlayers;
-}
+    int mossa = players[playerIndex]->throwDice();
 
-/**
- * @brief Moves a player on the board based on dice throw and updates game state accordingly.
- *
- * @param board The game board.
- * @param i The index of the player in the vector.
- *
- * @return The result of the move, if applicable.
- *
- * @details Moves the player on the board, checks for various conditions such as property ownership,
- * payments, and purchases, and updates the game state.
- */
-int Game::move(Board& board, int i) {
-    std::vector<Box> temp_board = board.getBoard();
+    //@todo
+    updateTextFile("");
 
-    int mossa = players[i].throwDice();
-
-    updateTextFile(
-            "Giocatore " + std::to_string(players[i].getNumber()) + " ha lanciato i dadi ed ottenuto un valore di " +
-            std::to_string(mossa));
-
-    int new_position = mossa + players[i].getPosition();
+    int new_position = mossa + players[playerIndex]->getPosition();
 
     if (new_position > 27) {
         new_position -= 27;
-        players[i].updateBalance();
-        updateTextFile("Giocatore " + std::to_string(players[i].getNumber()) +
-                       " è passato per il via e ha ritirato 20 fiorini");
+        players[playerIndex]->updateBalance();
+
+        //@todo
+        updateTextFile("");
     }
 
-    players[i].setPosition(new_position);
+    players[playerIndex]->setPosition(new_position);
 
-    updateTextFile("Giocatore " + std::to_string(players[i].getNumber()) + " è arrivato alla casella " +
-                      std::to_string(new_position));
+    //@todo
+    updateTextFile(" ");
 
-
-
-    if (temp_board[new_position].getType() == static_cast<BoxType>(0)) { // È angolare ma non start
+    if (board.getBoard()[new_position].getType() == static_cast<BoxType>(0)) {
+        // intentionally left blank because angular position
         return 0;
-    } else if (temp_board[new_position].isFree()) {
-        if (players[i].getPlayerType() == 0) {
-            return temp_board[new_position].getPrice();
-        } else if (rand() % 4 == 0) {
-            players[i].buy(temp_board[new_position].getPrice());
-            temp_board[new_position].setNotFree(i);
-            updateTextFile("Giocatore " + std::to_string(players[i].getNumber()) + " ha acquistato il terreno " +
-                              std::to_string(new_position));
-            board.setBoard(temp_board);
+    } else if (board.getBoard()[new_position].isFree()) {
+
+        if (players[playerIndex]->buy(board.getBoard()[new_position], board.getBoard()[new_position].getPrice())) {
+            //@todo
+            updateTextFile(" ");
         }
-    } else if (!temp_board[new_position].isFree()) {
-        if (temp_board[new_position].getOwnerNumber() != players[i].getNumber()) {
+
+        return 0;
+
+    } else if (!board.getBoard()[new_position].isFree()) {
+
+        if (board.getBoard()[new_position].getOwnerNumber() != players[playerIndex]->getNumber()) {
 
             int temp_price;
 
-            if (temp_board[new_position].getIdentifying() == '^') {
-                players[i].pay(players[temp_board[new_position].getOwnerNumber()],
-                               temp_board[new_position].getDailyHotelPrice());
-                temp_price = temp_board[new_position].getDailyHotelPrice();
+            if (board.getBoard()[new_position].getIdentifying() == '*') {
+
+                players[playerIndex]->pay(players[board.getBoard()[new_position].getOwnerNumber() - 1],
+                                          board.getBoard()[new_position].getDailyHousePrice());
+                temp_price = board.getBoard()[new_position].getDailyHousePrice();
+
             } else {
-                players[i].pay(players[temp_board[new_position].getOwnerNumber()],
-                               temp_board[new_position].getDailyHousePrice());
-                temp_price = temp_board[new_position].getDailyHousePrice();
+
+                players[playerIndex]->pay(players[board.getBoard()[new_position].getOwnerNumber() - 1],
+                                          board.getBoard()[new_position].getDailyHotelPrice());
+                temp_price = board.getBoard()[new_position].getDailyHotelPrice();
+
+            }
+            //@todo
+            updateTextFile(" ");
+
+            if(players[playerIndex]->isBankrupt()){
+                //@todo
+                updateTextFile("");
             }
 
-            updateTextFile("Giocatore " + std::to_string(players[i].getNumber()) + " ha pagato " +
-                              std::to_string(temp_price) + " a giocatore " +
-                              std::to_string(temp_board[new_position].getOwnerNumber() + 1) +
-                              " per pernottamento nella casella " +
-                              std::to_string(new_position));
+        } else if(board.getBoard()[new_position].getIdentifying() != '^') {
 
+            if(board.getBoard()[new_position].getIdentifying() == '*') {
 
-            if (players[i].isBankrupt())
-                updateTextFile("Giocatore " + std::to_string(players[i].getNumber()) + " è stato eliminato");
+                players[playerIndex]->buildHotel(board.getBoard()[new_position]);
 
-        } else if (temp_board[new_position].getIdentifying() != '^') {
-            //players[i].getBalance - temp_board[new_position].getHotelPrice() > 0 && players[i].getBalance - temp_board[new_position].getHousePrice() > 0
-            if (players[i].getPlayerType() == 0) {
-                if (temp_board[new_position].getIdentifying() == '*')
-                    return (-1) * temp_board[new_position].getHotelPrice();
-                else
-                    return (-1) * temp_board[new_position].getHousePrice();
-            } else if (rand() % 4 == 0) {
+                //@todo
+                updateTextFile("");
 
-                if (temp_board[new_position].getIdentifying() == '*') {
-                    players[i].buy(temp_board[new_position].getHotelPrice());
-                    temp_board[new_position].setIdentifying();
-                    updateTextFile("Giocatore " + std::to_string(players[i].getNumber()) +
-                                      " ha migliorato una casa in albergo sul terreno " +
-                                      std::to_string(new_position));
-                } else {
-                    players[i].buy(temp_board[new_position].getHousePrice());
-                    temp_board[new_position].setIdentifying();
-                    updateTextFile(
-                            "Giocatore " + std::to_string(players[i].getNumber()) + " ha costruito una casa sul terreno " +
-                            std::to_string(new_position));
-                }
-                board.setBoard(temp_board);
+            } else {
+                players[playerIndex]->buildHouse(board.getBoard()[new_position]);
+                //@todo
+                updateTextFile(" ");
             }
         }
     }
-    return 0;
-}
+};
 
-/**
- * @brief Helper function to update the game state text file with a given message.
- *
- * @param message The message to be added to the text file.
- */
+// Function to update a text file with a given message
 void Game::updateTextFile(const std::string& message) {
     std::ofstream file("../data/Load.txt", std::ios::app);
     if (file.is_open()) {
@@ -162,20 +112,17 @@ void Game::updateTextFile(const std::string& message) {
     }
 }
 
-/**
- * @brief Initiates the game by determining player order based on dice throws.
- *
- * @return True if the game can continue, false if an error occurs.
- */
+// Function to determine the starting order of players based on dice rolls
 bool Game::start() {
     int tempThrowDice[4];
 
     // Roll the dice for each player and check for duplicates
     do {
         for (int i = 0; i < 4; ++i) {
-            tempThrowDice[i] = players[i].throwDice();
+            tempThrowDice[i] = players[i]->throwDice();
         }
-    } while (tempThrowDice[0] == tempThrowDice[2] || tempThrowDice[0] == tempThrowDice[3] || tempThrowDice[1] == tempThrowDice[2] || tempThrowDice[1] == tempThrowDice[3]);
+    } while (tempThrowDice[0] == tempThrowDice[2] || tempThrowDice[0] == tempThrowDice[3] ||
+             tempThrowDice[1] == tempThrowDice[2] || tempThrowDice[1] == tempThrowDice[3]);
 
     // Sort players based on dice throw values
     std::vector<std::pair<int, int>> playerValues; // {playerIndex, diceThrow}
@@ -188,8 +135,8 @@ bool Game::start() {
     });
 
     // Rearrange players vector based on sorted order
-    std::vector<Player> sortedPlayers;
-    for (const auto &pv : playerValues) {
+    std::vector<std::shared_ptr<Player>> sortedPlayers;
+    for (const auto &pv: playerValues) {
         sortedPlayers.push_back(players[pv.first]);
     }
 
@@ -206,7 +153,7 @@ bool Game::end() const {
     int bankruptCount = 0;
 
     for (int i = 0; i < 4; ++i) {
-        if (players[i].isBankrupt()) {
+        if (players[i]->isBankrupt()) {
             bankruptCount++;
             if (bankruptCount >= 3)
                 return true;
@@ -227,10 +174,11 @@ bool Game::end() const {
  * @details Prints information about each player in the Game object.
  */
 std::ostream& operator<<(std::ostream& os, Game& obj) {
-    std::vector<Player> temp = obj.getPlayers();
 
     for (int i = 0; i < 4; ++i)
-        os << temp[i];
+        os << obj.getPlayers()[i];
 
     return os;
+
+
 }

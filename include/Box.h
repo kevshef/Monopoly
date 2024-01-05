@@ -21,13 +21,13 @@ private:
     char identifyingBuilding = ' '; // Character to identify special building types
 
     // Private function to set the property of the box based on PropertyType
-    void setProperty(PropertyType propertyType);
+    void setProperty(int pType);
 
     BoxType type; // Type of the box (ANGULAR or LATERAL)
 
     PropertyType propertyType; // Type of property on the box (ECONOMIC, STANDARD, LUXURY)
 
-    int ownerNumber = -1; // Player number who owns the box
+    int ownerNumber; // Player number who owns the box
 
     bool free = false; // Indicates whether the box is free or owned by a player
 

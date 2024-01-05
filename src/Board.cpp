@@ -41,15 +41,10 @@ std::vector<Box>& Board::getBoard() {
     return board;
 }
 
-/**
- * @brief Setter function to set the board with a given vector of boxes.
- *
- * @param boxes The vector of Box objects to set the board with.
- */
-void Board::setBoard(const std::vector<Box>& boxes) {
-    board = boxes;
-}
+std::string Board::returnCoordinates(int position) {
 
+
+};
 /**
  * @brief Overloaded stream insertion operator to allow printing Board objects to an ostream.
  *
