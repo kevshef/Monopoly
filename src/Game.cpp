@@ -1,6 +1,6 @@
 #include "../include/Game.h"
 #include <algorithm> // std::sort
-
+#include <string.h>
 /**
  * @brief Constructor for the Game class.
  *
@@ -9,11 +9,12 @@
  * @details Initializes a Game object with a specified number of real and computer players.
  * The random number generator is seeded with the current time, and a file "Load.txt" is created.
  */
-Game::Game(std::string gamer) {
+Game::Game(const char *gamer) {
     srand(static_cast<unsigned int>(std::time(nullptr)));
 
     // Create real players
-    if (gamer == "Human") {
+
+    if (strcmp("human",gamer)==0 || strcmp("HUMAN",gamer)==0) {
         players.push_back(Player(PlayerType::REAL, 1));
     }
 
@@ -81,36 +82,36 @@ int Game::move(Board& board, int i) {
 
 
 
-    if (temp_board[new_position].getType() == static_cast<BoxType>(0)) { // È angolare ma non start
+    if (board.getBoard()[new_position].getType() == static_cast<BoxType>(0)) { // È angolare ma non start
         return 0;
-    } else if (temp_board[new_position].isFree()) {
+    } else if (board.getBoard()[new_position].isFree()) {
         if (players[i].getPlayerType() == 0) {
-            return temp_board[new_position].getPrice();
+            return board.getBoard()[new_position].getPrice();
         } else if (rand() % 4 == 0) {
-            players[i].buy(temp_board[new_position].getPrice());
-            temp_board[new_position].setNotFree(i);
+            players[i].buy(board.getBoard()[new_position].getPrice());
+            board.getBoard()[new_position].setNotFree(i);
             updateTextFile("Giocatore " + std::to_string(players[i].getNumber()) + " ha acquistato il terreno " +
                               std::to_string(new_position));
-            board.setBoard(temp_board);
+            board.setBoard(board.getBoard());
         }
-    } else if (!temp_board[new_position].isFree()) {
-        if (temp_board[new_position].getOwnerNumber() != players[i].getNumber()) {
+    } else if (!board.getBoard()[new_position].isFree()) {
+        if (board.getBoard()[new_position].getOwnerNumber() != players[i].getNumber()) {
 
             int temp_price;
 
-            if (temp_board[new_position].getIdentifying() == '^') {
-                players[i].pay(players[temp_board[new_position].getOwnerNumber()],
-                               temp_board[new_position].getDailyHotelPrice());
-                temp_price = temp_board[new_position].getDailyHotelPrice();
+            if (board.getBoard()[new_position].getIdentifying() == '^') {
+                players[i].pay(players[board.getBoard()[new_position].getOwnerNumber()],
+                               board.getBoard()[new_position].getDailyHotelPrice());
+                temp_price = board.getBoard()[new_position].getDailyHotelPrice();
             } else {
-                players[i].pay(players[temp_board[new_position].getOwnerNumber()],
-                               temp_board[new_position].getDailyHousePrice());
-                temp_price = temp_board[new_position].getDailyHousePrice();
+                players[i].pay(players[board.getBoard()[new_position].getOwnerNumber()],
+                               board.getBoard()[new_position].getDailyHousePrice());
+                temp_price = board.getBoard()[new_position].getDailyHousePrice();
             }
 
             updateTextFile("Giocatore " + std::to_string(players[i].getNumber()) + " ha pagato " +
                               std::to_string(temp_price) + " a giocatore " +
-                              std::to_string(temp_board[new_position].getOwnerNumber() + 1) +
+                              std::to_string(board.getBoard()[new_position].getOwnerNumber() + 1) +
                               " per pernottamento nella casella " +
                               std::to_string(new_position));
 
@@ -118,29 +119,29 @@ int Game::move(Board& board, int i) {
             if (players[i].isBankrupt())
                 updateTextFile("Giocatore " + std::to_string(players[i].getNumber()) + " è stato eliminato");
 
-        } else if (temp_board[new_position].getIdentifying() != '^') {
-            //players[i].getBalance - temp_board[new_position].getHotelPrice() > 0 && players[i].getBalance - temp_board[new_position].getHousePrice() > 0
+        } else if (board.getBoard()[new_position].getIdentifying() != '^') {
+            //players[i].getBalance - board.getBoard()[new_position].getHotelPrice() > 0 && players[i].getBalance - board.getBoard()[new_position].getHousePrice() > 0
             if (players[i].getPlayerType() == 0) {
-                if (temp_board[new_position].getIdentifying() == '*')
-                    return (-1) * temp_board[new_position].getHotelPrice();
+                if (board.getBoard()[new_position].getIdentifying() == '*')
+                    return (-1) * board.getBoard()[new_position].getHotelPrice();
                 else
-                    return (-1) * temp_board[new_position].getHousePrice();
+                    return (-1) * board.getBoard()[new_position].getHousePrice();
             } else if (rand() % 4 == 0) {
 
-                if (temp_board[new_position].getIdentifying() == '*') {
-                    players[i].buy(temp_board[new_position].getHotelPrice());
-                    temp_board[new_position].setIdentifying();
+                if (board.getBoard()[new_position].getIdentifying() == '*') {
+                    players[i].buy(board.getBoard()[new_position].getHotelPrice());
+                    board.getBoard()[new_position].setIdentifying();
                     updateTextFile("Giocatore " + std::to_string(players[i].getNumber()) +
                                       " ha migliorato una casa in albergo sul terreno " +
                                       std::to_string(new_position));
                 } else {
-                    players[i].buy(temp_board[new_position].getHousePrice());
-                    temp_board[new_position].setIdentifying();
+                    players[i].buy(board.getBoard()[new_position].getHousePrice());
+                    board.getBoard()[new_position].setIdentifying();
                     updateTextFile(
                             "Giocatore " + std::to_string(players[i].getNumber()) + " ha costruito una casa sul terreno " +
                             std::to_string(new_position));
                 }
-                board.setBoard(temp_board);
+                board.setBoard(board.getBoard());
             }
         }
     }

@@ -1,17 +1,27 @@
 #include "include/Board.h"
 #include "include/Game.h"
 
-
+#include <string.h>
 #include <iostream>
+#include <cstring>
 
-int main() {
+int main(int argc, char *argv[]) {
+    const char* temp;
+
+    if(strcmp(argv[1], "computer")==0 || strcmp(argv[1], "COMPUTER") ==0){
+        temp = static_cast<const char*>(argv[1]);
+    }else if(strcmp(argv[1], "human")==0 || strcmp(argv[1], "HUMAN") ==0){
+        temp = static_cast<const char*>(argv[1]);
+    }else{
+        std::cout << "invalid command line argument: must be 'human' or 'computer' \n";
+        exit(1);
+    }
 
     Board scoreboard;
 
     std::cout << scoreboard;
 
-
-    Game players("Computer");
+    Game players(temp);
 
     std::cout << players;
 
@@ -32,7 +42,7 @@ int main() {
                     if (scoreboard.getBoard()[players.getPlayers()[i].getPosition()].getOwnerNumber() != i ) {
 
                         std::cout << "\n\tGiocatore " << (i + 1)
-                                  << " digitare Y o N se si vuole procedere o meno con l'acquisto di "
+                                  << " digitare S o N se si vuole procedere o meno con l'acquisto di "
                                   << scoreboard.getBoard().at(players.getPlayers().at(i).getPosition()) << " per "
                                   << moveResult << " fiorini.";
 
@@ -40,9 +50,9 @@ int main() {
                         do {
                             std::cout << "\n\tRisposta: ";
                             std::cin >> risposta;
-                        } while (risposta != "Y" && risposta != "N");
+                        } while (risposta != "S" && risposta != "N");
 
-                        if (risposta == "Y") {
+                        if (risposta == "S") {
                             players.getPlayers()[i].buy(moveResult);
                             scoreboard.getBoard()[players.getPlayers()[i].getPosition()].setNotFree(i);
                             players.updateTextFile(
@@ -54,7 +64,7 @@ int main() {
                     } else {
 
                         std::cout << "\n\tGiocatore " << (i + 1)
-                                  << " digitare Y o N se si vuole procedere o meno con il miglioramento in di "
+                                  << " digitare S o N se si vuole procedere o meno con il miglioramento in di "
                                   << scoreboard.getBoard().at(players.getPlayers().at(i).getPosition());
 
                         if (scoreboard.getBoard()[players.getPlayers()[i].getPosition()].getIdentifying() == '*' )
@@ -70,9 +80,9 @@ int main() {
 
                             std::cin >> risposta;
 
-                        } while (risposta != "Y" && risposta != "N");
+                        } while (risposta != "S" && risposta != "N");
 
-                        if (risposta == "Y") {
+                        if (risposta == "S") {
 
                             players.getPlayers()[i].buy(moveResult);
 
