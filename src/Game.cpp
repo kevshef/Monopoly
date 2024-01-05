@@ -31,6 +31,7 @@ int Game::move(Board& board, int playerIndex) {
 
     int new_position = mossa + players[playerIndex]->getPosition();
 
+
     if (new_position > 27) {
         new_position -= 27;
         players[playerIndex]->updateBalance();

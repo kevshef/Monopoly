@@ -10,6 +10,8 @@ int main() {
 
     std::cout << board;
 
+
+/**
     Game gioco("human");
 
     std::cout << gioco;
@@ -34,6 +36,6 @@ int main() {
         turno++;
 
     } while(!gioco.end());
-
+**/
     return 0;
 }

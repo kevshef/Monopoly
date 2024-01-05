@@ -30,6 +30,7 @@ Board::Board() {
             }
         } while (isEnd);
     }
+
 }
 
 /**
@@ -41,9 +42,8 @@ std::vector<Box>& Board::getBoard() {
     return board;
 }
 
-std::string Board::returnCoordinates(int position) {
-
-
+std::string Board::getCoordinates(int position) {
+    return coordinates[position];
 };
 /**
  * @brief Overloaded stream insertion operator to allow printing Board objects to an ostream.
@@ -60,19 +60,24 @@ std::ostream& operator<<(std::ostream& os, Board& obj) {
     char c = 'A';
     os << "\t 1\t 2\t 3\t 4\t 5\t 6\t 7\t 8\n";
 
+    int j = 19;
+
     for( int i = 0; i < 28; i++ ) {
-        if( i == 0 || (i > 7 && i % 2 == 0) && i < 21)
+
+        if( i == 0 || (i > 7 && i < 15))
             os << c++ << "\t";
 
-        if (i < 8 || i > 19) {
+        if (i < 8 || (i > 13 && i < 22)) {
             os << temp[i] << "\t";
 
             if (i == 7)
                 os << "\n";
 
         } else {
-            os << temp[i] << "\t\t\t\t\t\t\t" << temp[i + 1] << "\n";
-            i++;
+            if(i < 14) {
+                os << temp[i + j] << "\t\t\t\t\t\t\t" << temp[i] << "\n";
+                j = j - 2;
+            }
         }
 
     }

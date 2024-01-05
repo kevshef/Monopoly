@@ -33,7 +33,6 @@ public:
     // Function to determine the starting order of players based on dice rolls
     bool start();
 
-
     void setPlayers(const std::vector<std::shared_ptr<Player>> &newPlayers) { players = newPlayers; }
 
     std::vector<std::shared_ptr<Player>>& getPlayers() { return players; }

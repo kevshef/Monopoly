@@ -12,7 +12,7 @@ Box::Box(int position, int propertyType) {
     if (position == 0) {
         type = BoxType::ANGULAR;
         isStart = true;
-    } else if (position == 7 || position == 20 || position == 27)
+    } else if (position == 7 || position == 14 || position == 21)
         type = BoxType::ANGULAR;
     else {
 
