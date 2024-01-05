@@ -21,7 +21,7 @@ private:
     char identifyingBuilding = ' '; // Character to identify special building types
 
     // Private function to set the property of the box based on PropertyType
-    void setProperty(PropertyType propertyType);
+    void setProperty(int pType);
 
     BoxType type; // Type of the box (ANGULAR or LATERAL)
 

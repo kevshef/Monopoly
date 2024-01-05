@@ -10,13 +10,14 @@ int main() {
 
     std::cout << board;
 
-    Game gioco("computer");
+    Game gioco("human");
 
     std::cout << gioco;
 
     gioco.start();
 
     int turno = 0;
+
 
     do {
 
@@ -33,7 +34,6 @@ int main() {
         turno++;
 
     } while(!gioco.end());
-
 
     return 0;
 }
