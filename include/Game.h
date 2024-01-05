@@ -21,7 +21,7 @@ private:
 public:
 
     // Constructor: Initializes the set of players based on the number of players
-    Game(std::string gamer);
+    Game(const char *gamer);
 
     // Getter function to retrieve the vector of Player objects representing the players
     std::vector<Player>& getPlayers();
