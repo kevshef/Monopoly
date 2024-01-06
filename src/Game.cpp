@@ -5,10 +5,10 @@
 #include "../include/Game.h"
 
 
-Game::Game(std::string gamer) {
+Game::Game(std::string gamer, Board &board) {
 
     if(gamer == "human")
-        players.push_back(std::make_shared<HumanPlayer>(HumanPlayer(1)));
+        players.push_back(std::make_shared<HumanPlayer>(HumanPlayer(1, board)));
 
     for(int i = players.size() ; i < 4; i++) {
 

@@ -22,7 +22,7 @@ private:
 public:
 
     // Constructor: Initializes the set of players based on the number of players
-    Game(std::string gamer);
+    Game(std::string gamer, Board &board);
 
     // Function to simulate a player's move on the board
     int move(Board& board, int playerIndex);

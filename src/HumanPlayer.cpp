@@ -5,8 +5,9 @@
 #include "../include/HumanPlayer.h"
 
 
-HumanPlayer::HumanPlayer(int playerNumber) {
+HumanPlayer::HumanPlayer(int playerNumber, Board &board) {
 
+    this->board = board;
     position = 0;
     identifyingNumber = playerNumber;
     srand(static_cast<unsigned int>(std::time(nullptr)));
@@ -19,7 +20,8 @@ bool HumanPlayer::buy(Box &box, int amount) {
 
     char answer = ' ';
     std::cout << "\n\tGiocatore " << getNumber() + 1
-              << " digitare S o N se si vuole procedere o meno con l'acquisto di " << box << " per " << amount
+              << " digitare S o N se si vuole procedere o meno con l'acquisto di " << board.getCoordinates(position)
+              << " per " << amount
               << " fiorini." << "\n";
     do {
         std::cout << "\n\tRisposta : ";
@@ -43,7 +45,8 @@ bool HumanPlayer::buildHouse(Box &box) {
 
     char answer = ' ';
     std::cout << "\n\tGiocatore " << getNumber() + 1
-              << " digitare S o N se si vuole procedere o meno con la costruzione di una casa sul terreno di " << box
+              << " digitare S o N se si vuole procedere o meno con la costruzione di una casa sul terreno di "
+              << board.getCoordinates(position)
               << " per "
               << box.getHousePrice() << " fiorini." << "\n";
     do {
@@ -69,7 +72,7 @@ bool HumanPlayer::buildHotel (Box &box) {
     char answer = ' ';
     std::cout << "\n\tGiocatore " << getNumber() + 1
               << " digitare S o N se si vuole procedere o meno per il miglioramento di una casa in albergo sul terreno"
-              << box << " per "
+              << board.getCoordinates(position) << " per "
               << box.getHotelPrice() << " fiorini." << "\n";
     do {
         std::cout << "\n\tRisposta : ";

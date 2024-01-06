@@ -62,9 +62,9 @@ std::ostream& operator<<(std::ostream& os, Board& obj) {
 
     int j = 19;
 
-    for( int i = 0; i < 28; i++ ) {
+    for (int i = 0; i < 28; i++) {
 
-        if( i == 0 || (i > 7 && i < 15))
+        if (i == 0 || (i > 7 && i < 15))
             os << c++ << "\t";
 
         if (i < 8 || (i > 13 && i < 22)) {
@@ -74,7 +74,7 @@ std::ostream& operator<<(std::ostream& os, Board& obj) {
                 os << "\n";
 
         } else {
-            if(i < 14) {
+            if (i < 14) {
                 os << temp[i + j] << "\t\t\t\t\t\t\t" << temp[i] << "\n";
                 j = j - 2;
             }
