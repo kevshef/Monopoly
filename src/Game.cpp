@@ -44,41 +44,39 @@ int Game::move(Board& board, int playerIndex) {
     updateTextFile("Giocatore " + std::to_string(players[playerIndex]->getNumber()) +
                    " è arrivato alla casella " + board.getCoordinates(new_position) );
 
-    Box new_position_box = board.getBoard()[new_position];
-
-    if (new_position_box.getType() == static_cast<BoxType>(0)) {
+    if (board.getBoard()[new_position].getType() == static_cast<BoxType>(0)) {
         // intentionally left blank because angular position
         return 0;
-    } else if (new_position_box.isFree()) {
+    } else if (board.getBoard()[new_position].isFree()) {
 
-        if (players[playerIndex]->buy(new_position_box, new_position_box.getPrice())) {
+        if (players[playerIndex]->buy(board.getBoard()[new_position], board.getBoard()[new_position].getPrice())) {
 
             updateTextFile("Giocatore " + std::to_string(players[playerIndex]->getNumber()) + " ha acquistato il terreno " + board.getCoordinates(new_position) );
         }
 
         return 0;
 
-    } else if (!new_position_box.isFree()) {
+    } else if (!board.getBoard()[new_position].isFree()) {
 
-        if (new_position_box.getOwnerNumber() != players[playerIndex]->getNumber()) {
-//@todo checkare se getownernumber e getnumber funzionano correttamente
+        if (board.getBoard()[new_position].getOwnerNumber() != players[playerIndex]->getNumber()) {
+            //@todo checkare se getownernumber e getnumber funzionano correttamente
             int temp_price;
 
-            if (new_position_box.getIdentifying() == '*') {
+            if (board.getBoard()[new_position].getIdentifying() == '*') {
 
-                players[playerIndex]->pay(players[new_position_box.getOwnerNumber() - 1],new_position_box.getDailyHousePrice());
-                temp_price = new_position_box.getDailyHousePrice();
+                players[playerIndex]->pay(players[board.getBoard()[new_position].getOwnerNumber() - 1],board.getBoard()[new_position].getDailyHousePrice());
+                temp_price = board.getBoard()[new_position].getDailyHousePrice();
 
             } else {
 
-                players[playerIndex]->pay(players[new_position_box.getOwnerNumber() - 1],new_position_box.getDailyHotelPrice());
-                temp_price = new_position_box.getDailyHotelPrice();
+                players[playerIndex]->pay(players[board.getBoard()[new_position].getOwnerNumber() - 1],board.getBoard()[new_position].getDailyHotelPrice());
+                temp_price = board.getBoard()[new_position].getDailyHotelPrice();
 
             }
 
             updateTextFile("Giocatore " + std::to_string(players[playerIndex]->getNumber()) + " ha pagato "
                            + std::to_string(temp_price) + " a giocatore " +
-                           std::to_string(new_position_box.getOwnerNumber() + 1)
+                           std::to_string(board.getBoard()[new_position].getOwnerNumber() + 1)
                            + " per pernottamento nella casella " + board.getCoordinates(new_position));
 
             if(players[playerIndex]->isBankrupt()){
@@ -88,11 +86,11 @@ int Game::move(Board& board, int playerIndex) {
             }
 
 
-        } else if(new_position_box.getIdentifying() != '^') {
+        } else if(board.getBoard()[new_position].getIdentifying() != '^') {
 
-            if(new_position_box.getIdentifying() == '*') {
+            if(board.getBoard()[new_position].getIdentifying() == '*') {
 
-                players[playerIndex]->buildHotel(new_position_box);
+                players[playerIndex]->buildHotel(board.getBoard()[new_position]);
 
 
                 updateTextFile("Giocatore " + std::to_string(players[playerIndex]->getNumber()) +
@@ -100,7 +98,7 @@ int Game::move(Board& board, int playerIndex) {
                                board.getCoordinates(new_position));
 
             } else {
-                players[playerIndex]->buildHouse(new_position_box);
+                players[playerIndex]->buildHouse(board.getBoard()[new_position]);
 
                 updateTextFile(
                         "Giocatore " + std::to_string(players[playerIndex]->getNumber()) +
