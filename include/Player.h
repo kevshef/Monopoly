@@ -3,7 +3,8 @@
 
 #include "BankAccount.h" // Include necessary header for BankAccount class
 #include "Box.h"
-#include <ostream>
+#include <iostream>
+#include <memory>
 #include <ctime>
 #include <cstdlib>
 
