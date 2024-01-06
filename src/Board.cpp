@@ -18,7 +18,7 @@ Board::Board() {
         bool isEnd = true;
         do {
             int temp = rand() % 3;
-            if (i == 0 || i == 7 || i == 20 || i == 27) {
+            if (i == 0 || i == 7 || i == 14 || i == 21) {
                 // Initialize a Box object with a special type for specific indices
                 board.push_back(Box(i, 4));
                 isEnd = false;
@@ -30,7 +30,6 @@ Board::Board() {
             }
         } while (isEnd);
     }
-
 }
 
 /**
@@ -45,6 +44,7 @@ std::vector<Box>& Board::getBoard() {
 std::string Board::getCoordinates(int position) {
     return coordinates[position];
 };
+
 /**
  * @brief Overloaded stream insertion operator to allow printing Board objects to an ostream.
  *
@@ -84,5 +84,4 @@ std::ostream& operator<<(std::ostream& os, Board& obj) {
     os << "\n";
 
     return os;
-
 }

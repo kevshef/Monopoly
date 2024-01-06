@@ -4,7 +4,6 @@
 
 #include "../include/HumanPlayer.h"
 
-
 HumanPlayer::HumanPlayer(int playerNumber, Board &board) {
 
     this->board = board;
@@ -13,8 +12,6 @@ HumanPlayer::HumanPlayer(int playerNumber, Board &board) {
     srand(static_cast<unsigned int>(std::time(nullptr)));
 
 }
-
-
 
 bool HumanPlayer::buy(Box &box, int amount) {
 

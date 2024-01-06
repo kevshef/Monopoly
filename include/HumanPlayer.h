@@ -9,7 +9,6 @@
 #include "Board.h"
 #include <iostream>
 
-
 class HumanPlayer : public Player {
 
 private:

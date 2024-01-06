@@ -20,13 +20,6 @@ int Player::getNumber() const {
 }
 
 /**
- * @brief Getter function to retrieve the type of the player (0 for real, 1 for computer).
- *
- * @return The type of the player.
- */
-
-
-/**
  * @brief Getter function to retrieve the current position of the player on the board.
  *
  * @return The current position of the player.
@@ -61,12 +54,11 @@ int Player::throwDice() {
  * @param amount The amount to be paid.
  */
 void Player::pay(std::shared_ptr<Player> &recipient, int amount) {
-    bankAccount.updateBalance(-amount);
-    recipient->bankAccount.updateBalance(amount);
+    if (!recipient->isBankrupt()) {
+        bankAccount.updateBalance(-amount);
+        recipient->bankAccount.updateBalance(amount);
+    }
 }
-
-
-
 
 /**
  * @brief Sets the player's bank account balance to a specific amount.
@@ -74,7 +66,7 @@ void Player::pay(std::shared_ptr<Player> &recipient, int amount) {
  * @details Used for initializing the player's balance at the start of the game.
  */
 void Player::updateBalance() {
-    bankAccount.updateBalance(2);
+    bankAccount.updateBalance(20);
 }
 
 /**

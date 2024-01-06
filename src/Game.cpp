@@ -4,7 +4,6 @@
 
 #include "../include/Game.h"
 
-
 Game::Game(std::string gamer, Board &board) {
 
     if(gamer == "human")
@@ -197,6 +196,20 @@ bool Game::end() const {
     }
 
     return false;
+}
+
+int Game::richestPlayer() const {
+    int maxBalance = players[0]->getBalance();
+    int richestPlayerId = 0;
+
+    for (size_t i = 1; i < players.size(); ++i) {
+        if (players[i]->getBalance() > maxBalance) {
+            maxBalance = players[i]->getBalance();
+            richestPlayerId = i;
+        }
+    }
+
+    return richestPlayerId;
 }
 
 /**

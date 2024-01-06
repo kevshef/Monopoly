@@ -45,7 +45,6 @@ public:
     // Function to set the player's initial balance
     void updateBalance();
 
-
     // Function to check if the player is bankrupt
     bool isBankrupt() const;
 
@@ -55,7 +54,5 @@ public:
     // Getter function to retrieve the player's identifier
     int getNumber() const;
 };
-
-
 
 #endif //MONOPOLY_PLAYER_H

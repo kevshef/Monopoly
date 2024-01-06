@@ -11,7 +11,6 @@
 #include "HumanPlayer.h"
 #include "Board.h"
 
-
 // Class representing the set of players in the game
 class Game {
 
@@ -41,6 +40,8 @@ public:
 
     // Function to check if the game has ended (three or more players bankrupt)
     bool end() const;
+
+    int richestPlayer() const;
 };
 
 // Overloaded stream insertion operator to allow printing Game objects to an ostream

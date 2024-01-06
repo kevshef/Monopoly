@@ -45,7 +45,6 @@ private:
         "B1"
     };
 
-
 public:
 
     // Constructor: Initializes the game board

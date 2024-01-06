@@ -12,7 +12,6 @@ ComputerPlayer::ComputerPlayer(int playerNumber) {
 
 }
 
-
 bool ComputerPlayer::buy(Box &box, int amount) {
 
     if(rand() % 4  == 0) {
