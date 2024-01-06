@@ -106,6 +106,7 @@ int Game::move(Board& board, int playerIndex) {
             }
         }
     }
+    return 0;
 };
 
 // Function to update a text file with a given message
