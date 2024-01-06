@@ -26,8 +26,10 @@ public:
 
     bool buildHotel(Box &box) override;
 
+    bool show() const;
+
 };
 
-std::ostream& operator<<(std::ostream &os, HumanPlayer &obj);
+std::ostream& operator<<(std::ostream &os, const HumanPlayer &obj);
 
 #endif //MONOPOLY_HUMANPLAYER_H

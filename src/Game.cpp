@@ -31,6 +31,7 @@ int Game::move(Board& board, int playerIndex) {
 
     int new_position = mossa + players[playerIndex]->getPosition();
 
+    //Passa per il via
     if (new_position > 27) {
         new_position -= 27;
         players[playerIndex]->updateBalance();
@@ -44,14 +45,41 @@ int Game::move(Board& board, int playerIndex) {
     updateTextFile("Giocatore " + std::to_string(players[playerIndex]->getNumber()) +
                    " è arrivato alla casella " + board.getCoordinates(new_position) );
 
+    const auto& currentPlayer = players[playerIndex];
+    if (auto humanPlayer = std::dynamic_pointer_cast<HumanPlayer>(currentPlayer)) {
+        if (humanPlayer->show()) {
+
+            //● visualizzare il tabellone
+            std::cout << "\nTabellone:\n" << board;
+
+            //● visualizzare lista terreni/case/alberghi posseduti da ogni giocatore
+            std::cout << "\nLista terreni/case/alberghi posseduti da ogni giocatore:\n";
+            for (int i = 0; i < players.size(); ++i) {
+                std::cout << "Giocatore " << players[i]->getNumber() << ": ";
+                for (int j = 0; j < board.getBoard().size(); ++j) {
+                    if (board.getBoard()[j].getOwnerNumber() == players[i]->getNumber()) {
+                        std::cout << board.getCoordinates(j) << " ";
+                    }
+                }
+                std::cout << "\n";
+            }
+
+            //● visualizzare l’ammontare di fiorini posseduto da tutti i giocatori
+            std::cout << "\nSaldo giocatori:\n";
+            for (int i = 0; i < players.size(); ++i) {
+                std::cout << "Giocatore " << players[i]->getNumber() << ": " << players[i]->getBalance() << "\n";
+            }
+        }
+    }
+
     if (board.getBoard()[new_position].getType() == static_cast<BoxType>(0)) {
         // intentionally left blank because angular position
         return 0;
     } else if (board.getBoard()[new_position].isFree()) {
 
+        //Casella libera acquistabile
         if (players[playerIndex]->buy(board.getBoard()[new_position], board.getBoard()[new_position].getPrice())) {
-
-            updateTextFile("Giocatore " + std::to_string(players[playerIndex]->getNumber()) + " ha acquistato il terreno " + board.getCoordinates(new_position) );
+            updateTextFile("Giocatore " + std::to_string(players[playerIndex]->getNumber()) + " ha acquistato il terreno " + board.getCoordinates(new_position) + " per: " + std::to_string(board.getBoard()[new_position].getPrice()));
         }
 
         return 0;
@@ -76,7 +104,7 @@ int Game::move(Board& board, int playerIndex) {
 
             updateTextFile("Giocatore " + std::to_string(players[playerIndex]->getNumber()) + " ha pagato "
                            + std::to_string(temp_price) + " a giocatore " +
-                           std::to_string(board.getBoard()[new_position].getOwnerNumber() + 1)
+                           std::to_string(board.getBoard()[new_position].getOwnerNumber())
                            + " per pernottamento nella casella " + board.getCoordinates(new_position));
 
             if(players[playerIndex]->isBankrupt()){
@@ -181,12 +209,14 @@ bool Game::end() const {
  *
  * @details Prints information about each player in the Game object.
  */
-std::ostream& operator<<(std::ostream& os, Game& obj) {
-
-    for (int i = 0; i < 4; ++i)
-        os << obj.getPlayers()[i];
-
+std::ostream& operator<<(std::ostream& os, const Game& obj) {
+    for (int i = 0; i < 4; ++i) {
+        const auto& currentPlayer = obj.getPlayers()[i];
+        if (auto humanPlayer = std::dynamic_pointer_cast<HumanPlayer>(currentPlayer)) {
+            os << *humanPlayer;
+        } else if (auto computerPlayer = std::dynamic_pointer_cast<ComputerPlayer>(currentPlayer)) {
+            os << *computerPlayer;
+        }
+    }
     return os;
-
-
 }

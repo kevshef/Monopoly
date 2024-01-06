@@ -24,8 +24,6 @@ bool ComputerPlayer::buy(Box &box, int amount) {
                 box.setNotFree(getNumber());
             }
 
-
-            std::cout << "comprata ";
             return true;
         }
     }
@@ -50,9 +48,6 @@ bool ComputerPlayer::buildHotel (Box &box) {
 
 }
 
-std::ostream& operator<<(std::ostream &os, ComputerPlayer &obj) {
-
-
+std::ostream& operator<<(std::ostream &os, const ComputerPlayer &obj) {
     return os << "Giocatore " << obj.getNumber() << " (computer) saldo: " << obj.getBalance() << "\n";
-
-};
+}

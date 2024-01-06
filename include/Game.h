@@ -37,11 +37,13 @@ public:
 
     std::vector<std::shared_ptr<Player>>& getPlayers() { return players; }
 
+    const std::vector<std::shared_ptr<Player>>& getPlayers() const { return players; }
+
     // Function to check if the game has ended (three or more players bankrupt)
     bool end() const;
 };
 
 // Overloaded stream insertion operator to allow printing Game objects to an ostream
-std::ostream& operator<<(std::ostream& os, Game& obj);
+std::ostream& operator<<(std::ostream& os, const Game& obj);
 
 #endif //MONOPOLY_GAME_H

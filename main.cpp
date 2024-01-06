@@ -32,7 +32,7 @@ int main() {
 
         }
 
-        std::cout << board;
+        //std::cout << board;
         turno++;
 
     } while(!gioco.end());

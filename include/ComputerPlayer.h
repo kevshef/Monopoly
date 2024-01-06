@@ -24,5 +24,5 @@ public:
 
 };
 
-std::ostream& operator<<(std::ostream &os, ComputerPlayer &obj);
+std::ostream& operator<<(std::ostream &os, const ComputerPlayer &obj);
 #endif //MONOPOLY_COMPUTERPLAYER_H

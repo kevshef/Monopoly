@@ -19,7 +19,7 @@ HumanPlayer::HumanPlayer(int playerNumber, Board &board) {
 bool HumanPlayer::buy(Box &box, int amount) {
 
     char answer = ' ';
-    std::cout << "\n\tGiocatore " << getNumber() + 1
+    std::cout << "\n\tGiocatore " << getNumber()
               << " digitare S o N se si vuole procedere o meno con l'acquisto di " << board.getCoordinates(position)
               << " per " << amount
               << " fiorini." << "\n";
@@ -44,7 +44,7 @@ bool HumanPlayer::buy(Box &box, int amount) {
 bool HumanPlayer::buildHouse(Box &box) {
 
     char answer = ' ';
-    std::cout << "\n\tGiocatore " << getNumber() + 1
+    std::cout << "\n\tGiocatore " << getNumber()
               << " digitare S o N se si vuole procedere o meno con la costruzione di una casa sul terreno di "
               << board.getCoordinates(position)
               << " per "
@@ -70,7 +70,7 @@ bool HumanPlayer::buildHouse(Box &box) {
 bool HumanPlayer::buildHotel (Box &box) {
 
     char answer = ' ';
-    std::cout << "\n\tGiocatore " << getNumber() + 1
+    std::cout << "\n\tGiocatore " << getNumber()
               << " digitare S o N se si vuole procedere o meno per il miglioramento di una casa in albergo sul terreno"
               << board.getCoordinates(position) << " per "
               << box.getHotelPrice() << " fiorini." << "\n";
@@ -89,12 +89,18 @@ bool HumanPlayer::buildHotel (Box &box) {
     }
 
     return false;
-
 }
 
-std::ostream& operator<<(std::ostream &os, HumanPlayer &obj) {
+bool HumanPlayer::show() const {
+    std::string risposta;
+    std::cout << "Giocatore " << this->getNumber() << ": Inserire show al fine di visualizzare: "
+              << "\n\t- il tabellone"
+              << "\n\t- lista terreni/case/alberghi posseduti da ogni giocatore"
+              << "\n\t- l’ammontare di fiorini posseduto da tutti i giocatori\nRisposta: ";
+    std::cin >> risposta;
+    return risposta == "show";
+}
 
+std::ostream& operator<<(std::ostream &os, const HumanPlayer &obj) {
     return os << "Giocatore " << obj.getNumber() << " (real) saldo: " << obj.getBalance() << "\n";
-
-
-};
+}
