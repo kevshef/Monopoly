@@ -7,6 +7,7 @@
 
 #include <fstream>
 #include <memory>
+#include <algorithm>
 #include "ComputerPlayer.h"
 #include "HumanPlayer.h"
 #include "Board.h"
