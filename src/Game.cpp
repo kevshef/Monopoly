@@ -202,7 +202,7 @@ bool Game::end() const {
     return false;
 }
 
-int Game::requestPlayer() const {
+int Game::richestPlayer() const {
     int maxBalance = players[0]->getBalance();
     int richestPlayerId = 0;
 

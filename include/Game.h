@@ -42,7 +42,7 @@ public:
     // Function to check if the game has ended (three or more players bankrupt)
     bool end() const;
 
-    int requestPlayer() const;
+    int richestPlayer() const;
 };
 
 // Overloaded stream insertion operator to allow printing Game objects to an ostream

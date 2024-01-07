@@ -1,0 +1,2 @@
+Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 5
+Giocatore 1 è arrivato alla casella A6
