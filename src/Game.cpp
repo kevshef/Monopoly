@@ -149,31 +149,32 @@ void Game::updateTextFile(const std::string& message) {
 
 // Function to determine the starting order of players based on dice rolls
 bool Game::start() {
-    int tempThrowDice[4];
-
-    for (int i = 0; i < 4; ++i) {
-        tempThrowDice[i] = players[i]->throwDice();
-    }
-    // Roll the dice for each player and check for duplicates
-
-    while (tempThrowDice[0] == tempThrowDice[1] || tempThrowDice[0] == tempThrowDice[2] || tempThrowDice[0] == tempThrowDice[3] ||
-             tempThrowDice[1] == tempThrowDice[2] || tempThrowDice[1] == tempThrowDice[3] || tempThrowDice[2] == tempThrowDice[3]) {
-        for (int i = 0; i < 4; ++i) {
-            if (tempThrowDice[i] == tempThrowDice[(i + 2) % 4] || tempThrowDice[i] == tempThrowDice[(i + 3) % 4]) {
-                tempThrowDice[i] = players[i]->throwDice();
-            }
-        }
-    }
-
-    // Sort players based on dice throw values
     std::vector<std::pair<int, int>> playerValues; // {playerIndex, diceThrow}
+
     for (int i = 0; i < 4; ++i) {
-        playerValues.push_back(std::make_pair(i, tempThrowDice[i]));
+        int diceThrow = players[i]->throwDice();
+        playerValues.push_back(std::make_pair(i, diceThrow));
     }
 
     std::sort(playerValues.begin(), playerValues.end(), [](const std::pair<int, int> &a, const std::pair<int, int> &b) {
         return a.second > b.second;
     });
+
+    for (int i = 1; i < playerValues.size(); ++i) {
+        if (playerValues[i].second == playerValues[i - 1].second) {
+            // Reroll for tied players
+            int playerIndex = playerValues[i].first;
+            int newDiceThrow = players[playerIndex]->throwDice();
+
+            // Update the dice throw value and re-sort
+            playerValues[i].second = newDiceThrow;
+            std::sort(playerValues.begin(), playerValues.end(), [](const std::pair<int, int> &a, const std::pair<int, int> &b) {
+                return a.second > b.second;
+            });
+
+            i = 0;
+        }
+    }
 
     // Rearrange players vector based on sorted order
     std::vector<std::shared_ptr<Player>> sortedPlayers;
