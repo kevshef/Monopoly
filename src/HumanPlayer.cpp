@@ -98,7 +98,7 @@ void HumanPlayer::show(std::vector<std::shared_ptr<Player>> players, Board& boar
     do {
         std::cout << "\n\tRisposta : ";
         std::cin >> risposta;
-        if(risposta != "show" || risposta != "no")
+        if(risposta != "show" && risposta != "no")
             std::cout<< "\nInvalid response: should be 'show' or 'no'.";
     } while (risposta != "show" && risposta != "no");
 
