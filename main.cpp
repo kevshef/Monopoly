@@ -5,7 +5,7 @@
 #include <iostream>
 
 int main(int argc, char *argv[]) {
-
+    /*
     const char *temp;
 
     if(argc != 2) {
@@ -20,12 +20,12 @@ int main(int argc, char *argv[]) {
         std::cout << "invalid command line argument: must be 'human' or 'computer' \n";
         exit(1);
     }
-
+    */
     Board board;
 
     std::cout << board;
 
-    Game gioco(temp, board);
+    Game gioco("computer", board);
 
     std::cout << gioco;
 

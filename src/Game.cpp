@@ -109,15 +109,19 @@ int Game::move(Board& board, int playerIndex) {
 
             if (board.getBoard()[new_position].getIdentifying() == '*') {
 
-                players[playerIndex]->pay(players[board.getBoard()[new_position].getOwnerNumber()],
-                                          board.getBoard()[new_position].getDailyHousePrice());
+                for (int i = 0; i < players.size(); ++i) {
+                    if (players[i]->getNumber() == board.getBoard()[new_position].getOwnerNumber())
+                        players[playerIndex]->pay(players[i], board.getBoard()[new_position].getDailyHousePrice());
+                }
 
                 temp_price = board.getBoard()[new_position].getDailyHousePrice();
 
             }else {
 
-                players[playerIndex]->pay(players[board.getBoard()[new_position].getOwnerNumber()],
-                                          board.getBoard()[new_position].getDailyHotelPrice());
+                for (int i = 0; i < players.size(); ++i) {
+                    if (players[i]->getNumber() == board.getBoard()[new_position].getOwnerNumber())
+                        players[playerIndex]->pay(players[i], board.getBoard()[new_position].getDailyHotelPrice());
+                }
 
                 temp_price = board.getBoard()[new_position].getDailyHotelPrice();
 
