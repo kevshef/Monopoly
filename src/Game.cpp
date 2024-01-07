@@ -151,13 +151,19 @@ void Game::updateTextFile(const std::string& message) {
 bool Game::start() {
     int tempThrowDice[4];
 
+    for (int i = 0; i < 4; ++i) {
+        tempThrowDice[i] = players[i]->throwDice();
+    }
     // Roll the dice for each player and check for duplicates
-    do {
+
+    while (tempThrowDice[0] == tempThrowDice[1] || tempThrowDice[0] == tempThrowDice[2] || tempThrowDice[0] == tempThrowDice[3] ||
+             tempThrowDice[1] == tempThrowDice[2] || tempThrowDice[1] == tempThrowDice[3] || tempThrowDice[2] == tempThrowDice[3]) {
         for (int i = 0; i < 4; ++i) {
-            tempThrowDice[i] = players[i]->throwDice();
+            if (tempThrowDice[i] == tempThrowDice[(i + 2) % 4] || tempThrowDice[i] == tempThrowDice[(i + 3) % 4]) {
+                tempThrowDice[i] = players[i]->throwDice();
+            }
         }
-    } while (tempThrowDice[0] == tempThrowDice[2] || tempThrowDice[0] == tempThrowDice[3] ||
-             tempThrowDice[1] == tempThrowDice[2] || tempThrowDice[1] == tempThrowDice[3]);
+    }
 
     // Sort players based on dice throw values
     std::vector<std::pair<int, int>> playerValues; // {playerIndex, diceThrow}
