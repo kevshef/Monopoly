@@ -52,8 +52,11 @@ int Player::throwDice() {
  *
  * @param recipient The player to receive the payment.
  * @param amount The amount to be paid.
+ *
+ *
  */
 void Player::pay(std::shared_ptr<Player> &recipient, int amount) {
+
     if (!recipient->isBankrupt()) {
         bankAccount.updateBalance(-amount);
         recipient->bankAccount.updateBalance(amount);

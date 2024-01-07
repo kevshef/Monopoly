@@ -4,10 +4,11 @@
 
 #include "../include/Game.h"
 
-Game::Game(std::string gamer, Board &board) {
+Game::Game(const char *gamer, Board &board) {
 
-    if(gamer == "human")
+    if (strcmp("human",gamer)==0 || strcmp("HUMAN",gamer)==0) {
         players.push_back(std::make_shared<HumanPlayer>(HumanPlayer(1, board)));
+    }
 
     for(int i = players.size() ; i < 4; i++)
         players.push_back(std::make_shared<ComputerPlayer>(ComputerPlayer(i + 1)));
@@ -15,6 +16,7 @@ Game::Game(std::string gamer, Board &board) {
     std::ofstream file("../data/load.txt", std::ios::trunc);
     file.close();
 
+    gamer = nullptr;
 }
 
 // Function to simulate a player's move on the board
@@ -248,7 +250,7 @@ bool Game::end() const {
 
     int bankruptCount = 0;
 
-    for (int i = 0; i < 4; ++i) {
+    for (int i = 0; i < 4; i++) {
 
         if (players[i]->isBankrupt()) {
 
@@ -277,7 +279,6 @@ int Game::richestPlayer() const {
             maxBalance = players[i]->getBalance();
 
             richestPlayerId = i;
-
         }
 
     }
@@ -309,6 +310,17 @@ std::ostream& operator<<(std::ostream& os, const Game& obj) {
 
     }
 
+  /**
+    --> deve essere in copia
+    Board temp = board.getBoard;
+
+    for(int i, i in players, i++ )
+        temp string = string + std::to_string(board[players[i].getPosition] = player.getNumber) ;
+
+    os << board.
+
+
+   **/
     return os;
 
 }
