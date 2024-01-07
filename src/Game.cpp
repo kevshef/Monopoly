@@ -116,7 +116,7 @@ int Game::move(Board& board, int playerIndex) {
 
                 temp_price = board.getBoard()[new_position].getDailyHousePrice();
 
-            }else {
+            } else {
 
                 for (int i = 0; i < players.size(); ++i) {
                     if (players[i]->getNumber() == board.getBoard()[new_position].getOwnerNumber())
