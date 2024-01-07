@@ -10,8 +10,6 @@ int main() {
 
     std::cout << board;
 
-
-
     Game gioco("human", board);
 
     std::cout << gioco;
@@ -36,7 +34,7 @@ int main() {
 
     } while(!gioco.end() && turno < 5000);
 
-    int id = gioco.richestPlayer();
+    int id = gioco.requestPlayer();
     std::cout << "Il vincitore è il giocatore " << gioco.getPlayers()[id]->getNumber() << " con un saldo di: " << gioco.getPlayers()[id]->getBalance();
 
     return 0;
