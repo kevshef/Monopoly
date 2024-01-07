@@ -12,7 +12,7 @@ int main() {
 
 
 
-    Game gioco("computer", board);
+    Game gioco("human", board);
 
     std::cout << gioco;
 

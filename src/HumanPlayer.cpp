@@ -24,9 +24,9 @@ bool HumanPlayer::buy(Box &box, int amount) {
         std::cout << "\n\tRisposta : ";
         std::cin >> answer;
 
-    } while (answer != 'S' && answer != 'N');
+    } while (tolower(answer) != 's' && tolower(answer) != 'n');
 
-    if (answer == 'S') {
+    if (tolower(answer) == 's') {
         if (bankAccount.getBalance() >= amount) {
             bankAccount.updateBalance(-amount);
             box.setNotFree(getNumber());
