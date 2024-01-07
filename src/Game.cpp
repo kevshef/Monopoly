@@ -9,11 +9,8 @@ Game::Game(std::string gamer, Board &board) {
     if(gamer == "human")
         players.push_back(std::make_shared<HumanPlayer>(HumanPlayer(1, board)));
 
-    for(int i = players.size() ; i < 4; i++) {
-
+    for(int i = players.size() ; i < 4; i++)
         players.push_back(std::make_shared<ComputerPlayer>(ComputerPlayer(i + 1)));
-
-    }
 
     std::ofstream file("../data/load.txt", std::ios::trunc);
     file.close();
@@ -91,12 +88,12 @@ int Game::move(Board& board, int playerIndex) {
 
             if (board.getBoard()[new_position].getIdentifying() == '*') {
 
-                players[playerIndex]->pay(players[board.getBoard()[new_position].getOwnerNumber() - 1],board.getBoard()[new_position].getDailyHousePrice());
+                players[playerIndex]->pay(players[board.getBoard()[new_position].getOwnerNumber()],board.getBoard()[new_position].getDailyHousePrice());
                 temp_price = board.getBoard()[new_position].getDailyHousePrice();
 
             } else {
 
-                players[playerIndex]->pay(players[board.getBoard()[new_position].getOwnerNumber() - 1],board.getBoard()[new_position].getDailyHotelPrice());
+                players[playerIndex]->pay(players[board.getBoard()[new_position].getOwnerNumber()],board.getBoard()[new_position].getDailyHotelPrice());
                 temp_price = board.getBoard()[new_position].getDailyHotelPrice();
 
             }

@@ -50,7 +50,7 @@ bool HumanPlayer::buildHouse(Box &box) {
         std::cout << "\n\tRisposta : ";
         std::cin >> answer;
 
-    } while (answer != 'S' && answer != 'N');
+    } while (tolower(answer) != 's' && tolower(answer) != 'n');
 
     if (answer == 'S') {
         if (bankAccount.getBalance() >= box.getHousePrice()) {
@@ -75,7 +75,7 @@ bool HumanPlayer::buildHotel (Box &box) {
         std::cout << "\n\tRisposta : ";
         std::cin >> answer;
 
-    } while (answer != 'S' && answer != 'N');
+    } while (tolower(answer) != 's' && tolower(answer) != 'n');
 
     if (answer == 'S') {
         if (bankAccount.getBalance() >= box.getHotelPrice()) {
