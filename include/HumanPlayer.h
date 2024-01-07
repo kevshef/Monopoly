@@ -25,7 +25,7 @@ public:
 
     bool buildHotel(Box &box) override;
 
-    bool show() const;
+    void show(std::vector<std::shared_ptr<Player>> players, Board& board);
 
 };
 

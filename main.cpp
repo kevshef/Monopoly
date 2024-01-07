@@ -41,7 +41,6 @@ int main(int argc, char *argv[]) {
             if (!gioco.getPlayers()[i]->isBankrupt()) {
                 int moveResult = gioco.move(board, i);
             }
-
         }
 
         turno++;
@@ -49,7 +48,8 @@ int main(int argc, char *argv[]) {
     } while (!gioco.end() && turno < 5000);
 
     int id = gioco.richestPlayer();
-    std::cout << "Il vincitore è il giocatore " << gioco.getPlayers()[id]->getNumber() << " con un saldo di: "
+
+    std::cout << "\nIl vincitore è il giocatore " << gioco.getPlayers()[id]->getNumber() << " con un saldo di: "
               << gioco.getPlayers()[id]->getBalance() << " fiorini";
 
     return 0;

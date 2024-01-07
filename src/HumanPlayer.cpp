@@ -88,14 +88,40 @@ bool HumanPlayer::buildHotel (Box &box) {
     return false;
 }
 
-bool HumanPlayer::show() const {
+void HumanPlayer::show(std::vector<std::shared_ptr<Player>> players, Board& board) {
     std::string risposta;
-    std::cout << "Giocatore " << this->getNumber() << ": Inserire show al fine di visualizzare: "
+    std::cout << "\nGiocatore " << this->getNumber() << ": Inserire show o no al fine di visualizzare: "
               << "\n\t- il tabellone"
               << "\n\t- lista terreni/case/alberghi posseduti da ogni giocatore"
-              << "\n\t- l’ammontare di fiorini posseduto da tutti i giocatori\nRisposta: ";
-    std::cin >> risposta;
-    return risposta == "show";
+              << "\n\t- l’ammontare di fiorini posseduto da tutti i giocatori";
+
+    do {
+        std::cout << "\n\tRisposta : ";
+        std::cin >> risposta;
+    } while (risposta != "show" && risposta != "no");
+
+    if (risposta == "show") {
+        //● visualizzare il tabellone
+        std::cout << "\nTabellone:\n" << board;
+
+        //● visualizzare lista terreni/case/alberghi posseduti da ogni giocatore
+        std::cout << "\nLista terreni/case/alberghi posseduti da ogni giocatore:\n";
+        for (int i = 0; i < players.size(); ++i) {
+            std::cout << "Giocatore " << players[i]->getNumber() << ": ";
+            for (int j = 0; j < board.getBoard().size(); ++j) {
+                if (board.getBoard()[j].getOwnerNumber() == players[i]->getNumber()) {
+                    std::cout << board.getCoordinates(j) << " ";
+                }
+            }
+            std::cout << "\n";
+        }
+
+        //● visualizzare l’ammontare di fiorini posseduto da tutti i giocatori
+        std::cout << "\nSaldo giocatori:\n";
+        for (int i = 0; i < players.size(); ++i) {
+            std::cout << "Giocatore " << players[i]->getNumber() << ": " << players[i]->getBalance() << "\n";
+        }
+    }
 }
 
 std::ostream& operator<<(std::ostream &os, const HumanPlayer &obj) {
