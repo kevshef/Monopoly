@@ -29,7 +29,7 @@ int main(int argc, char *argv[]) {
 
     std::cout << gioco;
 
-    int numeroTurni = 100;
+    int numeroTurni = 10000;
 
     gioco.play(board, numeroTurni);
 
