@@ -39,7 +39,7 @@ int main(int argc, char *argv[]) {
 
         for (int i = 0; i < 4; i++) {
             if (!gioco.getPlayers()[i]->isBankrupt()) {
-                int moveResult = gioco.move(board, i);
+                gioco.move(board, i);
             }
         }
 
