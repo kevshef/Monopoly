@@ -44,6 +44,8 @@ public:
     bool end() const;
 
     int richestPlayer() const;
+
+    void play(Board &board, int numeroTurni);
 };
 
 // Overloaded stream insaertion operator to allow printing Game objects to an ostream

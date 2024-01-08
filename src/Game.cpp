@@ -267,6 +267,44 @@ int Game::richestPlayer() const {
 
 }
 
+void Game::play(Board &board, int numeroTurni) {
+
+    int turno = 0;
+
+    start();
+
+    do {
+
+        std::cout << "\n\n turno " << (turno + 1) << " : \n";
+
+        for (int i = 0; i < 4; i++) {
+            if (!getPlayers()[i]->isBankrupt()) {
+                move(board, i);
+            }
+        }
+
+        turno++;
+
+    } while (!end() && turno < numeroTurni);
+
+    int id = richestPlayer();
+
+    std::cout << "\nIl vincitore è il giocatore " << getPlayers()[id]->getNumber() << " con un saldo di: "
+              << getPlayers()[id]->getBalance() << " fiorini.\n";
+
+    std::cout << board;
+
+    for (int i = 0; i < getPlayers().size(); ++i) {
+        std::cout << "Giocatore " << getPlayers()[i]->getNumber() << ": ";
+        for (int j = 0; j < board.getBoard().size(); ++j) {
+            if (board.getBoard()[j].getOwnerNumber() == getPlayers()[i]->getNumber()) {
+                std::cout << board.getCoordinates(j) << board.getBoard()[j].getIdentifying() << " ";
+            }
+        }
+        std::cout << "\n";
+    }
+}
+
 /**
  * @brief Overloaded stream insertion operator to allow printing Game objects to an ostream.
  *

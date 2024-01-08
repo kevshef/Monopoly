@@ -29,39 +29,7 @@ int main(int argc, char *argv[]) {
 
     std::cout << gioco;
 
-    gioco.start();
+    gioco.play(board, 10);
 
-    int turno = 0;
-
-    do {
-
-        std::cout << "\n\n turno " << (turno + 1) << " : \n";
-
-        for (int i = 0; i < 4; i++) {
-            if (!gioco.getPlayers()[i]->isBankrupt()) {
-                gioco.move(board, i);
-            }
-        }
-
-        turno++;
-
-    } while (!gioco.end() && turno < 5000);
-
-    int id = gioco.richestPlayer();
-
-    std::cout << "\nIl vincitore è il giocatore " << gioco.getPlayers()[id]->getNumber() << " con un saldo di: "
-              << gioco.getPlayers()[id]->getBalance() << " fiorini.\n";
-
-    std::cout << board;
-
-    for (int i = 0; i < gioco.getPlayers().size(); ++i) {
-        std::cout << "Giocatore " << gioco.getPlayers()[i]->getNumber() << ": ";
-        for (int j = 0; j < board.getBoard().size(); ++j) {
-            if (board.getBoard()[j].getOwnerNumber() == gioco.getPlayers()[i]->getNumber()) {
-                std::cout << board.getCoordinates(j) << board.getBoard()[j].getIdentifying() << " ";
-            }
-        }
-        std::cout << "\n";
-    }
     return 0;
 }
