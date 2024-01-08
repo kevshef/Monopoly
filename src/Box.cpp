@@ -69,6 +69,14 @@ void Box::setNotFree(int playerNumber) {
 }
 
 /**
+ * @brief Sets the box as free and unassigns the owner.
+ */
+void Box::setFree() {
+    free = true;
+    ownerNumber = 0;
+}
+
+/**
  * @brief Toggles the identifying character of the box.
  */
 void Box::setIdentifying() {

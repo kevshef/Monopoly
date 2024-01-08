@@ -50,7 +50,8 @@ int main(int argc, char *argv[]) {
     int id = gioco.richestPlayer();
 
     std::cout << "\nIl vincitore è il giocatore " << gioco.getPlayers()[id]->getNumber() << " con un saldo di: "
-              << gioco.getPlayers()[id]->getBalance() << " fiorini";
+              << gioco.getPlayers()[id]->getBalance() << " fiorini.\n";
 
+    std::cout << board;
     return 0;
 }

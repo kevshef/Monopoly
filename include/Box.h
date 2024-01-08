@@ -81,6 +81,9 @@ public:
     // Function to set the box as not free and assign an owner
     void setNotFree(int playerNumber);
 
+    // Function to set the box as free and unassign the owner
+    void setFree();
+
     // Getter function to retrieve the owner number of the box
     int getOwnerNumber() const;
 
