@@ -18,4 +18,6 @@ add_executable(Monopoly
         src/HumanPlayer.cpp
         include/HumanPlayer.h
         src/Game.cpp
-        include/Game.h)
+        include/Game.h
+        src/BankAccount.cpp
+        include/BankAccount.h)

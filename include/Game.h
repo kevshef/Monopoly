@@ -45,7 +45,7 @@ public:
     int richestPlayer() const;
 };
 
-// Overloaded stream insertion operator to allow printing Game objects to an ostream
+// Overloaded stream insaertion operator to allow printing Game objects to an ostream
 std::ostream& operator<<(std::ostream& os, const Game& obj);
 
 #endif //MONOPOLY_GAME_H

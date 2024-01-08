@@ -7,9 +7,9 @@
 2	371	1704658934590209176	CMakeFiles/Monopoly.dir/main.cpp.o	5706a5345774939a
 3	255	1703771310998646436	CMakeFiles/Monopoly.dir/src/LateralBox.cpp.o	df7313b877381d61
 2	275	1704658934492230650	CMakeFiles/Monopoly.dir/src/Box.cpp.o	c846f2c1cea7dbcb
-4	284	1703961477747753345	CMakeFiles/Monopoly.dir/src/ScoreBoard.cpp.o	be1b991d8dd39cef
-0	66	1704708519057767402	build.ninja	271ce511c0eb54a8
+0	66	1704708973913717192	build.ninja	271ce511c0eb54a8
 3	255	1703771310998653270	CMakeFiles/Monopoly.dir/src/AngularBox.cpp.o	317a396748f594a3
+4	284	1703961477747753345	CMakeFiles/Monopoly.dir/src/ScoreBoard.cpp.o	be1b991d8dd39cef
 5	709	1704410803764160461	CMakeFiles/Monopoly.dir/src/Players.cpp.o	8d5185088a2e9a04
 3	305	1704658934524047981	CMakeFiles/Monopoly.dir/src/BankAccount.cpp.o	11d407453c789583
 3	282	1704658934498975248	CMakeFiles/Monopoly.dir/src/Player.cpp.o	67204cfea4e4a483
