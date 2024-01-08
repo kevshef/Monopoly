@@ -8,6 +8,7 @@
 #include <fstream>
 #include <memory>
 #include <algorithm>
+#include <cstring>
 #include "ComputerPlayer.h"
 #include "HumanPlayer.h"
 #include "Board.h"

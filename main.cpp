@@ -1,6 +1,5 @@
 #include "include/Board.h"
 #include "include/Game.h"
-#include <cstring>
 
 
 #include <iostream>
