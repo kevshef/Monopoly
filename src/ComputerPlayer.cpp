@@ -14,36 +14,51 @@ ComputerPlayer::ComputerPlayer(int playerNumber) {
 
 bool ComputerPlayer::buy(Box &box, int amount) {
 
-    if(rand() % 4  == 0) {
+    if (bankAccount.getBalance() > amount) {
 
-        if (bankAccount.getBalance() >= amount) {
-            bankAccount.updateBalance(-amount);
+        if (rand() % 4 == 0) {
 
-            if(box.isFree()) {
-                box.setNotFree(getNumber());
+            if (bankAccount.getBalance() >= amount) {
+                bankAccount.updateBalance(-amount);
+
+                if (box.isFree()) {
+                    box.setNotFree(getNumber());
+                }
+
+                return true;
             }
-
-            return true;
         }
     }
+
     return false;
 
 }
 
 bool ComputerPlayer::buildHouse(Box &box) {
 
-    buy(box, box.getHousePrice());
+    if (buy(box, box.getHousePrice())) {
 
-    box.setIdentifying() ;
+        box.setIdentifying();
 
+        return true;
+
+    }
+
+    return false;
 
 }
 
 bool ComputerPlayer::buildHotel (Box &box) {
 
-    buy(box, box.getHotelPrice());
+    if (buy(box, box.getHotelPrice())) {
 
-    box.setIdentifying() ;
+        box.setIdentifying();
+
+        return true;
+
+    }
+
+    return false;
 
 }
 

@@ -60,8 +60,7 @@ void Game::move(Board& board, int playerIndex) {
         humanPlayer->show(players, board);
     }
 
-    if (board.getBoard()[new_position].getType() == static_cast<BoxType>(0)) {
-    } else if (board.getBoard()[new_position].isFree()) {
+    if (board.getBoard()[new_position].isFree()) {
 
         if (players[playerIndex]->buy(board.getBoard()[new_position], board.getBoard()[new_position].getPrice())) {
 
@@ -116,18 +115,18 @@ void Game::move(Board& board, int playerIndex) {
 
             if(board.getBoard()[new_position].getIdentifying() == '*') {
 
-                players[playerIndex]->buildHotel(board.getBoard()[new_position]);
+                if (players[playerIndex]->buildHotel(board.getBoard()[new_position])) {
 
+                    updateTextFile("Giocatore " + std::to_string(players[playerIndex]->getNumber()) +
+                                   " ha migliorato una casa in albergo sul terreno " +
+                                   board.getCoordinates(new_position));
 
-                updateTextFile("Giocatore " + std::to_string(players[playerIndex]->getNumber()) +
-                               " ha migliorato una casa in albergo sul terreno " +
-                               board.getCoordinates(new_position));
-                std::cout << "\tGiocatore " + std::to_string(players[playerIndex]->getNumber()) +
-                             " ha migliorato una casa in albergo sul terreno " +
-                             board.getCoordinates(new_position) + "\n";
+                    std::cout << "\tGiocatore " + std::to_string(players[playerIndex]->getNumber()) +
+                                 " ha migliorato una casa in albergo sul terreno " +
+                                 board.getCoordinates(new_position) + "\n";
 
-            } else {
-                players[playerIndex]->buildHouse(board.getBoard()[new_position]);
+                }
+            } else if (players[playerIndex]->buildHouse(board.getBoard()[new_position])) {
 
                 updateTextFile(
                         "Giocatore " + std::to_string(players[playerIndex]->getNumber()) +
