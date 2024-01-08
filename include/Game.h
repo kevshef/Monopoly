@@ -25,7 +25,7 @@ public:
     Game(const char *gamer, Board &board);
 
     // Function to simulate a player's move on the board
-    int move(Board& board, int playerIndex);
+    void move(Board& board, int playerIndex);
 
     // Function to update a text file with a given message
     void updateTextFile(const std::string& message);

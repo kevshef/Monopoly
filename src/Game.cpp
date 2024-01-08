@@ -20,7 +20,7 @@ Game::Game(const char *gamer, Board &board) {
 }
 
 // Function to simulate a player's move on the board
-int Game::move(Board& board, int playerIndex) {
+void Game::move(Board& board, int playerIndex) {
 
     int mossa = players[playerIndex]->throwDice();
 
@@ -153,8 +153,6 @@ int Game::move(Board& board, int playerIndex) {
         std::cout << "\nIl giocatore " << players[playerIndex]->getNumber() << " non possiede più alcuna proprietà";
         updateTextFile("Il giocatore " + std::to_string(players[playerIndex]->getNumber()) + " non possiede più alcuna proprietà.");
     }
-
-    return 0;
 
 };
 
