@@ -120,7 +120,7 @@ void HumanPlayer::show(std::vector<std::shared_ptr<Player>> players, Board& boar
             std::cout << "Giocatore " << players[i]->getNumber() << ": ";
             for (int j = 0; j < board.getBoard().size(); ++j) {
                 if (board.getBoard()[j].getOwnerNumber() == players[i]->getNumber()) {
-                    std::cout << board.getCoordinates(j) << " ";
+                    std::cout << board.getCoordinates(j) << board.getBoard()[j].getIdentifying() << " ";
                 }
             }
             std::cout << "\n";
