@@ -40,23 +40,26 @@ bool HumanPlayer::buy(Box &box, int amount) {
 
 bool HumanPlayer::buildHouse(Box &box) {
 
-    char answer = ' ';
-    std::cout << "\n\tGiocatore " << getNumber()
-              << " digitare S o N se si vuole procedere o meno con la costruzione di una casa sul terreno di "
-              << board.getCoordinates(position)
-              << " per "
-              << box.getHousePrice() << " fiorini." << "\n";
-    do {
-        std::cout << "\n\tRisposta : ";
-        std::cin >> answer;
+    if (bankAccount.getBalance() > box.getHousePrice()) {
 
-    } while (tolower(answer) != 's' && tolower(answer) != 'n');
+        char answer = ' ';
+        std::cout << "\n\tGiocatore " << getNumber()
+                  << " digitare S o N se si vuole procedere o meno con la costruzione di una casa sul terreno di "
+                  << board.getCoordinates(position)
+                  << " per "
+                  << box.getHousePrice() << " fiorini." << "\n";
+        do {
+            std::cout << "\n\tRisposta : ";
+            std::cin >> answer;
 
-    if (answer == 'S') {
-        if (bankAccount.getBalance() >= box.getHousePrice()) {
-            bankAccount.updateBalance(-box.getHousePrice());
-            box.setIdentifying();
-            return true;
+        } while (tolower(answer) != 's' && tolower(answer) != 'n');
+
+        if (answer == 'S') {
+            if (bankAccount.getBalance() >= box.getHousePrice()) {
+                bankAccount.updateBalance(-box.getHousePrice());
+                box.setIdentifying();
+                return true;
+            }
         }
     }
 
@@ -66,29 +69,34 @@ bool HumanPlayer::buildHouse(Box &box) {
 
 bool HumanPlayer::buildHotel (Box &box) {
 
-    char answer = ' ';
-    std::cout << "\n\tGiocatore " << getNumber()
-              << " digitare S o N se si vuole procedere o meno per il miglioramento di una casa in albergo sul terreno"
-              << board.getCoordinates(position) << " per "
-              << box.getHotelPrice() << " fiorini." << "\n";
-    do {
-        std::cout << "\n\tRisposta : ";
-        std::cin >> answer;
+    if (bankAccount.getBalance() > box.getHotelPrice()) {
 
-    } while (tolower(answer) != 's' && tolower(answer) != 'n');
+        char answer = ' ';
+        std::cout << "\n\tGiocatore " << getNumber()
+                  << " digitare S o N se si vuole procedere o meno per il miglioramento di una casa in albergo sul terreno"
+                  << board.getCoordinates(position) << " per "
+                  << box.getHotelPrice() << " fiorini." << "\n";
+        do {
+            std::cout << "\n\tRisposta : ";
+            std::cin >> answer;
 
-    if (answer == 'S') {
-        if (bankAccount.getBalance() >= box.getHotelPrice()) {
-            bankAccount.updateBalance(-box.getHotelPrice());
-            box.setIdentifying();
-            return true;
+        } while (tolower(answer) != 's' && tolower(answer) != 'n');
+
+        if (answer == 'S') {
+            if (bankAccount.getBalance() >= box.getHotelPrice()) {
+                bankAccount.updateBalance(-box.getHotelPrice());
+                box.setIdentifying();
+                return true;
+            }
         }
     }
 
     return false;
+
 }
 
 void HumanPlayer::show(std::vector<std::shared_ptr<Player>> players, Board& board) {
+
     std::string risposta;
     std::cout << "\nGiocatore " << this->getNumber() << ": Inserire show o no al fine di visualizzare: "
               << "\n\t- il tabellone"
@@ -112,7 +120,7 @@ void HumanPlayer::show(std::vector<std::shared_ptr<Player>> players, Board& boar
             std::cout << "Giocatore " << players[i]->getNumber() << ": ";
             for (int j = 0; j < board.getBoard().size(); ++j) {
                 if (board.getBoard()[j].getOwnerNumber() == players[i]->getNumber()) {
-                    std::cout << board.getCoordinates(j) << " ";
+                    std::cout << board.getCoordinates(j) << board.getBoard()[j].getIdentifying() << " ";
                 }
             }
             std::cout << "\n";

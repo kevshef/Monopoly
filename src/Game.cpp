@@ -20,7 +20,7 @@ Game::Game(const char *gamer, Board &board) {
 }
 
 // Function to simulate a player's move on the board
-int Game::move(Board& board, int playerIndex) {
+void Game::move(Board& board, int playerIndex) {
 
     int mossa = players[playerIndex]->throwDice();
 
@@ -60,9 +60,7 @@ int Game::move(Board& board, int playerIndex) {
         humanPlayer->show(players, board);
     }
 
-    if (board.getBoard()[new_position].getType() == static_cast<BoxType>(0)) {
-        return 0; // intentionally left blank because angular position
-    } else if (board.getBoard()[new_position].isFree()) {
+    if (board.getBoard()[new_position].isFree()) {
 
         if (players[playerIndex]->buy(board.getBoard()[new_position], board.getBoard()[new_position].getPrice())) {
 
@@ -77,13 +75,11 @@ int Game::move(Board& board, int playerIndex) {
 
         }
 
-        return 0;
-
-    } else if (!board.getBoard()[new_position].isFree()) {
+    } else if (!board.getBoard()[new_position].isFree() && board.getBoard()[new_position].getType() != static_cast<BoxType>(0)) {
 
         if (board.getBoard()[new_position].getOwnerNumber() != players[playerIndex]->getNumber()) {
 
-            int temp_price;
+            int temp_price = 0;
 
             if (board.getBoard()[new_position].getIdentifying() == '*') {
 
@@ -115,33 +111,22 @@ int Game::move(Board& board, int playerIndex) {
                          std::to_string(board.getBoard()[new_position].getOwnerNumber())
                          + " per pernottamento nella casella " + board.getCoordinates(new_position) + "\n";
 
-            if(players[playerIndex]->isBankrupt()){
-
-                updateTextFile("Giocatore " + std::to_string(players[playerIndex]->getNumber()) +
-                               " è stato eliminato");
-
-                std::cout << "\tGiocatore " + std::to_string(players[playerIndex]->getNumber()) +
-                             " è stato eliminato\n";
-
-            }
-
-
         } else if(board.getBoard()[new_position].getIdentifying() != '^') {
 
             if(board.getBoard()[new_position].getIdentifying() == '*') {
 
-                players[playerIndex]->buildHotel(board.getBoard()[new_position]);
+                if (players[playerIndex]->buildHotel(board.getBoard()[new_position])) {
 
+                    updateTextFile("Giocatore " + std::to_string(players[playerIndex]->getNumber()) +
+                                   " ha migliorato una casa in albergo sul terreno " +
+                                   board.getCoordinates(new_position));
 
-                updateTextFile("Giocatore " + std::to_string(players[playerIndex]->getNumber()) +
-                               " ha migliorato una casa in albergo sul terreno " +
-                               board.getCoordinates(new_position));
-                std::cout << "\tGiocatore " + std::to_string(players[playerIndex]->getNumber()) +
-                             " ha migliorato una casa in albergo sul terreno " +
-                             board.getCoordinates(new_position) + "\n";
+                    std::cout << "\tGiocatore " + std::to_string(players[playerIndex]->getNumber()) +
+                                 " ha migliorato una casa in albergo sul terreno " +
+                                 board.getCoordinates(new_position) + "\n";
 
-            } else {
-                players[playerIndex]->buildHouse(board.getBoard()[new_position]);
+                }
+            } else if (players[playerIndex]->buildHouse(board.getBoard()[new_position])) {
 
                 updateTextFile(
                         "Giocatore " + std::to_string(players[playerIndex]->getNumber()) +
@@ -152,8 +137,21 @@ int Game::move(Board& board, int playerIndex) {
             }
         }
     }
+    if(players[playerIndex]->isBankrupt()){
 
-    return 0;
+        updateTextFile("Giocatore " + std::to_string(players[playerIndex]->getNumber()) +
+                       " è stato eliminato");
+
+        std::cout << "\tGiocatore " + std::to_string(players[playerIndex]->getNumber()) +
+                     " è stato eliminato\n";
+
+        for (int i = 0; i < board.getBoard().size(); ++i) {
+            if (board.getBoard()[i].getOwnerNumber() == players[playerIndex]->getNumber())
+                board.getBoard()[i].setFree();
+        }
+        std::cout << "\nIl giocatore " << players[playerIndex]->getNumber() << " non possiede più alcuna proprietà";
+        updateTextFile("Il giocatore " + std::to_string(players[playerIndex]->getNumber()) + " non possiede più alcuna proprietà.");
+    }
 
 };
 
