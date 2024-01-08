@@ -53,5 +53,15 @@ int main(int argc, char *argv[]) {
               << gioco.getPlayers()[id]->getBalance() << " fiorini.\n";
 
     std::cout << board;
+
+    for (int i = 0; i < gioco.getPlayers().size(); ++i) {
+        std::cout << "Giocatore " << gioco.getPlayers()[i]->getNumber() << ": ";
+        for (int j = 0; j < board.getBoard().size(); ++j) {
+            if (board.getBoard()[j].getOwnerNumber() == gioco.getPlayers()[i]->getNumber()) {
+                std::cout << board.getCoordinates(j) << board.getBoard()[i].getIdentifying() << " ";
+            }
+        }
+        std::cout << "\n";
+    }
     return 0;
 }

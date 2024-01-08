@@ -29,7 +29,7 @@ Box::Box(int position, int propertyType) {
 void Box::setProperty(int pType) {
     free = true;
     type = BoxType::LATERAL;
-
+    ownerNumber = -1;
     switch (pType) {
         case 0:
             propertyType = PropertyType::ECONOMIC;
@@ -73,7 +73,7 @@ void Box::setNotFree(int playerNumber) {
  */
 void Box::setFree() {
     free = true;
-    ownerNumber = 0;
+    ownerNumber = -1;
 }
 
 /**
