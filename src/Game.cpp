@@ -75,11 +75,11 @@ void Game::move(Board& board, int playerIndex) {
 
         }
 
-    } else if (!board.getBoard()[new_position].isFree()) {
+    } else if (!board.getBoard()[new_position].isFree() && board.getBoard()[new_position].getType() != static_cast<BoxType>(0)) {
 
         if (board.getBoard()[new_position].getOwnerNumber() != players[playerIndex]->getNumber()) {
 
-            int temp_price;
+            int temp_price = 0;
 
             if (board.getBoard()[new_position].getIdentifying() == '*') {
 
