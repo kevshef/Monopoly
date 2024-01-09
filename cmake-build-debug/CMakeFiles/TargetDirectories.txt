@@ -1,3 +1,3 @@
-/Users/kevinshefkiu/Desktop/Università/Lab Di Programmazione/Monopoly/cmake-build-debug/CMakeFiles/Monopoly.dir
-/Users/kevinshefkiu/Desktop/Università/Lab Di Programmazione/Monopoly/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/kevinshefkiu/Desktop/Università/Lab Di Programmazione/Monopoly/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Utente/Desktop/MICK/locale/progettiprogrammazione/Monopoly/cmake-build-debug/CMakeFiles/Monopoly.dir
+C:/Users/Utente/Desktop/MICK/locale/progettiprogrammazione/Monopoly/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Utente/Desktop/MICK/locale/progettiprogrammazione/Monopoly/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,5 +1,5 @@
 #include "../include/Box.h"
-
+#include "../include/Game.h"
 /**
  * @brief Constructor for the Box class.
  *
@@ -8,7 +8,8 @@
  *
  * @details Initializes a Box object with the specified position and property type.
  */
-Box::Box(int position, int propertyType) {
+Box::Box(int BoxPosition, int propertyType) {
+    position = BoxPosition;
     if (position == 0) {
         type = BoxType::ANGULAR;
         isStart = true;
@@ -184,11 +185,34 @@ int Box::getOwnerNumber() const {
  *
  * @details Prints the representation of the box, including its type and identifying character.
  */
+
+bool Box::isOccupied(Game& match) {
+    for(int i = 0; i < 4; i++){
+        if(match.getPlayers()[i]->getPosition()==this->position){
+            occupied.push_back(i);
+            return true;
+        }
+    }
+    return false;
+}
+
 std::ostream& operator<<(std::ostream& os, Box& obj) {
-    if (obj.getStart())
+    if (obj.getStart()){
         os << "|P|";
-    else if (static_cast<int>(obj.getType()) == 0)
+        if(!obj.occupied.empty()){
+            for(int i = 0;i < obj.occupied.size();i++){
+                os << obj.occupied[i];
+            }
+        }
+    }
+    else if (static_cast<int>(obj.getType()) == 0){
         os << "| |";
+        if(!obj.occupied.empty()){
+            for(int i = 0;i < obj.occupied.size();i++){
+                os << obj.occupied[i];
+            }
+        }
+    }
     else {
         os << "|";
 
@@ -204,6 +228,11 @@ std::ostream& operator<<(std::ostream& os, Box& obj) {
             os << obj.getIdentifying();
 
         os << "|";
+        if(!obj.occupied.empty()){
+            for(int i = 0;i < obj.occupied.size();i++){
+                os << obj.occupied[i];
+            }
+        }
 
     }
 

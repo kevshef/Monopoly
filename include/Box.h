@@ -2,6 +2,7 @@
 #define MONOPOLY_BOX_H
 
 #include <iostream>
+#include "../include/Game.h"
 
 // Enum representing different types of properties
 enum class PropertyType {
@@ -43,10 +44,16 @@ private:
 
     bool isStart = false; // Indicates whether the box is a starting point
 
+    int position;
+
+   // std::vector<std::shared_ptr<Player>> occupied;
+
+  // std::vector<int> occupied;
 public:
 
+    std::vector<int> occupied;
     // Constructor: Initializes the box based on its position and property type
-    Box(int position, int propertyType);
+    Box(int BoxPosition, int propertyType);
 
     // Getter function to retrieve the identifying character of the box
     char getIdentifying() const;
@@ -59,6 +66,8 @@ public:
 
     // Getter function to check if the box is a starting point
     bool getStart() const;
+
+    bool isOccupied(Game& match);
 
     // Getter function to check if the box is free
     bool isFree() const;

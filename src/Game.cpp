@@ -4,7 +4,10 @@
 
 #include "../include/Game.h"
 
+
 Game::Game(const char *gamer, Board &board) {
+
+    board = board;
 
     if (strcmp("human",gamer)==0 || strcmp("HUMAN",gamer)==0) {
         players.push_back(std::make_shared<HumanPlayer>(HumanPlayer(1, board)));

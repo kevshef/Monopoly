@@ -8,9 +8,11 @@
 #include <fstream>
 #include <memory>
 #include <algorithm>
+#include "String.h"
 #include "ComputerPlayer.h"
 #include "HumanPlayer.h"
 #include "Board.h"
+#include "Box.h"
 
 // Class representing the set of players in the game
 class Game {
@@ -19,8 +21,10 @@ private:
 
     std::vector<std::shared_ptr<Player>> players; // Vector to store the players in the game
 
+
 public:
 
+    Board board;
     // Constructor: Initializes the set of players based on the number of players
     Game(const char *gamer, Board &board);
 

@@ -5,6 +5,7 @@
 #ifndef MONOPOLY_COMPUTERPLAYER_H
 #define MONOPOLY_COMPUTERPLAYER_H
 
+#include "Board.h"
 #include "Player.h"
 #include <iostream>
 
