@@ -193,6 +193,7 @@ int Box::getOwnerNumber() const {
  * @details Prints the representation of the box, including its type and identifying character.
  */
 std::ostream& operator<<(std::ostream& os, Box& obj) {
+
     if (obj.getStart())
         os << "|P|";
     else if (static_cast<int>(obj.getType()) == 0)
@@ -216,4 +217,5 @@ std::ostream& operator<<(std::ostream& os, Box& obj) {
     }
 
     return os;
+
 }

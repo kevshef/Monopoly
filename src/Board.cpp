@@ -56,6 +56,7 @@ std::string Board::getCoordinates(int position) {
  * @details Prints the layout of the board to the output stream, including box types.
  */
 std::ostream& operator<<(std::ostream& os, Board& obj) {
+
     std::vector<Box> temp = obj.getBoard();
     char c = 'A';
     os << "\t 1\t 2\t 3\t 4\t 5\t 6\t 7\t 8\n";
@@ -84,4 +85,5 @@ std::ostream& operator<<(std::ostream& os, Board& obj) {
     os << "\n";
 
     return os;
+
 }

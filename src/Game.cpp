@@ -290,17 +290,17 @@ std::ostream& operator<<(std::ostream& os, const Game& obj) {
 
     }
 
-  /**
-    --> deve essere in copia
-    Board temp = board.getBoard;
+    /**
+      --> deve essere in copia
+      Board temp = board.getBoard;
 
-    for(int i, i in players, i++ )
-        temp string = string + std::to_string(board[players[i].getPosition] = player.getNumber) ;
+      for(int i, i in players, i++ )
+          temp string = string + std::to_string(board[players[i].getPosition] = player.getNumber) ;
 
-    os << board.
+      os << board.
 
 
-   **/
+     **/
     return os;
 
 }

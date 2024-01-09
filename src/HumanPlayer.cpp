@@ -73,7 +73,7 @@ bool HumanPlayer::buildHotel (Box &box) {
 
         char answer = ' ';
         std::cout << "\n\tGiocatore " << getNumber()
-                  << " digitare S o N se si vuole procedere o meno per il miglioramento di una casa in albergo sul terreno"
+                  << " digitare S o N se si vuole procedere o meno per il miglioramento di una casa in albergo sul terreno "
                   << board.getCoordinates(position) << " per "
                   << box.getHotelPrice() << " fiorini." << "\n";
         do {
@@ -111,11 +111,11 @@ void HumanPlayer::show(std::vector<std::shared_ptr<Player>> players, Board& boar
     } while (risposta != "show" && risposta != "no");
 
     if (risposta == "show") {
-        //● visualizzare il tabellone
+
         std::cout << "\nTabellone:\n" << board;
 
-        //● visualizzare lista terreni/case/alberghi posseduti da ogni giocatore
         std::cout << "\nLista terreni/case/alberghi posseduti da ogni giocatore:\n";
+
         for (int i = 0; i < players.size(); ++i) {
             std::cout << "Giocatore " << players[i]->getNumber() << ": ";
             for (int j = 0; j < board.getBoard().size(); ++j) {
@@ -126,8 +126,8 @@ void HumanPlayer::show(std::vector<std::shared_ptr<Player>> players, Board& boar
             std::cout << "\n";
         }
 
-        //● visualizzare l’ammontare di fiorini posseduto da tutti i giocatori
         std::cout << "\nSaldo giocatori:\n";
+
         for (int i = 0; i < players.size(); ++i) {
             std::cout << "Giocatore " << players[i]->getNumber() << ": " << players[i]->getBalance() << "\n";
         }
