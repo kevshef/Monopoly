@@ -24,10 +24,10 @@ void Game::move(Board& board, int playerIndex) {
 
     int mossa = players[playerIndex]->throwDice();
 
-    updateTextFile("Giocatore " + std::to_string(players[playerIndex]->getNumber()) + " ha lanciato i dadi ed ottenuto un valore di " +
+    updateTextFile("Giocatore " + std::to_string(players[playerIndex]->getNumber()) + " ha tirato i dadi ottenendo un valore di " +
                    std::to_string(mossa));
 
-    std::cout << "\n\tGiocatore " + std::to_string(players[playerIndex]->getNumber()) + " ha lanciato i dadi ed ottenuto un valore di " +
+    std::cout << "\n\tGiocatore " + std::to_string(players[playerIndex]->getNumber()) + " ha tirato i dadi ottenendo un valore di " +
                  std::to_string(mossa) + "\n";
 
     int new_position = mossa + players[playerIndex]->getPosition();
@@ -40,10 +40,10 @@ void Game::move(Board& board, int playerIndex) {
         players[playerIndex]->updateBalance();
 
         updateTextFile("Giocatore " + std::to_string(players[playerIndex]->getNumber()) +
-                       " è passato per il via e ha ritirato 20 fiorini");
+                       " è passato dal via e ha ritirato 20 fiorini");
 
         std::cout << "\tGiocatore " + std::to_string(players[playerIndex]->getNumber()) +
-                     " è passato per il via e ha ritirato 20 fiorini" + "\n";
+                     " è passato dal via e ha ritirato 20 fiorini" + "\n";
 
     }
 
@@ -79,12 +79,10 @@ void Game::move(Board& board, int playerIndex) {
 
             updateTextFile(
                     "Giocatore " + std::to_string(players[playerIndex]->getNumber()) + " ha acquistato il terreno " +
-                    board.getCoordinates(new_position) + " per: " +
-                    std::to_string(board.getBoard()[new_position].getPrice()));
+                    board.getCoordinates(new_position));
 
             std::cout << "\tGiocatore " + std::to_string(players[playerIndex]->getNumber()) + " ha acquistato il terreno " +
-                         board.getCoordinates(new_position) + " per: " +
-                         std::to_string(board.getBoard()[new_position].getPrice()) + "\n";
+                         board.getCoordinates(new_position) + "\n";
 
         }
 
@@ -165,6 +163,9 @@ void Game::move(Board& board, int playerIndex) {
         std::cout << "\nIl giocatore " << players[playerIndex]->getNumber() << " non possiede più alcuna proprietà";
         updateTextFile("Il giocatore " + std::to_string(players[playerIndex]->getNumber()) + " non possiede più alcuna proprietà.");
     }
+
+    std::cout << "\tGiocatre " << players[playerIndex]->getNumber() << " ha finito il turno\n";
+    updateTextFile("Giocatore " + std::to_string(players[playerIndex]->getNumber()) + " ha finito il turno.");
 
 };
 
@@ -301,8 +302,6 @@ void Game::play(Board &board, int numeroTurni) {
                 move(board, i);
         }
 
-
-
         turno++;
 
     } while (!end() && turno < numeroTurni);
@@ -311,6 +310,8 @@ void Game::play(Board &board, int numeroTurni) {
 
     std::cout << "\nIl vincitore è il giocatore " << getPlayers()[id]->getNumber() << " con un saldo di: "
               << getPlayers()[id]->getBalance() << " fiorini.\n";
+
+    updateTextFile("Giocatore " + std::to_string(id) + " ha vinto la partita");
 
     std::cout << board;
 

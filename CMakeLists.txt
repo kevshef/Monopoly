@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.22.1)
 project(Monopoly)
 
 set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O2")
+
 
 add_executable(Monopoly
         main.cpp

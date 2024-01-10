@@ -1,4 +1,32 @@
-Giocatore 4 ha lanciato i dadi ed ottenuto un valore di 10
+Giocatore 2 ha tirato i dadi ottenendo un valore di 7
+Giocatore 2 è arrivato alla casella A8
+Giocatore 2 ha finito il turno.
+Giocatore 1 ha tirato i dadi ottenendo un valore di 7
+Giocatore 1 è arrivato alla casella A8
+Giocatore 1 ha finito il turno.
+Giocatore 3 ha tirato i dadi ottenendo un valore di 7
+Giocatore 3 è arrivato alla casella A8
+Giocatore 3 ha finito il turno.
+Giocatore 4 ha tirato i dadi ottenendo un valore di 7
+Giocatore 4 è arrivato alla casella A8
+Giocatore 4 ha finito il turno.
+Giocatore 2 ha tirato i dadi ottenendo un valore di 6
+Giocatore 2 è arrivato alla casella G8
+Giocatore 2 ha acquistato il terreno G8
+Giocatore 2 ha finito il turno.
+Giocatore 1 ha tirato i dadi ottenendo un valore di 4
+Giocatore 1 è arrivato alla casella E8
+Giocatore 1 ha acquistato il terreno E8
+Giocatore 1 ha finito il turno.
+Giocatore 3 ha tirato i dadi ottenendo un valore di 6
+Giocatore 3 è arrivato alla casella G8
+Giocatore 3 ha pagato 8 fiorini a giocatore 2 per pernottamento nella casella G8
+Giocatore 3 ha finito il turno.
+Giocatore 4 ha tirato i dadi ottenendo un valore di 3
 Giocatore 4 è arrivato alla casella D8
-Giocatore 1 ha lanciato i dadi ed ottenuto un valore di 9
-Giocatore 1 è arrivato alla casella C8
+Giocatore 4 ha finito il turno.
+Giocatore 2 ha tirato i dadi ottenendo un valore di 6
+Giocatore 2 è arrivato alla casella H3
+Giocatore 2 ha finito il turno.
+Giocatore 1 ha tirato i dadi ottenendo un valore di 10
+Giocatore 1 è arrivato alla casella H1
