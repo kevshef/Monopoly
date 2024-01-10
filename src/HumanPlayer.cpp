@@ -136,5 +136,5 @@ void HumanPlayer::show(std::vector<std::shared_ptr<Player>> players, Board& boar
 }
 
 std::ostream& operator<<(std::ostream &os, const HumanPlayer &obj) {
-    return os << "Giocatore " << obj.getNumber() << " (real) saldo: " << obj.getBalance() << "\n";
+    return os << "Giocatore " << obj.getNumber() << " (real) saldo: " << obj.getBalance() << " fiorini\n";
 }

@@ -63,5 +63,5 @@ bool ComputerPlayer::buildHotel (Box &box) {
 }
 
 std::ostream& operator<<(std::ostream &os, const ComputerPlayer &obj) {
-    return os << "Giocatore " << obj.getNumber() << " (computer) saldo: " << obj.getBalance() << "\n";
+    return os << "Giocatore " << obj.getNumber() << " (computer) saldo: " << obj.getBalance() << " fiorini\n";
 }

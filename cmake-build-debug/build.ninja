@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /Users/kevinshefkiu/Desktop/Università/Lab$ Di$ Programmazione/Monopoly/cmake-build-debug/
+cmake_ninja_workdir = /Users/kevinshefkiu/Desktop/Università/Lab$ Di$ Programmazione/Monopoly/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target Monopoly
 
@@ -49,49 +49,49 @@ cmake_ninja_workdir = /Users/kevinshefkiu/Desktop/Università/Lab$ Di$ Programma
 
 build cmake_object_order_depends_target_Monopoly: phony || CMakeFiles/Monopoly.dir
 
-build CMakeFiles/Monopoly.dir/main.cpp.o: CXX_COMPILER__Monopoly_unscanned_Debug /Users/kevinshefkiu/Desktop/Università/Lab$ Di$ Programmazione/Monopoly/main.cpp || cmake_object_order_depends_target_Monopoly
+build CMakeFiles/Monopoly.dir/main.cpp.o: CXX_COMPILER__Monopoly_unscanned_Debug /Users/kevinshefkiu/Desktop/Università/Lab$ Di$ Programmazione/Monopoly/main.cpp || cmake_object_order_depends_target_Monopoly
   DEP_FILE = CMakeFiles/Monopoly.dir/main.cpp.o.d
   FLAGS = -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Monopoly.dir
   OBJECT_FILE_DIR = CMakeFiles/Monopoly.dir
 
-build CMakeFiles/Monopoly.dir/src/Board.cpp.o: CXX_COMPILER__Monopoly_unscanned_Debug /Users/kevinshefkiu/Desktop/Università/Lab$ Di$ Programmazione/Monopoly/src/Board.cpp || cmake_object_order_depends_target_Monopoly
+build CMakeFiles/Monopoly.dir/src/Board.cpp.o: CXX_COMPILER__Monopoly_unscanned_Debug /Users/kevinshefkiu/Desktop/Università/Lab$ Di$ Programmazione/Monopoly/src/Board.cpp || cmake_object_order_depends_target_Monopoly
   DEP_FILE = CMakeFiles/Monopoly.dir/src/Board.cpp.o.d
   FLAGS = -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Monopoly.dir
   OBJECT_FILE_DIR = CMakeFiles/Monopoly.dir/src
 
-build CMakeFiles/Monopoly.dir/src/Box.cpp.o: CXX_COMPILER__Monopoly_unscanned_Debug /Users/kevinshefkiu/Desktop/Università/Lab$ Di$ Programmazione/Monopoly/src/Box.cpp || cmake_object_order_depends_target_Monopoly
+build CMakeFiles/Monopoly.dir/src/Box.cpp.o: CXX_COMPILER__Monopoly_unscanned_Debug /Users/kevinshefkiu/Desktop/Università/Lab$ Di$ Programmazione/Monopoly/src/Box.cpp || cmake_object_order_depends_target_Monopoly
   DEP_FILE = CMakeFiles/Monopoly.dir/src/Box.cpp.o.d
   FLAGS = -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Monopoly.dir
   OBJECT_FILE_DIR = CMakeFiles/Monopoly.dir/src
 
-build CMakeFiles/Monopoly.dir/src/Player.cpp.o: CXX_COMPILER__Monopoly_unscanned_Debug /Users/kevinshefkiu/Desktop/Università/Lab$ Di$ Programmazione/Monopoly/src/Player.cpp || cmake_object_order_depends_target_Monopoly
+build CMakeFiles/Monopoly.dir/src/Player.cpp.o: CXX_COMPILER__Monopoly_unscanned_Debug /Users/kevinshefkiu/Desktop/Università/Lab$ Di$ Programmazione/Monopoly/src/Player.cpp || cmake_object_order_depends_target_Monopoly
   DEP_FILE = CMakeFiles/Monopoly.dir/src/Player.cpp.o.d
   FLAGS = -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Monopoly.dir
   OBJECT_FILE_DIR = CMakeFiles/Monopoly.dir/src
 
-build CMakeFiles/Monopoly.dir/src/BankAccount.cpp.o: CXX_COMPILER__Monopoly_unscanned_Debug /Users/kevinshefkiu/Desktop/Università/Lab$ Di$ Programmazione/Monopoly/src/BankAccount.cpp || cmake_object_order_depends_target_Monopoly
+build CMakeFiles/Monopoly.dir/src/BankAccount.cpp.o: CXX_COMPILER__Monopoly_unscanned_Debug /Users/kevinshefkiu/Desktop/Università/Lab$ Di$ Programmazione/Monopoly/src/BankAccount.cpp || cmake_object_order_depends_target_Monopoly
   DEP_FILE = CMakeFiles/Monopoly.dir/src/BankAccount.cpp.o.d
   FLAGS = -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Monopoly.dir
   OBJECT_FILE_DIR = CMakeFiles/Monopoly.dir/src
 
-build CMakeFiles/Monopoly.dir/src/ComputerPlayer.cpp.o: CXX_COMPILER__Monopoly_unscanned_Debug /Users/kevinshefkiu/Desktop/Università/Lab$ Di$ Programmazione/Monopoly/src/ComputerPlayer.cpp || cmake_object_order_depends_target_Monopoly
+build CMakeFiles/Monopoly.dir/src/ComputerPlayer.cpp.o: CXX_COMPILER__Monopoly_unscanned_Debug /Users/kevinshefkiu/Desktop/Università/Lab$ Di$ Programmazione/Monopoly/src/ComputerPlayer.cpp || cmake_object_order_depends_target_Monopoly
   DEP_FILE = CMakeFiles/Monopoly.dir/src/ComputerPlayer.cpp.o.d
   FLAGS = -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Monopoly.dir
   OBJECT_FILE_DIR = CMakeFiles/Monopoly.dir/src
 
-build CMakeFiles/Monopoly.dir/src/HumanPlayer.cpp.o: CXX_COMPILER__Monopoly_unscanned_Debug /Users/kevinshefkiu/Desktop/Università/Lab$ Di$ Programmazione/Monopoly/src/HumanPlayer.cpp || cmake_object_order_depends_target_Monopoly
+build CMakeFiles/Monopoly.dir/src/HumanPlayer.cpp.o: CXX_COMPILER__Monopoly_unscanned_Debug /Users/kevinshefkiu/Desktop/Università/Lab$ Di$ Programmazione/Monopoly/src/HumanPlayer.cpp || cmake_object_order_depends_target_Monopoly
   DEP_FILE = CMakeFiles/Monopoly.dir/src/HumanPlayer.cpp.o.d
   FLAGS = -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Monopoly.dir
   OBJECT_FILE_DIR = CMakeFiles/Monopoly.dir/src
 
-build CMakeFiles/Monopoly.dir/src/Game.cpp.o: CXX_COMPILER__Monopoly_unscanned_Debug /Users/kevinshefkiu/Desktop/Università/Lab$ Di$ Programmazione/Monopoly/src/Game.cpp || cmake_object_order_depends_target_Monopoly
+build CMakeFiles/Monopoly.dir/src/Game.cpp.o: CXX_COMPILER__Monopoly_unscanned_Debug /Users/kevinshefkiu/Desktop/Università/Lab$ Di$ Programmazione/Monopoly/src/Game.cpp || cmake_object_order_depends_target_Monopoly
   DEP_FILE = CMakeFiles/Monopoly.dir/src/Game.cpp.o.d
   FLAGS = -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/Monopoly.dir
@@ -118,7 +118,7 @@ build Monopoly: CXX_EXECUTABLE_LINKER__Monopoly_Debug CMakeFiles/Monopoly.dir/ma
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd "/Users/kevinshefkiu/Desktop/Università/Lab Di Programmazione/Monopoly/cmake-build-debug" && /opt/homebrew/Cellar/cmake/3.28.0/bin/ccmake -S"/Users/kevinshefkiu/Desktop/Università/Lab Di Programmazione/Monopoly" -B"/Users/kevinshefkiu/Desktop/Università/Lab Di Programmazione/Monopoly/cmake-build-debug"
+  COMMAND = cd "/Users/kevinshefkiu/Desktop/Università/Lab Di Programmazione/Monopoly/cmake-build-debug" && /opt/homebrew/Cellar/cmake/3.28.0/bin/ccmake -S"/Users/kevinshefkiu/Desktop/Università/Lab Di Programmazione/Monopoly" -B"/Users/kevinshefkiu/Desktop/Università/Lab Di Programmazione/Monopoly/cmake-build-debug"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -130,7 +130,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd "/Users/kevinshefkiu/Desktop/Università/Lab Di Programmazione/Monopoly/cmake-build-debug" && /opt/homebrew/Cellar/cmake/3.28.0/bin/cmake --regenerate-during-build -S"/Users/kevinshefkiu/Desktop/Università/Lab Di Programmazione/Monopoly" -B"/Users/kevinshefkiu/Desktop/Università/Lab Di Programmazione/Monopoly/cmake-build-debug"
+  COMMAND = cd "/Users/kevinshefkiu/Desktop/Università/Lab Di Programmazione/Monopoly/cmake-build-debug" && /opt/homebrew/Cellar/cmake/3.28.0/bin/cmake --regenerate-during-build -S"/Users/kevinshefkiu/Desktop/Università/Lab Di Programmazione/Monopoly" -B"/Users/kevinshefkiu/Desktop/Università/Lab Di Programmazione/Monopoly/cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -146,7 +146,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /Users/kevinshefkiu/Desktop/Università/Lab Di Programmazione/Monopoly/cmake-build-debug
+# Folder: /Users/kevinshefkiu/Desktop/Università/Lab Di Programmazione/Monopoly/cmake-build-debug
 
 build all: phony Monopoly
 
@@ -157,14 +157,14 @@ build all: phony Monopoly
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /Users/kevinshefkiu/Desktop/Università/Lab$ Di$ Programmazione/Monopoly/CMakeLists.txt /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/CMakeCInformation.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/CMakeCXXInformation.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/CMakeGenericSystem.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/CMakeInitializeConfigs.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/CMakeLanguageInformation.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Compiler/AppleClang-C.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Compiler/AppleClang-CXX.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Compiler/Clang.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Compiler/GNU.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Platform/Apple-AppleClang-C.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Platform/Apple-Clang-C.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Platform/Apple-Clang.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Platform/Darwin-Initialize.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Platform/Darwin.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.28.0/CMakeCCompiler.cmake CMakeFiles/3.28.0/CMakeCXXCompiler.cmake CMakeFiles/3.28.0/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /Users/kevinshefkiu/Desktop/Università/Lab$ Di$ Programmazione/Monopoly/CMakeLists.txt /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/CMakeCInformation.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/CMakeCXXInformation.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/CMakeGenericSystem.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/CMakeInitializeConfigs.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/CMakeLanguageInformation.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Compiler/AppleClang-C.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Compiler/AppleClang-CXX.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Compiler/Clang.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Compiler/GNU.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Platform/Apple-AppleClang-C.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Platform/Apple-Clang-C.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Platform/Apple-Clang.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Platform/Darwin-Initialize.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Platform/Darwin.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.28.0/CMakeCCompiler.cmake CMakeFiles/3.28.0/CMakeCXXCompiler.cmake CMakeFiles/3.28.0/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /Users/kevinshefkiu/Desktop/Università/Lab$ Di$ Programmazione/Monopoly/CMakeLists.txt /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/CMakeCInformation.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/CMakeCXXInformation.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/CMakeGenericSystem.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/CMakeInitializeConfigs.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/CMakeLanguageInformation.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Compiler/AppleClang-C.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Compiler/AppleClang-CXX.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Compiler/Clang.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Compiler/GNU.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Platform/Apple-AppleClang-C.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Platform/Apple-Clang-C.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Platform/Apple-Clang.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Platform/Darwin-Initialize.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Platform/Darwin.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.28.0/CMakeCCompiler.cmake CMakeFiles/3.28.0/CMakeCXXCompiler.cmake CMakeFiles/3.28.0/CMakeSystem.cmake: phony
+build /Users/kevinshefkiu/Desktop/Università/Lab$ Di$ Programmazione/Monopoly/CMakeLists.txt /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/CMakeCInformation.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/CMakeCXXInformation.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/CMakeGenericSystem.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/CMakeInitializeConfigs.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/CMakeLanguageInformation.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Compiler/AppleClang-C.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Compiler/AppleClang-CXX.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Compiler/Clang.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Compiler/GNU.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Platform/Apple-AppleClang-C.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Platform/Apple-Clang-C.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Platform/Apple-Clang.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Platform/Darwin-Initialize.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Platform/Darwin.cmake /opt/homebrew/Cellar/cmake/3.28.0/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.28.0/CMakeCCompiler.cmake CMakeFiles/3.28.0/CMakeCXXCompiler.cmake CMakeFiles/3.28.0/CMakeSystem.cmake: phony
 
 
 #############################################

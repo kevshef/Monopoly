@@ -115,12 +115,12 @@ void Game::move(Board& board, int playerIndex) {
             }
 
             updateTextFile("Giocatore " + std::to_string(players[playerIndex]->getNumber()) + " ha pagato "
-                           + std::to_string(temp_price) + " a giocatore " +
+                           + std::to_string(temp_price) + " fiorini a giocatore " +
                            std::to_string(board.getBoard()[new_position].getOwnerNumber())
                            + " per pernottamento nella casella " + board.getCoordinates(new_position));
 
             std::cout << "\tGiocatore " + std::to_string(players[playerIndex]->getNumber()) + " ha pagato "
-                         + std::to_string(temp_price) + " a giocatore " +
+                         + std::to_string(temp_price) + " fiorini a giocatore " +
                          std::to_string(board.getBoard()[new_position].getOwnerNumber())
                          + " per pernottamento nella casella " + board.getCoordinates(new_position) + "\n";
 
