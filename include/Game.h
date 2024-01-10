@@ -27,7 +27,7 @@ private:
     void updateTextFile(const std::string& message);
 
     // Function to determine the starting order of players based on dice rolls
-    bool start();
+    bool start(Board &board);
 
     // Function to check if the game has ended (three or more players bankrupt)
     bool end() const;

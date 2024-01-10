@@ -8,14 +8,14 @@
  *
  * @details Initializes a Box object with the specified position and property type.
  */
-Box::Box(int position, int propertyType) {
+Box::Box(int position, int propertyType, int boxPosition) {
+    this->boxPosition = boxPosition;
     if (position == 0) {
         type = BoxType::ANGULAR;
         isStart = true;
     } else if (position == 7 || position == 14 || position == 21)
         type = BoxType::ANGULAR;
     else {
-
         setProperty(propertyType);
     }
 
@@ -182,6 +182,12 @@ int Box::getOwnerNumber() const {
     return ownerNumber;
 }
 
+void Box::setPlayersPosition(std::vector<int> playersPosition, std::vector<int> playerIdentifier) {
+    this->playersPosition = playersPosition;
+    this->playerIdentifier = playerIdentifier;
+
+}
+
 /**
  * @brief Overloaded stream insertion operator to allow printing Box objects to an ostream.
  *
@@ -193,10 +199,31 @@ int Box::getOwnerNumber() const {
  * @details Prints the representation of the box, including its type and identifying character.
  */
 std::ostream& operator<<(std::ostream& os, Box& obj) {
-    if (obj.getStart())
-        os << "|P|";
-    else if (static_cast<int>(obj.getType()) == 0)
-        os << "| |";
+
+    std::vector<int> playersPosition = obj.getPlayersPosition();
+
+
+    if (obj.getStart()) {
+        os << "|P";
+        for(int i = 0; i < playersPosition.size(); i++) {
+            if(playersPosition[i] == obj.getBoxPositionOnBoard())
+                os << i + 1;
+        }
+        os <<"|";
+    }
+
+    else if (static_cast<int>(obj.getType()) == 0){
+        os << "|";
+        bool isEmpty = true;
+        for(int i = 0; i < playersPosition.size(); i++) {
+            if(playersPosition[i] == obj.getBoxPositionOnBoard()) {
+                os << obj.getPlayerIdentifier()[i];
+                isEmpty = false;
+            }
+        }
+        isEmpty ? os << " |" : os <<"|";
+    }
+
     else {
         os << "|";
 
@@ -210,6 +237,11 @@ std::ostream& operator<<(std::ostream& os, Box& obj) {
 
         if (obj.getIdentifying() != ' ')
             os << obj.getIdentifying();
+
+        for(int i = 0; i < playersPosition.size(); i++) {
+            if(playersPosition[i] == obj.getBoxPositionOnBoard())
+                os << obj.getPlayerIdentifier()[i];
+        }
 
         os << "|";
 

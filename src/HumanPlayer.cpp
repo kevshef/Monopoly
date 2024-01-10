@@ -54,7 +54,7 @@ bool HumanPlayer::buildHouse(Box &box) {
 
         } while (tolower(answer) != 's' && tolower(answer) != 'n');
 
-        if (answer == 'S') {
+        if (tolower(answer) == 's') {
             if (bankAccount.getBalance() >= box.getHousePrice()) {
                 bankAccount.updateBalance(-box.getHousePrice());
                 box.setIdentifying();
@@ -82,7 +82,7 @@ bool HumanPlayer::buildHotel (Box &box) {
 
         } while (tolower(answer) != 's' && tolower(answer) != 'n');
 
-        if (answer == 'S') {
+        if (tolower(answer) == 's') {
             if (bankAccount.getBalance() >= box.getHotelPrice()) {
                 bankAccount.updateBalance(-box.getHotelPrice());
                 box.setIdentifying();
@@ -98,7 +98,7 @@ bool HumanPlayer::buildHotel (Box &box) {
 void HumanPlayer::show(std::vector<std::shared_ptr<Player>> players, Board& board) {
 
     std::string risposta;
-    std::cout << "\nGiocatore " << this->getNumber() << ": Inserire show o no al fine di visualizzare: "
+    std::cout << "\nGiocatore " << this->getNumber() << ": Inserire 'show' o 'no' al fine di visualizzare o meno: "
               << "\n\t- il tabellone"
               << "\n\t- lista terreni/case/alberghi posseduti da ogni giocatore"
               << "\n\t- l’ammontare di fiorini posseduto da tutti i giocatori";
@@ -111,6 +111,7 @@ void HumanPlayer::show(std::vector<std::shared_ptr<Player>> players, Board& boar
     } while (risposta != "show" && risposta != "no");
 
     if (risposta == "show") {
+
         //● visualizzare il tabellone
         std::cout << "\nTabellone:\n" << board;
 

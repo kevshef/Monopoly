@@ -57,8 +57,21 @@ void Game::move(Board& board, int playerIndex) {
 
     const auto& currentPlayer = players[playerIndex];
     if (auto humanPlayer = std::dynamic_pointer_cast<HumanPlayer>(currentPlayer)) {
+
+        std::vector<int> playersPosition;
+        std::vector<int> playerIdentifier;
+
+        for(int i = 0; i < 4; i++) {
+            playersPosition.push_back(getPlayers()[i]->getPosition());
+            playerIdentifier.push_back(getPlayers()[i]->getNumber());
+        }
+
+        for(int i = 0; i < board.getBoard().size(); i++)
+            board.getBoard()[i].setPlayersPosition(playersPosition, playerIdentifier);
+
         humanPlayer->show(players, board);
     }
+
 
     if (board.getBoard()[new_position].isFree()) {
 
@@ -172,7 +185,7 @@ void Game::updateTextFile(const std::string& message) {
 }
 
 // Function to determine the starting order of players based on dice rolls
-bool Game::start() {
+bool Game::start(Board &board) {
 
     std::vector<std::pair<int, int>> playerValues; // {playerIndex, diceThrow}
 
@@ -216,6 +229,8 @@ bool Game::start() {
         sortedPlayers.push_back(players[pv.first]);
 
     setPlayers(sortedPlayers);
+
+    board.getBoard()[0].setPlayersPosition({0,0,0,0},{1,2,3,4});
 
     return true;
 
@@ -271,17 +286,22 @@ void Game::play(Board &board, int numeroTurni) {
 
     int turno = 0;
 
-    start();
+    start(board);
+
+    std::cout << board << "\n";
 
     do {
 
         std::cout << "\n\n turno " << (turno + 1) << " : \n";
 
+
         for (int i = 0; i < 4; i++) {
-            if (!getPlayers()[i]->isBankrupt()) {
+
+            if (!getPlayers()[i]->isBankrupt())
                 move(board, i);
-            }
         }
+
+
 
         turno++;
 
@@ -328,17 +348,6 @@ std::ostream& operator<<(std::ostream& os, const Game& obj) {
 
     }
 
-  /**
-    --> deve essere in copia
-    Board temp = board.getBoard;
-
-    for(int i, i in players, i++ )
-        temp string = string + std::to_string(board[players[i].getPosition] = player.getNumber) ;
-
-    os << board.
-
-
-   **/
     return os;
 
 }

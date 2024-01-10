@@ -3,6 +3,7 @@
 
 #include <iostream>
 
+
 // Enum representing different types of properties
 enum class PropertyType {
     ECONOMIC = 0, STANDARD, LUXURY
@@ -43,10 +44,18 @@ private:
 
     bool isStart = false; // Indicates whether the box is a starting point
 
+    std::vector<int> playersPosition;
+
+    std::vector<int> playerIdentifier;
+
+    int boxPosition;
+
+
+
 public:
 
     // Constructor: Initializes the box based on its position and property type
-    Box(int position, int propertyType);
+    Box(int position, int propertyType, int boxPosition);
 
     // Getter function to retrieve the identifying character of the box
     char getIdentifying() const;
@@ -89,6 +98,14 @@ public:
 
     // Function to toggle the identifying character of the box
     void setIdentifying();
+
+    std::vector<int> getPlayersPosition() const {return playersPosition; }
+
+    void setPlayersPosition(std::vector<int> playersPosition, std::vector<int> playerIdentifier);
+
+    int getBoxPositionOnBoard() {return boxPosition; }
+
+    std::vector<int> getPlayerIdentifier() {return playerIdentifier;}
 
 };
 

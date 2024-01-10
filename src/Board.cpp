@@ -20,12 +20,12 @@ Board::Board() {
             int temp = rand() % 3;
             if (i == 0 || i == 7 || i == 14 || i == 21) {
                 // Initialize a Box object with a special type for specific indices
-                board.push_back(Box(i, 4));
+                board.push_back(Box(i, 4, i));
                 isEnd = false;
             } else if (counts[temp] > 0) {
                 counts[temp]--;
                 // Initialize a Box object with a random type
-                board.push_back(Box(i, temp));
+                board.push_back(Box(i, temp, i));
                 isEnd = false;
             }
         } while (isEnd);
@@ -61,26 +61,28 @@ std::ostream& operator<<(std::ostream& os, Board& obj) {
     os << "\t 1\t 2\t 3\t 4\t 5\t 6\t 7\t 8\n";
 
     int j = 19;
+    int k = 7;
 
     for (int i = 0; i < 28; i++) {
 
         if (i == 0 || (i > 7 && i < 15))
             os << c++ << "\t";
 
-        if (i < 8 || (i > 13 && i < 22)) {
+        if (i < 8) {
             os << temp[i] << "\t";
-
             if (i == 7)
                 os << "\n";
 
-        } else {
-            if (i < 14) {
+        } else if(i > 13 && i < 22) {
+                os << temp[i + k] << "\t";
+                k -= 2;
+
+        } else if (i < 14) {
                 os << temp[i + j] << "\t\t\t\t\t\t\t" << temp[i] << "\n";
                 j = j - 2;
-            }
         }
-
     }
+
     os << "\n";
 
     return os;

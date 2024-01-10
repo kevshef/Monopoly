@@ -23,8 +23,6 @@ int main(int argc, char *argv[]) {
 
     Board board;
 
-    std::cout << board;
-
     Game gioco(temp, board);
 
     std::cout << gioco;
