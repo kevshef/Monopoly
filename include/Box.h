@@ -2,6 +2,7 @@
 #define MONOPOLY_BOX_H
 
 #include <iostream>
+#include <vector>
 
 
 // Enum representing different types of properties
