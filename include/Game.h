@@ -37,7 +37,7 @@ private:
 
 public:
 
-    // Constructor: Initializes the set of players based on the number of players
+
     Game(const char *gamer, Board &board);
 
     void setPlayers(const std::vector<std::shared_ptr<Player>> &newPlayers) { players = newPlayers; }
