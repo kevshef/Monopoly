@@ -197,6 +197,7 @@ void Box::setPlayersPosition(std::vector<int> playersPosition, std::vector<int> 
  * @return The modified output stream.
  *
  * @details Prints the representation of the box, including its type and identifying character.
+ *          A for loop is inserted on each of the character function to see if a player is currently on that box
  */
 std::ostream& operator<<(std::ostream& os, Box& obj) {
 

@@ -40,7 +40,11 @@ Board::Board() {
 std::vector<Box>& Board::getBoard() {
     return board;
 }
-
+/**
+ *
+ * @param position
+ * @return of coordinates in a form of string to display.
+ */
 std::string Board::getCoordinates(int position) {
     return coordinates[position];
 };
@@ -60,29 +64,30 @@ std::ostream& operator<<(std::ostream& os, Board& obj) {
     char c = 'A';
     os << "\t 1\t 2\t 3\t 4\t 5\t 6\t 7\t 8\n";
 
+    //helper variables to display the board in a clockwise way
     int j = 19;
     int k = 7;
+
+
+     //The loop is made to display the array ordered in a clockwise way to help manage the player movement
+     //the c++ increases the char variable used to show the letters on the left while printing.
 
     for (int i = 0; i < 28; i++) {
 
         if (i == 0 || (i > 7 && i < 15))
             os << c++ << "\t";
-
         if (i < 8) {
             os << temp[i] << "\t";
             if (i == 7)
                 os << "\n";
-
         } else if(i > 13 && i < 22) {
                 os << temp[i + k] << "\t";
                 k -= 2;
-
         } else if (i < 14) {
                 os << temp[i + j] << "\t\t\t\t\t\t\t" << temp[i] << "\n";
                 j = j - 2;
         }
     }
-
     os << "\n";
 
     return os;

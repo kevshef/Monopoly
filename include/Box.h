@@ -51,53 +51,36 @@ private:
 
     int boxPosition;
 
-
-
 public:
 
-    // Constructor: Initializes the box based on its position and property type
     Box(int position, int propertyType, int boxPosition);
 
-    // Getter function to retrieve the identifying character of the box
     char getIdentifying() const;
 
-    // Getter function to retrieve the type of the box (ANGULAR or LATERAL)
     BoxType getType() const;
 
-    // Getter function to retrieve the property type of the box (ECONOMIC, STANDARD, LUXURY)
     PropertyType getPropertyType() const;
 
-    // Getter function to check if the box is a starting point
     bool getStart() const;
 
-    // Getter function to check if the box is free
     bool isFree() const;
 
-    // Getter function to retrieve the price of the property on the box
     int getPrice() const;
 
-    // Getter function to retrieve the price to build a house on the property
     int getHousePrice() const;
 
-    // Getter function to retrieve the price to upgrade to a hotel on the property
     int getHotelPrice() const;
 
-    // Getter function to retrieve the daily cost for owning a house on the property
     int getDailyHousePrice() const;
 
-    // Getter function to retrieve the daily cost for owning a hotel on the property
     int getDailyHotelPrice() const;
 
-    // Function to set the box as not free and assign an owner
     void setNotFree(int playerNumber);
 
-    // Function to set the box as free and unassign the owner
     void setFree();
 
-    // Getter function to retrieve the owner number of the box
     int getOwnerNumber() const;
 
-    // Function to toggle the identifying character of the box
     void setIdentifying();
 
     std::vector<int> getPlayersPosition() const {return playersPosition; }

@@ -4,6 +4,14 @@
 
 #include "../include/HumanPlayer.h"
 
+/**
+ *
+ * @param playerNumber
+ * @param board
+ *
+ * @brief Constructor to initialize the board
+ */
+
 HumanPlayer::HumanPlayer(int playerNumber, Board &board) {
 
     this->board = board;
@@ -12,7 +20,12 @@ HumanPlayer::HumanPlayer(int playerNumber, Board &board) {
     srand(static_cast<unsigned int>(std::time(nullptr)));
 
 }
-
+/**
+ *
+ * @param box
+ * @param amount
+ * @return true if Player decides to buy the land, false if not.
+ */
 bool HumanPlayer::buy(Box &box, int amount) {
 
     char answer = ' ';
@@ -37,7 +50,11 @@ bool HumanPlayer::buy(Box &box, int amount) {
     return false;
 
 }
-
+/**
+ *
+ * @param box
+ * @return true if the player decides to build a house, false if not
+ */
 bool HumanPlayer::buildHouse(Box &box) {
 
     if (bankAccount.getBalance() > box.getHousePrice()) {
@@ -66,7 +83,11 @@ bool HumanPlayer::buildHouse(Box &box) {
     return false;
 
 }
-
+/**
+ *
+ * @param box
+ * @return true if player decides to build a hotel, false if not
+ */
 bool HumanPlayer::buildHotel (Box &box) {
 
     if (bankAccount.getBalance() > box.getHotelPrice()) {
@@ -94,7 +115,12 @@ bool HumanPlayer::buildHotel (Box &box) {
     return false;
 
 }
-
+/**
+ *
+ * @param players
+ * @param board
+ * @brief function to manage the show option displayed when playing with a human player.
+ */
 void HumanPlayer::show(std::vector<std::shared_ptr<Player>> players, Board& board) {
 
     std::string risposta;
@@ -112,10 +138,10 @@ void HumanPlayer::show(std::vector<std::shared_ptr<Player>> players, Board& boar
 
     if (risposta == "show") {
 
-        //● visualizzare il tabellone
+        // visualizzare il tabellone
         std::cout << "\nTabellone:\n" << board;
 
-        //● visualizzare lista terreni/case/alberghi posseduti da ogni giocatore
+        // visualizzare lista terreni/case/alberghi posseduti da ogni giocatore
         std::cout << "\nLista terreni/case/alberghi posseduti da ogni giocatore:\n";
         for (int i = 0; i < players.size(); ++i) {
             std::cout << "Giocatore " << players[i]->getNumber() << ": ";
@@ -127,14 +153,20 @@ void HumanPlayer::show(std::vector<std::shared_ptr<Player>> players, Board& boar
             std::cout << "\n";
         }
 
-        //● visualizzare l’ammontare di fiorini posseduto da tutti i giocatori
+        // visualizzare l’ammontare di fiorini posseduto da tutti i giocatori
         std::cout << "\nSaldo giocatori:\n";
         for (int i = 0; i < players.size(); ++i) {
             std::cout << "Giocatore " << players[i]->getNumber() << ": " << players[i]->getBalance() << "\n";
         }
     }
 }
-
+/**
+ *
+ * @param os
+ * @param obj
+ * @return os
+ * @brief overload of operator <<
+ */
 std::ostream& operator<<(std::ostream &os, const HumanPlayer &obj) {
     return os << "Giocatore " << obj.getNumber() << " (real) saldo: " << obj.getBalance() << " fiorini\n";
 }

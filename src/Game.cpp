@@ -165,7 +165,7 @@ void Game::move(Board& board, int playerIndex) {
     }
 
     std::cout << "\tGiocatre " << players[playerIndex]->getNumber() << " ha finito il turno\n";
-    updateTextFile("Giocatore " + std::to_string(players[playerIndex]->getNumber()) + " ha finito il turno.");
+    updateTextFile("Giocatore " + std::to_string(players[playerIndex]->getNumber()) + " ha finito il turno.\n");
 
 };
 

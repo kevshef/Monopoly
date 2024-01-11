@@ -52,4 +52,4 @@ public:
 // Overloaded stream insaertion operator to allow printing Game objects to an ostream
 std::ostream& operator<<(std::ostream& os, const Game& obj);
 
-#endif //MONOPOLY_GAME_H
+#endif //MONOPOLY_GAME_Hx\
