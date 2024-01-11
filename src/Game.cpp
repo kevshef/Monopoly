@@ -24,7 +24,7 @@ void Game::move(Board& board, int playerIndex) {
 
     int mossa = players[playerIndex]->throwDice();
 
-    updateTextFile("Giocatore " + std::to_string(players[playerIndex]->getNumber()) + " ha tirato i dadi ottenendo un valore di " +
+    updateTextFile("- Giocatore " + std::to_string(players[playerIndex]->getNumber()) + " ha tirato i dadi ottenendo un valore di " +
                    std::to_string(mossa));
 
     std::cout << "\n\tGiocatore " + std::to_string(players[playerIndex]->getNumber()) + " ha tirato i dadi ottenendo un valore di " +
@@ -39,7 +39,7 @@ void Game::move(Board& board, int playerIndex) {
 
         players[playerIndex]->updateBalance();
 
-        updateTextFile("Giocatore " + std::to_string(players[playerIndex]->getNumber()) +
+        updateTextFile("- Giocatore " + std::to_string(players[playerIndex]->getNumber()) +
                        " è passato dal via e ha ritirato 20 fiorini");
 
         std::cout << "\tGiocatore " + std::to_string(players[playerIndex]->getNumber()) +
@@ -49,7 +49,7 @@ void Game::move(Board& board, int playerIndex) {
 
     players[playerIndex]->setPosition(new_position);
 
-    updateTextFile("Giocatore " + std::to_string(players[playerIndex]->getNumber()) +
+    updateTextFile("- Giocatore " + std::to_string(players[playerIndex]->getNumber()) +
                    " è arrivato alla casella " + board.getCoordinates(new_position));
 
     std::cout << "\tGiocatore " + std::to_string(players[playerIndex]->getNumber()) +
@@ -78,7 +78,7 @@ void Game::move(Board& board, int playerIndex) {
         if (players[playerIndex]->buy(board.getBoard()[new_position], board.getBoard()[new_position].getPrice())) {
 
             updateTextFile(
-                    "Giocatore " + std::to_string(players[playerIndex]->getNumber()) + " ha acquistato il terreno " +
+                    "- Giocatore " + std::to_string(players[playerIndex]->getNumber()) + " ha acquistato il terreno " +
                     board.getCoordinates(new_position));
 
             std::cout << "\tGiocatore " + std::to_string(players[playerIndex]->getNumber()) + " ha acquistato il terreno " +
@@ -112,7 +112,7 @@ void Game::move(Board& board, int playerIndex) {
 
             }
 
-            updateTextFile("Giocatore " + std::to_string(players[playerIndex]->getNumber()) + " ha pagato "
+            updateTextFile("- Giocatore " + std::to_string(players[playerIndex]->getNumber()) + " ha pagato "
                            + std::to_string(temp_price) + " fiorini a giocatore " +
                            std::to_string(board.getBoard()[new_position].getOwnerNumber())
                            + " per pernottamento nella casella " + board.getCoordinates(new_position));
@@ -128,7 +128,7 @@ void Game::move(Board& board, int playerIndex) {
 
                 if (players[playerIndex]->buildHotel(board.getBoard()[new_position])) {
 
-                    updateTextFile("Giocatore " + std::to_string(players[playerIndex]->getNumber()) +
+                    updateTextFile("- Giocatore " + std::to_string(players[playerIndex]->getNumber()) +
                                    " ha migliorato una casa in albergo sul terreno " +
                                    board.getCoordinates(new_position));
 
@@ -140,7 +140,7 @@ void Game::move(Board& board, int playerIndex) {
             } else if (players[playerIndex]->buildHouse(board.getBoard()[new_position])) {
 
                 updateTextFile(
-                        "Giocatore " + std::to_string(players[playerIndex]->getNumber()) +
+                        "- Giocatore " + std::to_string(players[playerIndex]->getNumber()) +
                         " ha costruito una casa sul terreno " + board.getCoordinates(new_position));
 
                 std::cout << "\tGiocatore " + std::to_string(players[playerIndex]->getNumber()) +
@@ -150,7 +150,7 @@ void Game::move(Board& board, int playerIndex) {
     }
     if(players[playerIndex]->isBankrupt()){
 
-        updateTextFile("Giocatore " + std::to_string(players[playerIndex]->getNumber()) +
+        updateTextFile("- Giocatore " + std::to_string(players[playerIndex]->getNumber()) +
                        " è stato eliminato");
 
         std::cout << "\tGiocatore " + std::to_string(players[playerIndex]->getNumber()) +
@@ -161,11 +161,11 @@ void Game::move(Board& board, int playerIndex) {
                 board.getBoard()[i].setFree();
         }
         std::cout << "\nIl giocatore " << players[playerIndex]->getNumber() << " non possiede più alcuna proprietà";
-        updateTextFile("Il giocatore " + std::to_string(players[playerIndex]->getNumber()) + " non possiede più alcuna proprietà.");
+        updateTextFile("- Giocatore " + std::to_string(players[playerIndex]->getNumber()) + " non possiede più alcuna proprietà.");
     }
 
-    std::cout << "\tGiocatre " << players[playerIndex]->getNumber() << " ha finito il turno\n";
-    updateTextFile("Giocatore " + std::to_string(players[playerIndex]->getNumber()) + " ha finito il turno.\n");
+    std::cout << "\tGiocatore " << players[playerIndex]->getNumber() << " ha finito il turno\n";
+    updateTextFile("Giocatore " + std::to_string(players[playerIndex]->getNumber()) + " ha finito il turno.");
 
 };
 
