@@ -33,7 +33,7 @@ private:
     bool end() const;
 
     // Function to check the richest players amongst all.
-    int richestPlayer() const;
+    void richestPlayer();
 
 public:
 

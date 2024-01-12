@@ -165,7 +165,7 @@ void Game::move(Board& board, int playerIndex) {
     }
 
     std::cout << "\tGiocatore " << players[playerIndex]->getNumber() << " ha finito il turno\n";
-    updateTextFile("Giocatore " + std::to_string(players[playerIndex]->getNumber()) + " ha finito il turno.");
+    updateTextFile("- Giocatore " + std::to_string(players[playerIndex]->getNumber()) + " ha finito il turno.");
 
 };
 
@@ -262,25 +262,37 @@ bool Game::end() const {
 
 }
 
-int Game::richestPlayer() const {
+void Game::richestPlayer() {
 
     int maxBalance = players[0]->getBalance();
 
-    int richestPlayerId = 0;
+    std::string richestPlayerId;
+    int richest = players[0]->getNumber();
+    bool isOne = true;
 
-    for (int i = 1; i < players.size(); ++i) {
-
+    for (int i = 1; i < players.size(); i++) {
         if (players[i]->getBalance() > maxBalance) {
-
-            maxBalance = players[i]->getBalance();
-
-            richestPlayerId = i;
+            richest = players[i]->getNumber();
         }
-
     }
 
-    return richestPlayerId;
+    richestPlayerId += std::to_string(richest) + " ";
 
+    for(int i = 0 ; i < players.size(); i++) {
+        if(players[i]->getBalance() == maxBalance && players[i]->getNumber() != richest) {
+            richestPlayerId += std::to_string(players[i]->getNumber()) + " ";
+            isOne = false;
+        }
+    }
+
+
+    if(isOne) {
+        std::cout << "\nIl vincitore è il giocatore " << richestPlayerId << "con un saldo di: " << maxBalance << " fiorini\n";
+        updateTextFile("- Giocatore " + richestPlayerId + " ha vinto la partita");
+    } else {
+        std::cout << "\nVittoria ex-quo di giocatori " << richestPlayerId << "con un saldo di: " << maxBalance << " fiorini\n";
+        updateTextFile("- Vittoria ex-quo di giocatori " + richestPlayerId);
+    }
 }
 
 void Game::play(Board &board, int numeroTurni) {
@@ -295,6 +307,7 @@ void Game::play(Board &board, int numeroTurni) {
 
         std::cout << "\n\n turno " << (turno + 1) << " : \n";
 
+        updateTextFile("\n- Turno " + std::to_string(turno) + "\n");
 
         for (int i = 0; i < 4; i++) {
 
@@ -305,13 +318,6 @@ void Game::play(Board &board, int numeroTurni) {
         turno++;
 
     } while (!end() && turno < numeroTurni);
-
-    int id = richestPlayer();
-
-    std::cout << "\nIl vincitore è il giocatore " << getPlayers()[id]->getNumber() << " con un saldo di: "
-              << getPlayers()[id]->getBalance() << " fiorini.\n";
-
-    updateTextFile("Giocatore " + std::to_string(id) + " ha vinto la partita");
 
     std::cout << board;
 
@@ -324,6 +330,8 @@ void Game::play(Board &board, int numeroTurni) {
         }
         std::cout << "\n";
     }
+
+    richestPlayer();
 }
 
 /**
