@@ -164,7 +164,7 @@ void Game::move(Board& board, int playerIndex) {
         updateTextFile("- Giocatore " + std::to_string(players[playerIndex]->getNumber()) + " non possiede più alcuna proprietà.");
     }
 
-    std::cout << "\tGiocatore " << players[playerIndex]->getNumber() << " ha finito il turno\n";
+    std::cout << "\b\tGiocatore " << players[playerIndex]->getNumber() << " ha finito il turno\n";
     updateTextFile("- Giocatore " + std::to_string(players[playerIndex]->getNumber()) + " ha finito il turno.");
 
 };
@@ -186,54 +186,48 @@ void Game::updateTextFile(const std::string& message) {
 }
 
 // Function to determine the starting order of players based on dice rolls
-bool Game::start(Board &board) {
+// Function to determine the starting order of players based on dice rolls
+std::vector<std::shared_ptr<Player>> Game::start(std::vector<std::shared_ptr<Player>> &temp) {
 
-    std::vector<std::pair<int, int>> playerValues; // {playerIndex, diceThrow}
 
-    for (int i = 0; i < 4; ++i) {
-
-        int diceThrow = players[i]->throwDice();
-
-        playerValues.push_back(std::make_pair(i, diceThrow));
-
-    }
-
-    std::sort(playerValues.begin(), playerValues.end(), [](const std::pair<int, int> &a, const std::pair<int, int> &b) {
-        return a.second > b.second;
-    });
-
-    for (int i = 1; i < playerValues.size(); ++i) {
-
-        if (playerValues[i].second == playerValues[i - 1].second) {
-
-            // Reroll for tied players
-            int playerIndex = playerValues[i].first;
-
-            int newDiceThrow = players[playerIndex]->throwDice();
-
-            // Update the dice throw value and re-sort
-            playerValues[i].second = newDiceThrow;
-
-            std::sort(playerValues.begin(), playerValues.end(), [](const std::pair<int, int> &a, const std::pair<int, int> &b) {
-                return a.second > b.second;
-            });
-
-            i = 0;
-        }
-
-    }
-
-    // Rearrange players vector based on sorted order
     std::vector<std::shared_ptr<Player>> sortedPlayers;
 
-    for (const auto &pv: playerValues)
-        sortedPlayers.push_back(players[pv.first]);
+    std::vector<std::pair<std::shared_ptr<Player>, int>> playerValues; // {playerIndex, diceThrow}
 
-    setPlayers(sortedPlayers);
+    //Inserisco in playerValues
+    for (int i = 0; i < temp.size(); ++i) {
+        playerValues.push_back(std::make_pair(temp[i], temp[i]->throwDice()));
+    }
+    //Svuoto temp
+    temp.clear();
 
-    board.getBoard()[0].setPlayersPosition({0,0,0,0},{1,2,3,4});
+    //Ordino PlayerValues
+    std::sort(playerValues.begin(), playerValues.end(), [](const std::pair<std::shared_ptr<Player>, int> &a, const std::pair<std::shared_ptr<Player>, int> &b) {
+        return a.second > b.second;
+    });
+    //Rimetto in temp
+    for (int i = 0; i < playerValues.size(); ++i)
+        temp.push_back(playerValues[i].first);
 
-    return true;
+    for (int i = 0; i < playerValues.size(); i++)
+    {
+        if(i != playerValues.size() - 1 && playerValues[i].second == playerValues[i+1].second) {
+            sortedPlayers.push_back(playerValues[i].first);
+            sortedPlayers.push_back(playerValues[i + 1].first);
+            if(i != playerValues.size() - 2 && playerValues[i].second == playerValues[i+2].second){
+                sortedPlayers.push_back(playerValues[i + 2].first);
+                if(i!=playerValues.size() - 3 && playerValues[i].second == playerValues[i + 3].second)
+                    sortedPlayers.push_back(playerValues[i + 3].first);
+            }
+            temp.erase(std::next(temp.begin(), i), std::next(temp.begin(), i+sortedPlayers.size()));
+            sortedPlayers = start(sortedPlayers);
+            for (int j = sortedPlayers.size() - 1; j > -1; j--)
+                temp.insert(std::next(temp.begin(), i), sortedPlayers.at(j));
+            sortedPlayers.clear();
+        }
+    }
+
+    return temp;
 
 }
 
@@ -299,7 +293,7 @@ void Game::play(Board &board, int numeroTurni) {
 
     int turno = 0;
 
-    start(board);
+    setPlayers(start(players));
 
     std::cout << board << "\n";
 
