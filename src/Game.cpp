@@ -295,13 +295,15 @@ void Game::play(Board &board, int numeroTurni) {
 
     setPlayers(start(players));
 
+    board.getBoard()[0].setPlayersPosition({0,0,0,0}, {1,2,3,4});
+
     std::cout << board << "\n";
 
     do {
 
         std::cout << "\n\n turno " << (turno + 1) << " : \n";
 
-        updateTextFile("\n- Turno " + std::to_string(turno) + "\n");
+        updateTextFile("\n Turno " + std::to_string(turno) + "\n");
 
         for (int i = 0; i < 4; i++) {
 

@@ -1,16 +1,29 @@
 
-- Turno 0
+ Turno 0
 
-- Giocatore 2 ha tirato i dadi ottenendo un valore di 9
-- Giocatore 2 è arrivato alla casella C8
-- Giocatore 2 ha finito il turno.
-- Giocatore 3 ha tirato i dadi ottenendo un valore di 7
-- Giocatore 3 è arrivato alla casella A8
-- Giocatore 3 ha finito il turno.
 - Giocatore 4 ha tirato i dadi ottenendo un valore di 7
 - Giocatore 4 è arrivato alla casella A8
 - Giocatore 4 ha finito il turno.
-- Giocatore 1 ha tirato i dadi ottenendo un valore di 6
-- Giocatore 1 è arrivato alla casella A7
+- Giocatore 3 ha tirato i dadi ottenendo un valore di 7
+- Giocatore 3 è arrivato alla casella A8
+- Giocatore 3 ha finito il turno.
+- Giocatore 2 ha tirato i dadi ottenendo un valore di 9
+- Giocatore 2 è arrivato alla casella C8
+- Giocatore 2 ha finito il turno.
+- Giocatore 1 ha tirato i dadi ottenendo un valore di 9
+- Giocatore 1 è arrivato alla casella C8
 - Giocatore 1 ha finito il turno.
-- Vittoria ex-quo di giocatori 2 3 4 1 
+
+ Turno 1
+
+- Giocatore 4 ha tirato i dadi ottenendo un valore di 7
+- Giocatore 4 è arrivato alla casella H8
+- Giocatore 4 ha finito il turno.
+- Giocatore 3 ha tirato i dadi ottenendo un valore di 4
+- Giocatore 3 è arrivato alla casella E8
+- Giocatore 3 ha finito il turno.
+- Giocatore 2 ha tirato i dadi ottenendo un valore di 8
+- Giocatore 2 è arrivato alla casella H5
+- Giocatore 2 ha finito il turno.
+- Giocatore 1 ha tirato i dadi ottenendo un valore di 11
+- Giocatore 1 è arrivato alla casella H2
