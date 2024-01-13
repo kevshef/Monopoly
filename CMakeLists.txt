@@ -6,20 +6,13 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O2")
 
 
 add_executable(Monopoly
-        main.cpp
+        src/main.cpp
         src/Board.cpp
-        include/Board.h
         src/Box.cpp
-        include/Box.h
         src/Player.cpp
-        include/Player.h
         src/BankAccount.cpp
-        include/BankAccount.h
         src/ComputerPlayer.cpp
-        include/ComputerPlayer.h
         src/HumanPlayer.cpp
-        include/HumanPlayer.h
-        src/Game.cpp
-        include/Game.h
-        src/BankAccount.cpp
-        include/BankAccount.h)
+        src/Game.cpp)
+
+target_include_directories(Monopoly PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include)
