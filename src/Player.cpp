@@ -1,6 +1,7 @@
 /**
  * Filename: Player.cpp
- * Author:
+ * Author: Shefkiu Kevin
+ * Co-Author: Garberino Alvise
  * Created: 05/01/2024
  **/
 

@@ -1,6 +1,7 @@
 /**
  * Filename: Game.h
- * Author:
+ * Author: Garberino Alvise
+ * Co-Author: Shefkiu Kevin
  * Created: 05/01/2024
  **/
 

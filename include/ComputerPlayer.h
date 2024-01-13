@@ -1,6 +1,6 @@
 /**
  * Filename: ComputerPlayer.h
- * Author:
+ * Author: Zarantonello Michele
  * Created: 05/01/2024
  **/
 

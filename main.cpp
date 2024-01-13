@@ -1,6 +1,11 @@
+/**
+ * Filename: main.cpp
+ * Author: Zarantonello Michele
+ * Created: 05/01/2024
+ **/
+
 #include "include/Board.h"
 #include "include/Game.h"
-
 
 #include <iostream>
 

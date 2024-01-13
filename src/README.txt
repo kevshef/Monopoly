@@ -1,0 +1,1 @@
+Abbiamo deciso di implementare il board utilizzando un array di tipi BOX

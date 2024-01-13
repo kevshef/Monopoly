@@ -1,6 +1,6 @@
 /**
  * Filename: BankAccount.h
- * Author:
+ * Author: Michele Zarantonello
  * Created: 05/01/2024
  **/
 

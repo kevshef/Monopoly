@@ -1,6 +1,6 @@
 /**
  * Filename: Game.cpp
- * Author:
+ * Author: Zarantonello Michele
  * Created: 05/01/2024
  **/
 
@@ -17,8 +17,11 @@
 HumanPlayer::HumanPlayer(int playerNumber, Board &board) {
 
     this->board = board;
+
     position = 0;
+
     identifyingNumber = playerNumber;
+
     srand(static_cast<unsigned int>(std::time(nullptr)));
 
 }

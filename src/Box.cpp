@@ -1,6 +1,6 @@
 /**
  * Filename: Box.cpp
- * Author:
+ * Author: Garberino Alvise
  * Created: 05/01/2024
  **/
 

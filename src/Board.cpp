@@ -1,6 +1,6 @@
 /**
  * Filename: Board.cpp
- * Author:
+ * Author: Shefkiu Kevin
  * Created: 05/01/2024
  **/
 
