@@ -1,6 +1,8 @@
-//
-// Created by Kevin Shefkiu on 05/01/24.
-//
+/**
+ * Filename: ComputerPlayer.h
+ * Author:
+ * Created: 05/01/2024
+ **/
 
 #ifndef MONOPOLY_COMPUTERPLAYER_H
 #define MONOPOLY_COMPUTERPLAYER_H
@@ -12,17 +14,16 @@ class ComputerPlayer : public Player {
 
 public:
 
-    ComputerPlayer(int playerNumber);
+    ComputerPlayer(int);
 
-    int getPlayerType() const override { return 1; };
+    bool buy(Box&, int) override;
 
-    bool buy(Box &box, int amount) override;
+    bool buildHouse(Box&) override;
 
-    bool buildHouse(Box &box) override;
-
-    bool buildHotel(Box &box) override;
+    bool buildHotel(Box&) override;
 
 };
 
-std::ostream& operator<<(std::ostream &os, const ComputerPlayer &obj);
+std::ostream& operator<<(std::ostream &, const ComputerPlayer &);
+
 #endif //MONOPOLY_COMPUTERPLAYER_H

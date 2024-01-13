@@ -1,12 +1,22 @@
-//
-// Created by Kevin Shefkiu on 05/01/24.
-//
+/**
+ * Filename: Game.cpp
+ * Author:
+ * Created: 05/01/2024
+ **/
 
 #include "../include/Game.h"
 
+/**
+ * @brief Constructor
+ *
+ * @param gamer Type of gamer (either "human" or "HUMAN").
+ * @param board Reference to the game board.
+ *
+ * @details Initializes the game with human (optional) and computer players.
+ */
 Game::Game(const char *gamer, Board &board) {
 
-    if (strcmp("human",gamer)==0 || strcmp("HUMAN",gamer)==0) {
+    if (strcmp("human",gamer) == 0 || strcmp("HUMAN",gamer) == 0) {
         players.push_back(std::make_shared<HumanPlayer>(HumanPlayer(1, board)));
     }
 
@@ -19,7 +29,12 @@ Game::Game(const char *gamer, Board &board) {
     gamer = nullptr;
 }
 
-// Function to simulate a player's move on the board
+/**
+ * @brief Defines the main instructions for handling player movement.
+ *
+ * @param board Reference to the game board.
+ * @param playerIndex Index into the players vector.
+ */
 void Game::move(Board& board, int playerIndex) {
 
     int mossa = players[playerIndex]->throwDice();
@@ -71,7 +86,6 @@ void Game::move(Board& board, int playerIndex) {
 
         humanPlayer->show(players, board);
     }
-
 
     if (board.getBoard()[new_position].isFree()) {
 
@@ -169,7 +183,11 @@ void Game::move(Board& board, int playerIndex) {
 
 };
 
-// Function to update a text file with a given message
+/**
+ * @brief Function to update a text file with a given message.
+ *
+ * @param message The message to be written to the text file.
+ */
 void Game::updateTextFile(const std::string& message) {
 
     std::ofstream file("../data/Load.txt", std::ios::app);
@@ -185,19 +203,23 @@ void Game::updateTextFile(const std::string& message) {
 
 }
 
-// Function to determine the starting order of players based on dice rolls
-// Function to determine the starting order of players based on dice rolls
+/**
+ * @brief Function to determine the starting order of players based on dice rolls.
+ *
+ * @param temp Vector of shared pointers to players.
+ *
+ * @return A vector of shared pointers to players representing the determined starting order.
+ */
 std::vector<std::shared_ptr<Player>> Game::start(std::vector<std::shared_ptr<Player>> &temp) {
-
 
     std::vector<std::shared_ptr<Player>> sortedPlayers;
 
     std::vector<std::pair<std::shared_ptr<Player>, int>> playerValues; // {playerIndex, diceThrow}
 
     //Inserisco in playerValues
-    for (int i = 0; i < temp.size(); ++i) {
+    for (int i = 0; i < temp.size(); ++i)
         playerValues.push_back(std::make_pair(temp[i], temp[i]->throwDice()));
-    }
+
     //Svuoto temp
     temp.clear();
 
@@ -205,6 +227,7 @@ std::vector<std::shared_ptr<Player>> Game::start(std::vector<std::shared_ptr<Pla
     std::sort(playerValues.begin(), playerValues.end(), [](const std::pair<std::shared_ptr<Player>, int> &a, const std::pair<std::shared_ptr<Player>, int> &b) {
         return a.second > b.second;
     });
+
     //Rimetto in temp
     for (int i = 0; i < playerValues.size(); ++i)
         temp.push_back(playerValues[i].first);
@@ -212,19 +235,31 @@ std::vector<std::shared_ptr<Player>> Game::start(std::vector<std::shared_ptr<Pla
     for (int i = 0; i < playerValues.size(); i++)
     {
         if(i != playerValues.size() - 1 && playerValues[i].second == playerValues[i+1].second) {
+
             sortedPlayers.push_back(playerValues[i].first);
+
             sortedPlayers.push_back(playerValues[i + 1].first);
-            if(i != playerValues.size() - 2 && playerValues[i].second == playerValues[i+2].second){
+
+            if(i != playerValues.size() - 2 && playerValues[i].second == playerValues[i+2].second) {
+
                 sortedPlayers.push_back(playerValues[i + 2].first);
+
                 if(i!=playerValues.size() - 3 && playerValues[i].second == playerValues[i + 3].second)
                     sortedPlayers.push_back(playerValues[i + 3].first);
+
             }
+
             temp.erase(std::next(temp.begin(), i), std::next(temp.begin(), i+sortedPlayers.size()));
+
             sortedPlayers = start(sortedPlayers);
+
             for (int j = sortedPlayers.size() - 1; j > -1; j--)
                 temp.insert(std::next(temp.begin(), i), sortedPlayers.at(j));
+
             sortedPlayers.clear();
+
         }
+
     }
 
     return temp;
@@ -256,42 +291,66 @@ bool Game::end() const {
 
 }
 
+/**
+ * @brief Determines the richest player or players in the game.
+ *
+ * @return True if the game has ended, false otherwise.
+ */
 void Game::richestPlayer() {
 
     int maxBalance = players[0]->getBalance();
 
     std::string richestPlayerId;
+
     int richest = players[0]->getNumber();
+
     bool isOne = true;
 
-    for (int i = 1; i < players.size(); i++) {
-        if (players[i]->getBalance() > maxBalance) {
+    for (int i = 1; i < players.size(); i++)
+        if (players[i]->getBalance() > maxBalance)
             richest = players[i]->getNumber();
-        }
-    }
 
     richestPlayerId += std::to_string(richest) + " ";
 
     for(int i = 0 ; i < players.size(); i++) {
-        if(players[i]->getBalance() == maxBalance && players[i]->getNumber() != richest) {
-            richestPlayerId += std::to_string(players[i]->getNumber()) + " ";
-            isOne = false;
-        }
-    }
 
+        if(players[i]->getBalance() == maxBalance && players[i]->getNumber() != richest) {
+
+            richestPlayerId += std::to_string(players[i]->getNumber()) + " ";
+
+            isOne = false;
+
+        }
+
+    }
 
     if(isOne) {
+
         std::cout << "\nIl vincitore è il giocatore " << richestPlayerId << "con un saldo di: " << maxBalance << " fiorini\n";
+
         updateTextFile("- Giocatore " + richestPlayerId + " ha vinto la partita");
+
     } else {
+
         std::cout << "\nVittoria ex-quo di giocatori " << richestPlayerId << "con un saldo di: " << maxBalance << " fiorini\n";
+
         updateTextFile("- Vittoria ex-quo di giocatori " + richestPlayerId);
+
     }
+
 }
 
-void Game::play(Board &board, int numeroTurni) {
+/**
+ * @brief Plays the game for a specified number of turns.
+ *
+ * @param board Reference to the game board.
+ * @param turns The number of turns to play.
+ *
+ * @return True if the game has ended, false otherwise.
+ */
+void Game::play(Board &board, int turns) {
 
-    int turno = 0;
+    int turn = 0;
 
     setPlayers(start(players));
 
@@ -301,33 +360,33 @@ void Game::play(Board &board, int numeroTurni) {
 
     do {
 
-        std::cout << "\n\n turno " << (turno + 1) << " : \n";
+        std::cout << "\n\n turno " << (turn + 1) << " : \n";
 
-        updateTextFile("\n Turno " + std::to_string(turno) + "\n");
+        updateTextFile("\n Turno " + std::to_string(turn) + "\n");
 
-        for (int i = 0; i < 4; i++) {
-
+        for (int i = 0; i < 4; i++)
             if (!getPlayers()[i]->isBankrupt())
                 move(board, i);
-        }
 
-        turno++;
+        turn++;
 
-    } while (!end() && turno < numeroTurni);
+    } while (!end() && turn < turns);
 
     std::cout << board;
 
     for (int i = 0; i < getPlayers().size(); ++i) {
+
         std::cout << "Giocatore " << getPlayers()[i]->getNumber() << ": ";
-        for (int j = 0; j < board.getBoard().size(); ++j) {
-            if (board.getBoard()[j].getOwnerNumber() == getPlayers()[i]->getNumber()) {
+
+        for (int j = 0; j < board.getBoard().size(); ++j)
+            if (board.getBoard()[j].getOwnerNumber() == getPlayers()[i]->getNumber())
                 std::cout << board.getCoordinates(j) << board.getBoard()[j].getIdentifying() << " ";
-            }
-        }
+
         std::cout << "\n";
     }
 
     richestPlayer();
+
 }
 
 /**

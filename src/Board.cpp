@@ -1,10 +1,15 @@
-#include "../include/Board.h"
+/**
+ * Filename: Board.cpp
+ * Author:
+ * Created: 05/01/2024
+ **/
+
+ #include "../include/Board.h"
 
 /**
  * @brief Default constructor for the Board class.
  *
- * @details Initializes the Board object by creating a sequence of Box objects.
- * The board is populated with a specific distribution of box types based on the indices.
+ * @details Initializes the Board object by creating a sequence of Box objects. The board is populated with a specific distribution of box types based on the indices.
  */
 Board::Board() {
     // Seed the random number generator with the current time
@@ -40,14 +45,17 @@ Board::Board() {
 std::vector<Box>& Board::getBoard() {
     return board;
 }
+
 /**
+ * @brief Getter function that returns the coordinate corresponding to the passed index.
  *
  * @param position
+ *
  * @return of coordinates in a form of string to display.
  */
 std::string Board::getCoordinates(int position) {
     return coordinates[position];
-};
+}
 
 /**
  * @brief Overloaded stream insertion operator to allow printing Board objects to an ostream.

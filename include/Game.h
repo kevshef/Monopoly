@@ -1,6 +1,8 @@
-//
-// Created by Kevin Shefkiu on 05/01/24.
-//
+/**
+ * Filename: Game.h
+ * Author:
+ * Created: 05/01/2024
+ **/
 
 #ifndef MONOPOLY_GAME_H
 #define MONOPOLY_GAME_H
@@ -13,32 +15,27 @@
 #include "HumanPlayer.h"
 #include "Board.h"
 
-// Class representing the set of players in the game
 class Game {
 
 private:
 
-    std::vector<std::shared_ptr<Player>> players; // Vector to store the players in the game
+    // Vector to store the players in the game
+    std::vector<std::shared_ptr<Player>> players;
 
-    // Function to simulate a player's move on the board
-    void move(Board& board, int playerIndex);
+    void move(Board&, int);
 
-    // Function to update a text file with a given message
-    void updateTextFile(const std::string& message);
+    void updateTextFile(const std::string&);
 
-    // Function to determine the starting order of players based on dice rolls
-    std::vector<std::shared_ptr<Player>> start(std::vector<std::shared_ptr<Player>> &temp);
+    std::vector<std::shared_ptr<Player>> start(std::vector<std::shared_ptr<Player>>&);
 
-    // Function to check if the game has ended (three or more players bankrupt)
     bool end() const;
 
-    // Function to check the richest players amongst all.
     void richestPlayer();
 
 public:
 
 
-    Game(const char *gamer, Board &board);
+    Game(const char*, Board &);
 
     void setPlayers(const std::vector<std::shared_ptr<Player>> &newPlayers) { players = newPlayers; }
 
@@ -46,10 +43,9 @@ public:
 
     const std::vector<std::shared_ptr<Player>>& getPlayers() const { return players; }
 
-    void play(Board &board, int numeroTurni);
+    void play(Board&, int);
 };
 
-// Overloaded stream insaertion operator to allow printing Game objects to an ostream
-std::ostream& operator<<(std::ostream& os, const Game& obj);
+std::ostream& operator<<(std::ostream&, const Game&);
 
 #endif //MONOPOLY_GAME_Hx\

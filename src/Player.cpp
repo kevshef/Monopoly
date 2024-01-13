@@ -1,14 +1,10 @@
-#include "../include/Player.h"
-
 /**
- * @brief Constructor for the Player class.
- *
- * @param playerType The type of player (real or computer).
- * @param playerNumber The identifying number assigned to the player.
- *
- * @details Initializes a Player object with the specified type, identifying number,
- * and sets the initial position to 0. Seeds the random number generator with the current time.
- */
+ * Filename: Player.cpp
+ * Author:
+ * Created: 05/01/2024
+ **/
+
+#include "../include/Player.h"
 
 /**
  * @brief Getter function to retrieve the identifying number of the player.
@@ -52,7 +48,6 @@ int Player::throwDice() {
  *
  * @param recipient The player to receive the payment.
  * @param amount The amount to be paid.
- *
  *
  */
 void Player::pay(std::shared_ptr<Player> &recipient, int amount) {

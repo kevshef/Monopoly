@@ -1,3 +1,9 @@
+/**
+ * Filename: Box.h
+ * Author:
+ * Created: 05/01/2024
+ **/
+
 #ifndef MONOPOLY_BOX_H
 #define MONOPOLY_BOX_H
 
@@ -15,35 +21,35 @@ enum class BoxType {
     ANGULAR = 0, LATERAL
 };
 
-// Class representing a box on the game board
 class Box {
 
 private:
 
-    char identifyingBuilding = ' '; // Character to identify special building types
+    char identifyingBuilding = ' ';
 
-    // Private function to set the property of the box based on PropertyType
-    void setProperty(int pType);
+    void setProperty(int);
 
-    BoxType type; // Type of the box (ANGULAR or LATERAL)
+    // Type of the box (ANGULAR or LATERAL)
+    BoxType type;
 
-    PropertyType propertyType; // Type of property on the box (ECONOMIC, STANDARD, LUXURY)
+    // Type of property on the box (ECONOMIC, STANDARD, LUXURY)
+    PropertyType propertyType;
 
-    int ownerNumber; // Player number who owns the box
+    int ownerNumber;
 
-    bool free = false; // Indicates whether the box is free or owned by a player
+    bool free = false;
 
-    int price; // Price of the property on the box
+    int price;
 
-    int housePrice; // Price to build a house on the property
+    int housePrice;
 
-    int hotelPrice; // Price to upgrade to a hotel on the property
+    int hotelPrice;
 
-    int dailyHousePrice; // Daily cost for owning a house on the property
+    int dailyHousePrice;
 
-    int dailyHotelPrice; // Daily cost for owning a hotel on the property
+    int dailyHotelPrice;
 
-    bool isStart = false; // Indicates whether the box is a starting point
+    bool isStart = false;
 
     std::vector<int> playersPosition;
 
@@ -53,7 +59,7 @@ private:
 
 public:
 
-    Box(int position, int propertyType, int boxPosition);
+    Box(int, int, int);
 
     char getIdentifying() const;
 
@@ -75,7 +81,7 @@ public:
 
     int getDailyHotelPrice() const;
 
-    void setNotFree(int playerNumber);
+    void setNotFree(int);
 
     void setFree();
 
@@ -85,7 +91,7 @@ public:
 
     std::vector<int> getPlayersPosition() const {return playersPosition; }
 
-    void setPlayersPosition(std::vector<int> playersPosition, std::vector<int> playerIdentifier);
+    void setPlayersPosition(std::vector<int>, std::vector<int>);
 
     int getBoxPositionOnBoard() {return boxPosition; }
 
@@ -93,7 +99,6 @@ public:
 
 };
 
-// Overloaded stream insertion operator to allow printing Box objects to an ostream
-std::ostream& operator<<(std::ostream& os, Box& obj);
+std::ostream& operator<<(std::ostream&, Box&);
 
 #endif //MONOPOLY_BOX_H

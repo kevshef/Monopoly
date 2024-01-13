@@ -1,6 +1,8 @@
-//
-// Created by Kevin Shefkiu on 05/01/24.
-//
+/**
+ * Filename: HumanPlayer.h
+ * Author:
+ * Created: 05/01/2024
+ **/
 
 #ifndef MONOPOLY_HUMANPLAYER_H
 #define MONOPOLY_HUMANPLAYER_H
@@ -12,23 +14,23 @@
 class HumanPlayer : public Player {
 
 private:
+
     Board board;
+
 public:
 
-    HumanPlayer(int playerNumber, Board &Board);
+    HumanPlayer(int, Board&);
 
-    int getPlayerType() const override { return 1; };
+    bool buy(Box&, int) override;
 
-    bool buy(Box &box, int amount) override;
+    bool buildHouse(Box&) override;
 
-    bool buildHouse(Box &box) override;
+    bool buildHotel(Box&) override;
 
-    bool buildHotel(Box &box) override;
-
-    void show(std::vector<std::shared_ptr<Player>> players, Board& board);
+    void show(std::vector<std::shared_ptr<Player>>, Board&);
 
 };
 
-std::ostream& operator<<(std::ostream &os, const HumanPlayer &obj);
+std::ostream& operator<<(std::ostream &, const HumanPlayer &);
 
 #endif //MONOPOLY_HUMANPLAYER_H

@@ -1,14 +1,18 @@
+/**
+ * Filename: BankAccount.h
+ * Author:
+ * Created: 05/01/2024
+ **/
+
 #ifndef MONOPOLY_BANKACCOUNT_H
 #define MONOPOLY_BANKACCOUNT_H
 
 #include <ostream>
 
-// Class representing a simple bank account
 class BankAccount {
 
 private:
 
-    // Private member variable to store the balance of the bank account
     int balance;
 
 public:
@@ -17,13 +21,12 @@ public:
 
     int getBalance() const;
 
-    void updateBalance(int amount);
+    void updateBalance(int);
 
     bool isBankrupt() const;
 
 };
 
-// Overloaded stream insertion operator to allow printing BankAccount objects to an ostream
-std::ostream& operator<<(std::ostream& os, const BankAccount& account);
+std::ostream& operator<<(std::ostream&, const BankAccount&);
 
 #endif //MONOPOLY_BANKACCOUNT_H
