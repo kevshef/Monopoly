@@ -37,7 +37,7 @@ void BankAccount::updateBalance(int amount) {
  * @return True if the bank account is bankrupt, false otherwise.
  */
 bool BankAccount::isBankrupt() const {
-    return balance < 0;
+    return balance <= 0;
 }
 
 /**
