@@ -4,8 +4,8 @@
  * Created: 05/01/2024
  **/
 
-#include "include/Board.h"
-#include "include/Game.h"
+#include "../include/Board.h"
+#include "../include/Game.h"
 
 #include <iostream>
 
