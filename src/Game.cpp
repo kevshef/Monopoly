@@ -254,7 +254,7 @@ std::vector<std::shared_ptr<Player>> Game::start(std::vector<std::shared_ptr<Pla
 
             sortedPlayers = start(sortedPlayers);
 
-            for (int j = sortedPlayers.size() - 1; j > -1; j--)
+            for (int j = sortedPlayers.size() - 1; j > - 1; j--)
                 temp.insert(std::next(temp.begin(), i), sortedPlayers.at(j));
 
             sortedPlayers.clear();
