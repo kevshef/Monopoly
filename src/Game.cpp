@@ -179,7 +179,7 @@ void Game::move(Board& board, int playerIndex) {
         updateTextFile("- Giocatore " + std::to_string(players[playerIndex]->getNumber()) + " non possiede più alcuna proprietà.");
     }
 
-    std::cout << "\b\tGiocatore " << players[playerIndex]->getNumber() << " ha finito il turno\n";
+    std::cout << "Giocatore " << players[playerIndex]->getNumber() << " ha finito il turno\n";
     updateTextFile("- Giocatore " + std::to_string(players[playerIndex]->getNumber()) + " ha finito il turno.");
 
 };
